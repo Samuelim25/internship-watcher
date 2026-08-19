@@ -707,32 +707,44 @@ def is_relevant(job, filters):
     return True
 
 
-# ------------- top-firm + Fall-2027 narrowing (added 2026-08-07) ------------ #
-# Alex has his Summer 2027 offer and is now interviewing with Citadel for a
-# FALL 2027 software-engineering seat. Hourly polling is back ON but
-# deliberately narrow: only top-tier quant/trading firms, only Fall-2027 roles.
-# Both gates are switched by `top_firms_only` / `fall_2027_only` in
-# config.json -> filters, so turning this off is a config edit, not a code one.
+# ---------- top-firm + Summer-2027 narrowing (retuned 2026-08-19) ----------- #
+# Sam is hunting FPGA / ASIC digital-design internships for SUMMER 2027, so the
+# cycle gate looks for summer rather than fall. `top_firms_only` is OFF by
+# default -- the chip-design keyword gate in config.json is already narrow, and
+# the best FPGA seats are often at mid-size firms and defense primes rather than
+# the household names. Both gates are switched by `top_firms_only` /
+# `summer_2027_only` in config.json -> filters, so turning either on or off is a
+# config edit, not a code one.
 TOP_FIRMS = [
-    "citadel", "jane street", "hudson river", "hrt", "jump trading",
-    "two sigma", "drw", "optiver", "imc", "susquehanna", "sig ", "sig,",
-    "five rings", "xtx", "point72", "cubist", "tower research", "d. e. shaw",
-    "d.e. shaw", "deshaw", "de shaw", "pdt partners", "radix", "headlands",
-    "millennium", "balyasny", "squarepoint", "virtu", "akuna", "old mission",
-    "wolverine", "gts", "jane st", "renaissance", "rentec", "aqr",
-    "bridgewater", "man group", "man ahl", "qube", "exoduspoint", "schonfeld",
-    "verition", "walleye", "voleon", "worldquant", "quantlab", "trexquant",
-    "peak6", "belvedere", "geneva trading", "transmarket", "flow traders",
-    "group one", "chicago trading", "ctc", "3red", "allston", "dv trading",
+    # commercial silicon
+    "nvidia", "apple", "amd", "intel", "qualcomm", "broadcom", "marvell",
+    "micron", "analog devices", "texas instruments", "arm ", "synopsys",
+    "cadence", "altera", "lattice", "microchip", "silicon labs", "nxp",
+    "renesas", "infineon", "onsemi", "skyworks", "qorvo", "globalfoundries",
+    "kla", "asml", "applied materials", "western digital", "sandisk",
+    "seagate", "solidigm", "sk hynix", "samsung", "cirrus logic",
+    # AI silicon
+    "tenstorrent", "cerebras", "groq", "sambanova", "astera", "sifive",
+    "rivos", "ampere", "lightmatter", "ayar", "d-matrix", "etched",
+    "encharge", "untether", "graphcore", "atomic semi",
+    # hyperscaler + systems silicon
+    "google", "amazon", "annapurna", "meta", "microsoft", "tesla", "spacex",
+    "cisco", "arista", "juniper", "nokia", "ciena", "lumentum", "dell", "hpe",
+    # defense primes & defense tech
+    "lockheed", "raytheon", "rtx", "northrop", "l3harris", "bae", "leidos",
+    "general dynamics", "gdms", "boeing", "draper", "mitre", "sandia",
+    "lincoln laboratory", "aerospace corporation", "anduril", "shield ai",
+    "saronic", "caci", "kbr", "sierra nevada", "moog", "motorola",
 ]
 
-# Fall/autumn/off-cycle signal. \bfall\b deliberately will NOT match
-# "waterfall" (no word boundary), and content is matched only on the tight
-# "fall 2027" adjacency so prose like "prices fall" can't trigger it.
-_FALL_TITLE_RE = re.compile(r"\b(fall|autumn)\b|\boff.?cycle\b", re.I)
-_FALL_2027_TIGHT_RE = re.compile(r"\b(fall|autumn)\s*(of\s+)?(20)?27\b", re.I)
+# Summer-cycle signal. \bsummer\b is matched in the title; content is matched
+# only on the tight "summer 2027" adjacency so prose like "over the summer"
+# in an unrelated posting can't trigger it.
+_SUMMER_TITLE_RE = re.compile(r"\bsummer\b", re.I)
+_SUMMER_2027_TIGHT_RE = re.compile(r"\bsummer\s*(of\s+)?(20)?27\b", re.I)
 _ANY_YEAR_RE = re.compile(r"\b(20\d{2})\b")
-_OTHER_CYCLE_RE = re.compile(r"\b(summer|spring|winter)\b", re.I)
+_OTHER_CYCLE_RE = re.compile(r"\b(fall|autumn|spring|winter)\b|\boff.?cycle\b",
+                             re.I)
 
 
 def _is_top_firm(company):
@@ -740,34 +752,46 @@ def _is_top_firm(company):
     return any(f in c for f in TOP_FIRMS)
 
 
-def _is_fall_2027(job):
-    """True for Fall-2027-cycle roles.
+def _is_summer_2027(job):
+    """True for Summer-2027-cycle roles.
 
-    Mirrors gotcha #1: if a fall role names NO year at all, keep it -- postings
-    frequently omit the year and a live fall posting is almost always the next
-    cycle. If it names years, 2027 must be among them."""
+    Mirrors gotcha #1: if a posting names NO cycle and NO year at all, keep it
+    -- most companies never put either in the title (NVIDIA's "Hardware ASIC
+    Design Intern" is a live example), and a posting open now is almost always
+    the next summer. If it names years, 2027 must be among them."""
     title = job.get("title", "") or ""
     content = (job.get("content", "") or "")[:6000]
 
     # A title that names a different cycle IS that cycle, whatever the body
-    # says. Without this, "Summer 2027 SWE Intern" whose JD mentions a fall 2027
-    # return offer would be misread as a fall role.
-    if _OTHER_CYCLE_RE.search(title) and not _FALL_TITLE_RE.search(title):
+    # says. Without this, "Fall 2027 Co-op" whose JD mentions converting to a
+    # summer 2027 internship would be misread as a summer role.
+    if _OTHER_CYCLE_RE.search(title) and not _SUMMER_TITLE_RE.search(title):
         return False
 
-    if _FALL_TITLE_RE.search(title):
+    if _SUMMER_TITLE_RE.search(title):
         years = set(_ANY_YEAR_RE.findall(f"{title} {content}"))
         return (not years) or ("2027" in years)
-    # Not in the title -- demand the tight "Fall 2027" phrase in the body.
-    return bool(_FALL_2027_TIGHT_RE.search(f"{title} {content}"))
+
+    # Cycle not named in the title. Accept the tight "Summer 2027" phrase in
+    # the body, OR a posting that names no cycle and no conflicting year --
+    # this is the case that keeps bare "ASIC Design Intern" reqs alive.
+    hay = f"{title} {content}"
+    if _SUMMER_2027_TIGHT_RE.search(hay):
+        return True
+    if _OTHER_CYCLE_RE.search(hay):
+        return False
+    years = set(_ANY_YEAR_RE.findall(title))
+    return (not years) or ("2027" in years)
 
 
 def is_clearance(job, filters):
     """
     True if a role requires U.S. citizenship or a security clearance -- i.e. roles
-    most applicants are ineligible for. These get their own priority section in
-    the email. Checks the tracker's sponsorship field, the title, and (where the
-    ATS gives us one) the job description.
+    most applicants are ineligible for. Sam has not said he holds a clearance, so
+    this no longer drives the email layout; it annotates defense roles with a
+    flag in TOP_PICKS and shows up in the per-source log line. Checks the
+    tracker's sponsorship field, the title, and (where the ATS gives us one) the
+    job description.
     """
     kws = [k.lower() for k in filters.get("clearance_keywords", [])]
     if not kws:
@@ -818,49 +842,104 @@ def _job_li(job, with_company=True):
 
 
 def _mark_and_sort_priority(jobs, filters):
-    """Pin-mark and float roles in Alex's priority cities (NYC/SF/SD/Boston/
-    Miami/Philly) to the top of each group. Display-only."""
+    """Pin-mark and float roles in the user's priority cities to the top of
+    each group. Sam is open to anywhere in the US, so `priority_locations` is
+    empty by default and this is a no-op -- populate it in config.json to turn
+    location pinning back on. Display-only."""
     plocs = [p.lower() for p in (filters or {}).get("priority_locations", [])]
     for j in jobs:
         j["_ploc"] = bool(plocs) and any(p in (j.get("location") or "").lower() for p in plocs)
     return sorted(jobs, key=lambda j: not j.get("_ploc"))
 
 
-# Secondary US hubs (after NYC) for sorting roles within a category.
+# Chip-design hubs. Used ONLY as a tie-break inside a category so roles with a
+# real named location sort above ones with a vague or empty location -- it does
+# not promote any city over another, because Sam is open to anywhere in the US.
 _HUB_RE = re.compile(
-    r"san francisco|\bsf\b|bay area|palo alto|menlo|mountain view|sunnyvale|"
-    r"santa clara|san jose|boston|cambridge|chicago|evanston|seattle|bellevue|"
-    r"austin|dallas|houston|los angeles|santa monica|el segundo|philadelphia|"
-    r"bala cynwyd|radnor|jersey city|san diego|washington|arlington|mclean|"
-    r"reston|stamford|greenwich|atlanta|denver|miami", re.I)
+    r"santa clara|san jose|sunnyvale|palo alto|mountain view|cupertino|"
+    r"milpitas|fremont|san francisco|\bsf\b|bay area|folsom|"
+    r"austin|dallas|richardson|plano|houston|"
+    r"boise|hillsboro|portland|phoenix|chandler|tempe|"
+    r"boston|cambridge|westborough|marlborough|andover|chelmsford|"
+    r"seattle|bellevue|redmond|kirkland|"
+    r"san diego|irvine|el segundo|los angeles|"
+    r"raleigh|durham|research triangle|atlanta|orlando|melbourne, fl|"
+    r"colorado springs|longmont|fort collins|boulder|"
+    r"minneapolis|shakopee|rochester, mn|"
+    r"baltimore|columbia, md|laurel|annapolis|washington|arlington|mclean|"
+    r"reston|chantilly|herndon|manassas|"
+    r"albuquerque|livermore|huntsville|dayton|rome, ny", re.I)
 
 
-# Broad SWE/ML/AI title matcher for the email's category 3 (wider than WANT_RE,
-# which needs the literal word "software" -- this also catches bare "Developer
-# Internship", "Systems Engineer", "Controls/Robotics Engineer", etc.).
-SWE_RE = re.compile(
-    r"software|developer|\bdev\b|engineer|programmer|backend|back-end|"
-    r"full.?stack|front.?end|machine learning|deep learning|\bml\b|\bai\b|"
-    r"artificial intelligence|data scien|data eng|computer vision|\bnlp\b|"
-    r"\bllm\b|infrastructure|platform|\bsre\b|devops|research|robotics|"
-    r"embedded|systems|algorithm|cloud|perception", re.I)
+# --------------------------- role categorisation ---------------------------- #
+# Sam's email is ranked into 4 categories (2026-08-19), in this exact order:
+#   0) DSP / signal processing  -- his stated sub-area priority
+#   1) FPGA design
+#   2) ASIC / SoC / RTL digital design
+#   3) everything else that matched the filters
+# Verification and physical-design roles never reach here: they are excluded by
+# `title_exclude` in config.json.
+DSP_RE = re.compile(
+    r"\bdsp\b|signal process|digital signal|\bradar\b|\bsdr\b|"
+    r"software.?defined radio|waveform|\bmodem\b|baseband|beamform|"
+    r"\bphy\b|spectrum|\brf\b.{0,12}digital|electronic warfare|\bew\b", re.I)
+
+FPGA_RE = re.compile(
+    r"\bfpga\b|\bfpgas\b|xilinx|altera|\bvhdl\b|"
+    r"high.?level synthesis|\bhls\b|emulation|prototyp", re.I)
+
+ASIC_RE = re.compile(
+    r"\basic\b|\brtl\b|verilog|systemverilog|\bsoc\b|system.on.chip|"
+    r"microarchitect|micro.architect|\bvlsi\b|silicon|semiconductor|"
+    r"digital design|logic design|chip design|hardware design|datapath|"
+    r"\bcpu\b|\bgpu\b|\bnpu\b|\btpu\b|accelerator|\bip\b design|serdes|"
+    r"memory controller|\bddr\b|\bhbm\b|\bpcie\b|interconnect|\bnoc\b|"
+    r"processor|architecture", re.I)
 
 
-def _is_quant(company, title):
-    """A role is 'quant' if the title reads quant/trading OR it's at a known
-    quant firm (sweet-spot or elite tier)."""
-    return bool(QUANT_RE.search(title or "") or _tier(company) in (0, 2))
+# A title can name silicon and still be a pure software job -- "GPU/AI
+# Application System Software Engineer Intern" is a real example that landed in
+# the ASIC bucket on the strength of the word "GPU" alone. Titles matching
+# _SOFTWARE_RE are demoted to the catch-all category UNLESS they also carry a
+# hard design signal (FPGA/ASIC/RTL/Verilog/digital design), which is what
+# separates "RTL Design Intern" from "GPU Software Intern".
+_SOFTWARE_RE = re.compile(
+    r"software eng|software dev|software intern|application.{0,12}software|"
+    r"\bsdk\b|compiler|driver|middleware|web|cloud|devops|full.?stack|"
+    r"data scien|machine learning eng", re.I)
+_HARD_DESIGN_RE = re.compile(
+    r"\bfpga\b|\basic\b|\brtl\b|verilog|systemverilog|\bvhdl\b|\bvlsi\b|"
+    r"digital design|logic design|chip design|microarchitect|datapath", re.I)
+
+
+def _role_category(title):
+    """Lower = higher priority. DSP first, then FPGA, then ASIC/SoC."""
+    t = title or ""
+    if _SOFTWARE_RE.search(t) and not _HARD_DESIGN_RE.search(t):
+        return 3
+    if DSP_RE.search(t):
+        return 0
+    if FPGA_RE.search(t):
+        return 1
+    if ASIC_RE.search(t):
+        return 2
+    return 3
+
+
+def _is_chip_design(company, title):
+    """True if the title reads as chip design OR it's at a known silicon /
+    defense-electronics employer."""
+    return bool(_role_category(title) < 3 or _tier(company) in (0, 2))
 
 
 def _loc_rank(loc):
-    """Lower = more desirable location, so best cities float to the top of a
-    category. NYC first (Alex's #1 target), then other US hubs, then the rest."""
+    """Lower = sorts earlier within a category. Sam has no city preference, so
+    this only pushes roles with a recognisable chip-hub location above ones
+    whose location is vague, and empty locations to the bottom."""
     s = loc or ""
-    if NYC_RE.search(s):
-        return 0
     if _HUB_RE.search(s):
-        return 1
-    return 2 if s.strip() else 3
+        return 0
+    return 1 if s.strip() else 2
 
 
 def build_email_html(grouped, baseline=False, filters=None):
@@ -872,30 +951,25 @@ def build_email_html(grouped, baseline=False, filters=None):
     )
     parts = [f"<p>{intro}</p>"]
 
-    # Alex's 4 categories (2026-07-22), in priority order. US-only is already
+    # Sam's 4 categories (2026-08-19), in priority order. US-only is already
     # enforced upstream, so every role here is US.
-    #   0) Quant in NYC   1) Quant elsewhere   2) SWE/ML/AI   3) everything else
+    #   0) DSP / signal processing   1) FPGA design
+    #   2) ASIC / SoC / RTL design   3) everything else that matched
     cats = {0: [], 1: [], 2: [], 3: []}
     for firm in grouped:
         for j in grouped[firm]:
             j = dict(j)
             j.setdefault("company", firm)
-            comp, title = j.get("company") or firm, j.get("title", "")
-            loc = j.get("location") or ""
-            if _is_quant(comp, title):
-                cats[0 if NYC_RE.search(loc) else 1].append(j)
-            elif SWE_RE.search(title):
-                cats[2].append(j)
-            else:
-                cats[3].append(j)
+            title = j.get("title", "")
+            cats[_role_category(title)].append(j)
 
     meta = [
-        (0, "&#128509; Quant &mdash; New York", "#1553b0",
-         "Your #1 target: quant roles in NYC."),
-        (1, "&#128200; Quant &mdash; other US locations", "#2f6f4f",
-         "Quant everywhere else in the US."),
-        (2, "&#128187; SWE / ML / AI", "#5b3fa0",
-         "Software, machine-learning and AI roles, best locations first."),
+        (0, "&#128225; DSP / signal processing", "#1553b0",
+         "Your stated priority: DSP datapaths, radar, SDR, baseband."),
+        (1, "&#129518; FPGA design", "#2f6f4f",
+         "FPGA and reconfigurable-logic design roles."),
+        (2, "&#128187; ASIC / SoC / RTL design", "#5b3fa0",
+         "Digital design, microarchitecture, SoC and IP roles."),
         (3, "Other matched roles", "#777", None),
     ]
     for cid, header, color, sub in meta:
@@ -986,54 +1060,14 @@ def write_open_roles(current):
 # ----------------------------- top picks ----------------------------------- #
 TOP_PICKS_FILE = "TOP_PICKS.md"
 
-# Cities Alex actually wants. Whitelist, so anything not listed (India, China,
-# SE Asia, LatAm, etc.) is excluded automatically.
-GOOD_LOC_RE = re.compile(
-    # --- United States (cities) ---
-    r"new york|nyc|manhattan|brooklyn|"
-    r"san francisco|sf|bay area|palo alto|menlo|mountain view|sunnyvale|"
-    r"santa clara|san jose|redwood|cupertino|"
-    r"boston|cambridge, ma|somerville|"
-    r"chicago|evanston|"
-    r"austin|dallas|houston|"
-    r"seattle|bellevue|redmond|kirkland|"
-    r"los angeles|santa monica|el segundo|pasadena|culver city|"
-    r"miami|tampa|jupiter, fl|west palm|"
-    r"philadelphia|bala cynwyd|"
-    r"san diego|la jolla|"
-    r"washington|arlington|mclean|reston|chantilly|bethesda|d\.c\.|dc|"
-    r"atlanta|denver|boulder|stamford|greenwich|"
-    r"remote - us|remote, us|remote \(us|us remote|remote-us|united states|usa|"
-    # --- Western Europe (cities + countries) ---
-    r"dublin|ireland|london|united kingdom|uk|england|"
-    r"amsterdam|netherlands|rotterdam|"
-    r"zurich|geneva|switzerland|"
-    r"paris|france|frankfurt|munich|berlin|germany|"
-    r"madrid|barcelona|spain|milan|rome|italy|"
-    r"stockholm|sweden|copenhagen|denmark|oslo|norway|helsinki|finland|"
-    r"brussels|belgium|vienna|austria|luxembourg|lisbon|portugal|dublin|"
-    r"sydney|melbourne|australia|brazil|sao paulo|"
-    # --- US state-code fallback (last resort) ---
-    r"(ny|ca|ma|il|tx|wa|fl|pa|va|md|ga|co|ct|nj|az|nc|oh|mi|mn|or)",
-    re.I,
-)
-BAD_LOC_RE = re.compile(
-    r"india|china|bangalore|hyderabad|pune|mumbai|delhi|chennai|gurgaon|noida|"
-    r"shanghai|beijing|shenzhen|guangzhou|suzhou|hangzhou|wuhan|xiamen|hefei|"
-    r"chengdu|zhongshan|malaysia|penang|kuala lumpur|philippines|manila|"
-    r"vietnam|hanoi|ho chi minh|indonesia|jakarta|thailand|bangkok|taiwan|"
-    r"taipei|hsinchu|tainan|korea|seoul|japan|tokyo|brazil|sao paulo|mexico|"
-    r"guadalajara|monterrey|poland|krakow|warsaw|romania|bucharest|bulgaria|"
-    r"sofia|egypt|cairo|turkey|israel|argentina|cordoba|belarus|minsk|"
-    r"sri lanka|africa|dubai|riyadh|saudi|new zealand|auckland|australia|"
-    r"sydney|melbourne|canada|toronto|vancouver|ottawa|montreal|"
-    r"singapore|hong kong",
-    re.I,
-)
+# Location handling: Sam is open to anywhere in the US, so there is no
+# city whitelist any more -- the only geographic gate is _is_us_location()
+# below, applied in both the sweep and write_top_picks.
 
-# US-ONLY gate (Alex, 2026-07-22): he wants US roles only for now. NON_US_RE
-# names places that are clearly outside the US -- everything in BAD_LOC_RE plus
-# Western Europe (which used to be allowed). US_LOC_RE is a positive US matcher
+# US-ONLY gate: Sam wants US roles only. NON_US_RE names places that are
+# clearly outside the US, including Western Europe and Canada (Tenstorrent and
+# Marvell post a lot of Toronto/Ottawa chip roles that would otherwise flood
+# the list). US_LOC_RE is a positive US matcher
 # used only to rescue a co-listed role ("London / New York"). A role is dropped
 # only when its location clearly names a non-US place AND names no US place --
 # empty/ambiguous locations are KEPT so US roles are never silently dropped.
@@ -1085,49 +1119,64 @@ def _is_us_location(loc):
     return not (NON_US_RE.search(s) and not US_LOC_RE.search(s))
 
 
-# Roles he wants: quant + SWE + ML/AI. Not hardware/mech/test/validation.
+# Roles Sam wants: FPGA / ASIC digital design and DSP. NOT verification, NOT
+# physical design -- those two are the big adjacent families and they are the
+# whole reason SKIP_RE exists. (config.json's `title_exclude` catches most of
+# them upstream; this is the second line of defence for TOP_PICKS.)
 WANT_RE = re.compile(
-    r"quant|trading|trader|software eng|software dev|swe\b|backend|back-end|"
-    r"full.?stack|infrastructure|platform|systems eng|distributed|devops|sre\b|"
-    r"site reliability|machine learning|deep learning|\bml\b|\bai\b|artificial "
-    r"intelligence|computer vision|\bcv\b|\bnlp\b|\bllm\b|research eng|"
-    r"applied scien|research scien|data eng|data scien|algorithm|forward deployed",
+    r"\bfpga\b|\basic\b|\brtl\b|verilog|systemverilog|\bvhdl\b|\bvlsi\b|"
+    r"digital design|logic design|chip design|hardware design|hardware eng|"
+    r"\bsoc\b|system.on.chip|microarchitect|micro.architect|silicon|"
+    r"semiconductor|datapath|\bcpu\b|\bgpu\b|\bnpu\b|\btpu\b|accelerator|"
+    r"serdes|memory controller|\bddr\b|\bhbm\b|\bpcie\b|interconnect|\bnoc\b|"
+    r"processor|computer architect|"
+    r"\bdsp\b|signal process|digital signal|\bradar\b|\bsdr\b|waveform|"
+    r"software.?defined radio|\bmodem\b|baseband|beamform|"
+    r"high.?level synthesis|\bhls\b|emulation",
     re.I,
 )
 SKIP_RE = re.compile(
-    r"hardware|mechanical|electrical|\bfpga\b|asic|analog|circuit|rf eng|"
-    r"manufactur|process eng|quality|test eng|validation|verification|"
-    r"industrial|chemical|materials|thermal|packaging|supply chain|"
-    r"technician|field eng|sales|marketing|business|recruit|hr\b|people ops",
+    r"verification|verify|validation|\buvm\b|testbench|\bdv\b eng|"
+    r"post.?silicon|physical design|physical implementation|place and route|"
+    r"place & route|floorplan|timing closure|static timing|sign.?off|"
+    r"\blayout\b|back.?end design|design for test|\bdft\b|"
+    r"mechanical|manufactur|process eng|quality|test eng|product eng|"
+    r"failure analysis|\byield\b|reliability eng|packaging|industrial|"
+    r"chemical|materials|thermal|supply chain|technician|field eng|"
+    r"application eng|sales|marketing|business|recruit|\bhr\b|people ops",
     re.I,
 )
+# Tier 0 ("sweet spot") sorts ABOVE tier 2 ("elite") inside a bucket -- the
+# intent is "apply here first", so strong-but-less-swamped employers lead and
+# the household names come after. Flip the numbers in _tier to reverse it.
 SWEET_SPOT = [
-    "transmarket", "akuna", "virtu", "gts", "old mission", "wolverine",
-    "belvedere", "geneva", "peak6", "group one", "allston", "3red",
-    "dv trading", "chicago trading", "ctc", "voloridge", "schonfeld",
-    "exoduspoint", "voleon", "worldquant", "weiss", "flow traders", "ice ",
-    "intercontinental", "walleye", "capula", "arrowstreet", "aquatic",
+    # mid-size / specialist silicon: real design work, far less applicant volume
+    "altera", "lattice", "microchip", "silicon labs", "silabs",
+    "analog devices", "micron", "globalfoundries", "onsemi", "skyworks",
+    "qorvo", "renesas", "infineon", "nxp", "cirrus logic", "kla", "asml",
+    "applied materials", "western digital", "sandisk", "solidigm", "seagate",
+    "lumentum", "ciena", "plexus", "sk hynix", "samsung",
+    # chip startups that actually take undergrad design interns
+    "tenstorrent", "astera", "lightmatter", "graphcore", "etched",
+    "atomic semi", "metalenz", "falcomm", "hyperlight", "memx",
+    # defense & national labs -- the densest source of FPGA design internships
+    "northrop", "rtx", "raytheon", "leidos", "caci", "draper", "boeing",
+    "general dynamics", "gdms", "motorola", "ge aerospace", "sierra nevada",
+    "aerospace corporation", "moog", "kbr", "anduril", "shield ai", "saronic",
+    "systems & technology", "two six", "vatic", "metron",
+    "sandia", "lincoln laboratory", "mitre", "johns hopkins", "llnl", "jpl",
 ]
 ELITE = [
-    "jane street", "hudson river", "hrt", "citadel", "imc", "optiver",
-    "two sigma", "jump trading", "drw", "point72", "cubist", "susquehanna",
-    "sig ", "tower research", "five rings", "xtx", "radix", "pdt", "headlands",
-    "d. e. shaw", "d.e. shaw", "deshaw",
+    "nvidia", "apple", "amd", "intel", "qualcomm", "broadcom", "marvell",
+    "arm ", "synopsys", "cadence", "google", "amazon", "annapurna", "meta",
+    "microsoft", "tesla", "spacex", "cerebras", "groq", "sambanova",
+    "sifive", "rivos", "ampere", "d-matrix", "cisco", "arista", "juniper",
 ]
 
 
-EXCLUDE_FIRMS = [
-    # applied OR too-longshot per Alex (2026-07-22) — hidden from TOP_PICKS entirely
-    "flow traders", "flowtraders", "intercontinental", " ice", "virtu", "walleye",
-    "gsa capital", "gsa", "tower research", "tower-research", "towerresearch",
-    "d. e. shaw", "d.e. shaw", "deshaw", "drw", "hudson river", "hrt",
-    "jane street", "jump trading", "jump", "point72", "cubist", "akuna",
-    "aquatic", "chicago trading", "ctc", "ctccampus", "old mission", "oldmission",
-    "transmarket", "blackedge", "imc", "optiver", "five rings", "fivering",
-    "citadel", "two sigma", "arrowstreet", "voloridge", "capula", "palantir",
-    "seven research", "sevenresearch", "scale ai", "schonfeld",
-    "scm", "stevens capital",
-]
+# Firms to hide from TOP_PICKS entirely -- e.g. ones already applied to.
+# Empty for a fresh start; add lowercase substrings as the season progresses.
+EXCLUDE_FIRMS = []
 
 
 def _excluded(company):
@@ -1144,35 +1193,26 @@ def _tier(company):
     return 1
 
 
-NYC_RE = re.compile(r"new york|nyc|manhattan|brooklyn|\bny\b", re.I)
-CHI_RE = re.compile(r"chicago|evanston|\bil\b", re.I)
-QUANT_RE = re.compile(
-    r"quant|trading|trader|market mak|systematic|volatility|options|"
-    r"alpha|signal|execution|low.?latency|derivativ", re.I)
-
-
 def _bucket(comp, title, loc):
-    """Alex's priority: NYC-quant first, Chicago-quant second, then the rest.
+    """Sam's priority: DSP first, then FPGA, then ASIC/SoC, then the rest.
+    Location does not affect the bucket -- he is open to anywhere in the US.
     Lower number = higher on the list."""
-    is_quant = bool(QUANT_RE.search(title) or _tier(comp) in (0, 2))
-    if is_quant and NYC_RE.search(loc):
-        return 0  # 🗽 NYC quant — top priority
-    if NYC_RE.search(loc):
-        return 1  # 🗽 any NYC role — he wants NYC summer
-    if is_quant and CHI_RE.search(loc):
-        return 2  # 🌆 Chicago quant
-    if is_quant:
-        return 3  # quant elsewhere (other US / EU)
-    return 4      # non-quant SWE/ML in target cities
+    cat = _role_category(title)
+    if cat < 3:
+        return cat          # 0 DSP · 1 FPGA · 2 ASIC/SoC
+    if _tier(comp) in (0, 2):
+        return 3            # other role at a known silicon/defense employer
+    return 4                # everything else that survived the filters
 
 
 DEAD_URLS = {"https://careers.ice.com/jobs/12830"}
 
 
 def write_top_picks(current, filters=None):
-    """Curated subset of OPEN_ROLES: quant/SWE/ML only, target cities only.
-    Ranked NYC-quant first, Chicago-quant second (Alex's stated criteria),
-    then quant-elsewhere, then non-quant. Regenerated every full sweep."""
+    """Curated subset of OPEN_ROLES: FPGA / ASIC / DSP design roles anywhere in
+    the US, with verification and physical design filtered out. Ranked DSP
+    first, then FPGA, then ASIC/SoC (Sam's stated criteria). Regenerated every
+    full sweep."""
     picks = []
     for rec in current.values():
         j = rec["job"]
@@ -1183,13 +1223,11 @@ def write_top_picks(current, filters=None):
             continue
         if any(d in (j.get('url','')) for d in DEAD_URLS):
             continue
-        # EXCLUDE_FIRMS hides firms he already applied to -- but in Fall-2027
-        # mode those same top firms are exactly the target, so it's bypassed.
-        if not (filters or {}).get("fall_2027_only") and _excluded(comp):
+        if _excluded(comp):
             continue
-        if BAD_LOC_RE.search(loc) and not GOOD_LOC_RE.search(loc):
-            continue
-        if loc and not GOOD_LOC_RE.search(loc):
+        # US-anywhere: no city whitelist, just the same non-US gate the sweep
+        # uses, so a role in Boise or Huntsville is as welcome as one in Austin.
+        if not _is_us_location(loc):
             continue
         picks.append((_bucket(comp, title, loc), _tier(comp), comp.lower(),
                       title, comp, loc, j.get("url", ""), bool(j.get("clearance"))))
@@ -1200,19 +1238,20 @@ def write_top_picks(current, filters=None):
     lines = [
         "# Top picks (auto-generated)",
         "",
-        f"_Quant / SWE / ML roles in target cities. {len(picks)} of "
+        f"_FPGA / ASIC / DSP design roles, anywhere in the US. {len(picks)} of "
         f"{len(current)} open roles. Rebuilt every sweep: {stamp}._",
         "",
-        "Ranked by Alex's criteria: NYC quant first, Chicago quant second, "
-        "then quant elsewhere, then other SWE/ML. Within each, sweet-spot "
-        "firms before elite.",
+        "Ranked by Sam's criteria: DSP and signal processing first, then FPGA "
+        "design, then ASIC / SoC / RTL. Within each, sweet-spot employers "
+        "(mid-size silicon and defense) before the household names. "
+        "🇺🇸 marks a role that asks for US citizenship or a clearance.",
         "",
     ]
-    headers = {0: "## 🗽 NYC QUANT — apply first",
-               1: "## 🗽 NYC (any role) — he wants NYC summer",
-               2: "## 🌆 CHICAGO QUANT",
-               3: "## Quant elsewhere (other US / Europe)",
-               4: "## Other SWE / ML in target cities"}
+    headers = {0: "## 📡 DSP / SIGNAL PROCESSING — apply first",
+               1: "## 🧩 FPGA DESIGN",
+               2: "## 💻 ASIC / SoC / RTL DESIGN",
+               3: "## Other roles at silicon & defense employers",
+               4: "## Everything else that matched"}
     seen_b = None
     for b, tier, _, title, comp, loc, url, clr in picks:
         if b != seen_b:
@@ -1230,13 +1269,14 @@ def write_top_picks(current, filters=None):
 
 
 # ----------------------------- weekly digest -------------------------------- #
-# Sources that belong in the Sunday digest: competitions, events, programs,
-# scholarships, hackathons, research/abroad. Company job boards ("Quant SPA",
-# "Page", "Firm SPA") are internship-hunting and stay OUT -- Alex has his
-# Summer 2027 offer, so the digest is about "reaching new heights", not roles.
+# Sources that belong in the Sunday digest: chip-design programs, tapeout
+# shuttles, conference student programs, scholarships and lab REUs -- things
+# with an application WINDOW rather than a rolling job posting. Company job
+# boards ("Chip:", "Defense:", "Hardware:", "Page:") are internship-hunting and
+# stay OUT; those are the hourly sweep's job.
 DIGEST_PREFIXES = (
     "competition", "hackathon", "scholarship", "fellowship", "abroad",
-    "program", "natsec", "lab", "gt", "conference", "grant",
+    "program", "natsec", "lab", "conference", "grant",
 )
 
 
@@ -1313,6 +1353,8 @@ def _digest_group(name):
         return "money"
     if head.startswith("abroad") or head.startswith("lab"):
         return "research"
+    if head.startswith("conference"):
+        return "competitions"
     return "programs"
 
 
@@ -1321,8 +1363,8 @@ def send_weekly_digest():
       1) LIVE -- competition/program pages that CHANGED this week (i.e. an
          application probably just opened), discovered by run_digest_sweep.
       2) The PROGRAMS.md master calendar, so nothing with a deadline slips.
-    Deliberately excludes Summer 2027 internship postings: Alex signed his NYC
-    quant offer on 2026-07-30, so this digest is competitions/events only."""
+    Deliberately excludes job postings: those go out on the hourly sweep, so
+    this digest is programs, shuttles, conferences and scholarships only."""
     config = load_json(CONFIG_FILE, None) or {}
     seen = load_json(SEEN_FILE, {}) or {}
 
@@ -1436,9 +1478,10 @@ def main():
 
     filters = config.get("filters", {})
     top_only = bool(filters.get("top_firms_only"))
-    fall_only = bool(filters.get("fall_2027_only"))
-    if top_only or fall_only:
-        print(f"NARROWED SWEEP: top_firms_only={top_only} fall_2027_only={fall_only}"
+    summer_only = bool(filters.get("summer_2027_only"))
+    if top_only or summer_only:
+        print(f"NARROWED SWEEP: top_firms_only={top_only} "
+              f"summer_2027_only={summer_only}"
               f" ({len(TOP_FIRMS)} firms on the top list)")
     seen = load_json(SEEN_FILE, {}) or {}
     first_run = len(seen) == 0
@@ -1458,7 +1501,7 @@ def main():
             continue
         # In narrowed mode the competition/program sources are Sunday's job --
         # polling them hourly would spam the role email with page-change pings.
-        if (top_only or fall_only) and _is_digest_source(firm):
+        if (top_only or summer_only) and _is_digest_source(firm):
             continue
         if time.time() - started > run_budget:
             print("  ! run budget hit -- skipping remaining sources this run")
@@ -1476,26 +1519,26 @@ def main():
             continue
 
         relevant = [j for j in jobs if j.get("bypass_filters") or is_relevant(j, filters)]
-        # US-only (Alex, 2026-07-22): drop clearly-non-US roles from everything
-        # downstream (email, TOP_PICKS, OPEN_ROLES). Keep bypass alerts as-is.
+        # US-only: drop clearly-non-US roles from everything downstream (email,
+        # TOP_PICKS, OPEN_ROLES). Keep bypass alerts as-is.
         us_relevant = [j for j in relevant
                        if j.get("bypass_filters") or _is_us_location(j.get("location"))]
         n_drop = len(relevant) - len(us_relevant)
         relevant = us_relevant
 
-        # Top-firm / Fall-2027 narrowing (2026-08-07). Applied to bypass items
-        # too -- otherwise a pagewatch alert would sail past both gates.
-        n_nontop = n_notfall = 0
+        # Top-firm / Summer-2027 narrowing. Applied to bypass items too --
+        # otherwise a pagewatch alert would sail past both gates.
+        n_nontop = n_notsummer = 0
         if top_only:
             kept = [j for j in relevant if _is_top_firm(j.get("company") or name)]
             n_nontop = len(relevant) - len(kept)
             relevant = kept
-        if fall_only:
-            # A top firm's careers page changing is worth knowing even though a
+        if summer_only:
+            # A firm's careers page changing is worth knowing even though a
             # "Page changed" alert carries no cycle text, so pagewatch is exempt.
             kept = [j for j in relevant
-                    if j.get("pagewatch") or _is_fall_2027(j)]
-            n_notfall = len(relevant) - len(kept)
+                    if j.get("pagewatch") or _is_summer_2027(j)]
+            n_notsummer = len(relevant) - len(kept)
             relevant = kept
         for j in relevant:
             j["clearance"] = is_clearance(j, filters)
@@ -1504,7 +1547,7 @@ def main():
               + (f" ({n_clear} clearance/US-citizen)" if n_clear else "")
               + (f" [-{n_drop} non-US]" if n_drop else "")
               + (f" [-{n_nontop} not-top-firm]" if n_nontop else "")
-              + (f" [-{n_notfall} not-fall-2027]" if n_notfall else ""))
+              + (f" [-{n_notsummer} not-summer-2027]" if n_notsummer else ""))
         for j in relevant:
             url = (j.get("url") or "").strip().lower()
             gkey = url if url else f"{name}:{j['id']}"
