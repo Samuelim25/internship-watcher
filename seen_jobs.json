@@ -1140,7 +1140,7 @@
     "url": "https://jobs.ashbyhq.com/heron-power/807ae67d-1571-4f85-b597-224d0d4db784"
   },
   "https://nwis.wd12.myworkdayjobs.com/en-us/nw/job/annapolis-junction-md/software---hardware-engineering---intern_jr101733": {
-    "title": "Software / Hardware Engineering - Intern",
+    "title": "Software / Hardware Engineering Intern",
     "url": "https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733"
   },
   "https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1": {
@@ -1197,7 +1197,7 @@
   },
   "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8": {
     "title": "Chip Simulation Software Intern",
-    "url": "https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8"
+    "url": "https://jobs.ashbyhq.com/etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8"
   },
   "https://jobs.lever.co/plus-2/012a2134-8a6a-4982-8f25-f906178a24e4": {
     "title": "Software Engineer Intern - Data",
@@ -7186,5 +7186,293 @@
   "pw::https://undergradresearch.gatech.edu/::#168c341ba9cf6a38": {
     "title": "Page changed - check GT: undergraduate research opportunities (may mean applications opened)",
     "url": "https://undergradresearch.gatech.edu/"
+  },
+  "https://jobs.ashbyhq.com/etched/aa17bfa2-2922-4aa7-820d-76064f2551a8": {
+    "title": "Inference Intern, Architecture",
+    "url": "https://jobs.ashbyhq.com/Etched/aa17bfa2-2922-4aa7-820d-76064f2551a8"
+  },
+  "https://joinbytedance.com/search/7668464504736876853": {
+    "title": "GPU/AI Application System Software Engineer Intern",
+    "url": "https://joinbytedance.com/search/7668464504736876853"
+  },
+  "https://www.zipline.com/open-roles?gh_jid=7891459003": {
+    "title": "Long Range Platform Embedded Firmware Intern - Summer 2027",
+    "url": "https://www.zipline.com/open-roles?gh_jid=7891459003"
+  },
+  "https://generac.wd5.myworkdayjobs.com/en-us/external/job/reno-nv---usa/intern-firmware-engineering_jr16149": {
+    "title": "Intern Firmware Engineering",
+    "url": "https://generac.wd5.myworkdayjobs.com/en-US/external/job/Reno-NV---USA/Intern-Firmware-Engineering_JR16149"
+  },
+  "https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002": {
+    "title": "Summer 2027 Silicon Engineering Internship/Co-op",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/en-us/nvidiaexternalcareersite/job/us-ca-santa-clara/nvidia-2027-internships--hardware-asic-design_jr2023486": {
+    "title": "NVIDIA 2027 Internships: Hardware ASIC Design",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/en-us/nvidiaexternalcareersite/job/us-ca-santa-clara/nvidia-2027-internships--deep-learning-computer-architecture_jr2023491": {
+    "title": "NVIDIA 2027 Internships: Deep Learning Computer Architecture",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/en-us/nvidiaexternalcareersite/job/us-ca-santa-clara/nvidia-2027-internships--computer-architecture_jr2023489": {
+    "title": "NVIDIA 2027 Internships: Computer Architecture",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489"
+  },
+  "https://nvidia.wd5.myworkdayjobs.com/en-us/nvidiaexternalcareersite/job/us-ca-santa-clara/nvidia-2027-internships--hardware-engineering_jr2023508-1": {
+    "title": "NVIDIA 2027 Internships: Hardware Engineering",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1"
+  },
+  "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee": {
+    "title": "Electrical Engineer Intern",
+    "url": "https://jobs.ashbyhq.com/skydio/9ac944bc-89da-44bb-bf9c-3b9922e7cbee"
+  },
+  "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf": {
+    "title": "Hardware Product Management Intern",
+    "url": "https://jobs.ashbyhq.com/skydio/1ec2fe3c-3fb2-4485-870d-764a3e5f5baf"
+  },
+  "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003": {
+    "title": "FPGA Engineering Intern - Summer 2027",
+    "url": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003"
+  },
+  "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837252003": {
+    "title": "2027 US Electrical Engineering Internship",
+    "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837252003"
+  },
+  "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003": {
+    "title": "US Firmware Engineering Internship",
+    "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003"
+  },
+  "https://mosaic.wd5.myworkdayjobs.com/en-us/mosaic/job/us---bartow-fl/electrical-engineer-co-op-intern---summer-2027_64428": {
+    "title": "Electrical Engineer Co-Op/Intern - Summer 2027",
+    "url": "https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/US---Bartow-FL/Electrical-Engineer-Co-Op-Intern---Summer-2027_64428"
+  },
+  "https://mosaic.wd5.myworkdayjobs.com/en-us/mosaic/job/ca---esterhazy-sk/electrical-engineer-technologist-co-op-student---summer-2027_64714": {
+    "title": "Electrical Engineer/Technologist Co-op Student - Summer 2027",
+    "url": "https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/CA---Esterhazy-SK/Electrical-Engineer-Technologist-Co-op-Student---Summer-2027_64714"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/en-us/private_posting_no_tmp/job/us-az-tucson-m02--1151-e-hermans-rd--bldg-m02/rf-design-electrical-engineer-intern--summer-2027--onsite-_01866250": {
+    "title": "RF Design Electrical Engineer Intern (Summer 2027)(Onsite)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/RF-Design-Electrical-Engineer-Intern--Summer-2027--Onsite-_01866250"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/en-us/private_posting_no_tmp/job/us-ma-tewksbury-tb1--50-apple-hill-dr--assabet-bldg/radar-digital-products-engineering-intern--summer-2027-_01866243": {
+    "title": "Radar Digital Products Engineering Intern (Summer 2027)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Radar-Digital-Products-Engineering-Intern--Summer-2027-_01866243"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/en-us/private_posting_no_tmp/job/us-ca-el-segundo-r01--2000-e-imperial-hwy--bldg-r01/intern-radar-systems-special-test-equipment--summer-2027-_01867448": {
+    "title": "Intern Radar Systems Special Test Equipment (Summer 2027)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Intern-Radar-Systems-Special-Test-Equipment--Summer-2027-_01867448"
+  },
+  "https://jobs.smartrecruiters.com/westerndigital/744000144185937": {
+    "title": "Internship - Software Development (Embedded)",
+    "url": "https://jobs.smartrecruiters.com/WesternDigital/744000144185937"
+  },
+  "https://jobs.smartrecruiters.com/westerndigital/744000141840819": {
+    "title": "Intern, Firmware Engineering",
+    "url": "https://jobs.smartrecruiters.com/WesternDigital/744000141840819"
+  },
+  "https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146": {
+    "title": "Hardware Engineering Co-Op",
+    "url": "https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146"
+  },
+  "https://generac.wd5.myworkdayjobs.com/en-us/external/job/reno-nv---usa/intern--electrical-engineering_jr16148": {
+    "title": "Intern- Electrical Engineering",
+    "url": "https://generac.wd5.myworkdayjobs.com/en-US/external/job/Reno-NV---USA/Intern--Electrical-Engineering_JR16148"
+  },
+  "https://motorolasolutions.wd5.myworkdayjobs.com/en-us/careers/job/plantation-fl/electrical-engineer-intern---summer-2027_r67781": {
+    "title": "Electrical Engineer Intern - Summer 2027",
+    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67781"
+  },
+  "https://jobs.ashbyhq.com/windborne-systems/a0adb58d-37e7-4e37-abf5-c77d63d4dd8f": {
+    "title": "Electrical Engineer Intern",
+    "url": "https://jobs.ashbyhq.com/windborne-systems/a0adb58d-37e7-4e37-abf5-c77d63d4dd8f"
+  },
+  "https://flir.wd1.myworkdayjobs.com/en-us/flircareers/job/us---lincoln-ne/computer-engineering-intern_req29119": {
+    "title": "Computer Engineering Intern",
+    "url": "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Lincoln-NE/Computer-Engineering-Intern_REQ29119"
+  },
+  "https://flir.wd1.myworkdayjobs.com/en-us/flircareers/job/us---miamisburg-oh/electrical-engineering-intern_req35563": {
+    "title": "Electrical Engineering Intern",
+    "url": "https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Miamisburg-OH/Electrical-Engineering-Intern_REQ35563"
+  },
+  "https://chevron.wd5.myworkdayjobs.com/en-us/university/job/houston-texas-united-states-of-america/xmlname-2026-2027-facilities-engineering-electrical-engineering-intern_r000072378": {
+    "title": "2026-2027 Facilities Engineering Electrical Engineering Intern",
+    "url": "https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Facilities-Engineering-Electrical-Engineering-Intern_R000072378"
+  },
+  "https://nidec.wd1.myworkdayjobs.com/en-us/nidec/job/north-americausaarkansasft-smith-ar/electrical-engineering-co-op_r0017331": {
+    "title": "Electrical Engineering Co-op",
+    "url": "https://nidec.wd1.myworkdayjobs.com/en-US/nidec/job/North-AmericaUSAArkansasFt-Smith-AR/Electrical-Engineering-Co-op_R0017331"
+  },
+  "https://nxp.wd3.myworkdayjobs.com/en-us/careers/job/eindhoven/internship--phase-noise-resilient-architectures-for-large-mimo-fmcw-automotive-radars_r-10064089": {
+    "title": "Internship: Phase-Noise-Resilient Architectures for Large MIMO FMCW Automotive Radars",
+    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Internship--Phase-Noise-Resilient-Architectures-for-Large-MIMO-FMCW-Automotive-Radars_R-10064089"
+  },
+  "https://cc.wd3.myworkdayjobs.com/en-us/chanelcareers/job/firenze-osmannoro/metal-hardware-intern_jobreq00113217": {
+    "title": "Metal Hardware Intern",
+    "url": "https://cc.wd3.myworkdayjobs.com/en-US/chanelcareers/job/Firenze-Osmannoro/Metal-Hardware-Intern_JOBREQ00113217"
+  },
+  "https://micron.wd1.myworkdayjobs.com/en-us/external/job/boise-id---main-site/intern---digital-ip-design-engineer--dram_jr108533": {
+    "title": "Intern - Digital IP Design Engineer, DRAM",
+    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---Digital-IP-Design-Engineer--DRAM_JR108533"
+  },
+  "https://nxp.wd3.myworkdayjobs.com/en-us/careers/job/gratkorn/internship--digital-design-team-support--m-f-d-_r-10064594": {
+    "title": "Internship: Digital Design Team Support (m/f/d)",
+    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594"
+  },
+  "https://nxp.wd3.myworkdayjobs.com/en-us/careers/job/gratkorn/internship---digital-design---generative-ai-support--m-f-d-_r-10064592": {
+    "title": "Internship – Digital Design & Generative AI Support (m/f/d)",
+    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship---Digital-Design---Generative-AI-Support--m-f-d-_R-10064592"
+  },
+  "https://nxp.wd3.myworkdayjobs.com/en-us/careers/job/eindhoven/internship-thesis---signal-processing-and-ai-for-autonomous-driving-_r-10064090": {
+    "title": "Internship/Thesis – Signal Processing and AI for autonomous driving ",
+    "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Internship-Thesis---Signal-Processing-and-AI-for-autonomous-driving-_R-10064090"
+  },
+  "https://motorolasolutions.wd5.myworkdayjobs.com/en-us/careers/job/plantation-fl/electrical-engineer-intern---summer-2027_r67780": {
+    "title": "Electrical Engineer Intern - Summer 2027",
+    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67780"
+  },
+  "https://geaerospace.wd5.myworkdayjobs.com/en-us/ge_externalsite/job/grand-rapids/systems-engineering-intern---electrical-engineering---computer-engineering-science--avionics----us---summer-2027_r5030118-1": {
+    "title": "Systems Engineering Intern - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Summer 2027",
+    "url": "https://geaerospace.wd5.myworkdayjobs.com/en-US/ge_externalsite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1"
+  },
+  "https://geaerospace.wd5.myworkdayjobs.com/en-us/ge_externalsite/job/dayton/systems-engineering-intern---electrical-engineering---computer-engineering-science--electric-power----us---summer-2027_r5030137-1": {
+    "title": "Systems Engineering Intern - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Summer 2027",
+    "url": "https://geaerospace.wd5.myworkdayjobs.com/en-US/ge_externalsite/job/Dayton/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Summer-2027_R5030137-1"
+  },
+  "pw::https://careers.amd.com/careers-home/jobs?keywords=intern::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: AMD (FPGA/Xilinx heritage) (may mean applications opened)",
+    "url": "https://careers.amd.com/careers-home/jobs?keywords=intern"
+  },
+  "pw::https://careers.qualcomm.com/careers?query=intern::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Qualcomm (CPU/GPU/SoC digital design) (may mean applications opened)",
+    "url": "https://careers.qualcomm.com/careers?query=intern"
+  },
+  "pw::https://jobs.apple.com/en-us/search?team=hardware-hrdw::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: Apple (silicon) (may mean applications opened)",
+    "url": "https://jobs.apple.com/en-us/search?team=hardware-HRDW"
+  },
+  "pw::https://careers.ti.com/search-jobs/intern/::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: Texas Instruments (may mean applications opened)",
+    "url": "https://careers.ti.com/search-jobs/intern/"
+  },
+  "pw::https://careers.synopsys.com/search-jobs/intern/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Synopsys (may mean applications opened)",
+    "url": "https://careers.synopsys.com/search-jobs/intern/"
+  },
+  "pw::https://careers.arm.com/search-jobs/intern/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Arm (may mean applications opened)",
+    "url": "https://careers.arm.com/search-jobs/intern/"
+  },
+  "pw::https://jobs.renesas.com/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Renesas (may mean applications opened)",
+    "url": "https://jobs.renesas.com/"
+  },
+  "pw::https://www.infineon.com/careers::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Infineon (may mean applications opened)",
+    "url": "https://www.infineon.com/careers"
+  },
+  "pw::https://careers.skyworksinc.com/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Skyworks (may mean applications opened)",
+    "url": "https://careers.skyworksinc.com/"
+  },
+  "pw::https://careers.qorvo.com/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Qorvo (may mean applications opened)",
+    "url": "https://careers.qorvo.com/"
+  },
+  "pw::https://careers.seagate.com/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Seagate (may mean applications opened)",
+    "url": "https://careers.seagate.com/"
+  },
+  "pw::https://www.sifive.com/careers::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: SiFive (RISC-V) (may mean applications opened)",
+    "url": "https://www.sifive.com/careers"
+  },
+  "pw::https://rivosinc.com/careers/::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: Rivos (may mean applications opened)",
+    "url": "https://rivosinc.com/careers/"
+  },
+  "pw::https://cerebras.ai/careers::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Cerebras (may mean applications opened)",
+    "url": "https://cerebras.ai/careers"
+  },
+  "pw::https://groq.com/careers/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Groq (may mean applications opened)",
+    "url": "https://groq.com/careers/"
+  },
+  "pw::https://sambanova.ai/careers::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: SambaNova (may mean applications opened)",
+    "url": "https://sambanova.ai/careers"
+  },
+  "pw::https://www.d-matrix.ai/careers/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: d-Matrix (may mean applications opened)",
+    "url": "https://www.d-matrix.ai/careers/"
+  },
+  "pw::https://www.enchargeai.com/careers::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: EnCharge AI (may mean applications opened)",
+    "url": "https://www.enchargeai.com/careers"
+  },
+  "pw::https://www.lockheedmartinjobs.com/search-jobs::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Lockheed Martin (search) (may mean applications opened)",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "pw::https://careers.l3harris.com/en/new-grads-and-interns::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: L3Harris (new grads & interns) (may mean applications opened)",
+    "url": "https://careers.l3harris.com/en/new-grads-and-interns"
+  },
+  "pw::https://www.boozallen.com/careers.html::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: Booz Allen careers (may mean applications opened)",
+    "url": "https://www.boozallen.com/careers.html"
+  },
+  "pw::https://www.jhuapl.edu/careers/internships::#97a5e41b45ddd2b2": {
+    "title": "Page changed - check Page: Johns Hopkins APL (may mean applications opened)",
+    "url": "https://www.jhuapl.edu/careers/internships"
+  },
+  "pw::https://www.sandia.gov/careers/students-postdocs/internships/::#97a5e41b45ddd2b2": {
+    "title": "Page changed - check Page: Sandia internships (may mean applications opened)",
+    "url": "https://www.sandia.gov/careers/students-postdocs/internships/"
+  },
+  "pw::https://data-science.llnl.gov/dssi::#97a5e41b45ddd2b2": {
+    "title": "Page changed - check Page: LLNL DSSI (may mean applications opened)",
+    "url": "https://data-science.llnl.gov/dssi"
+  },
+  "pw::https://www.jpl.nasa.gov/edu/internships/::#97a5e41b45ddd2b2": {
+    "title": "Page changed - check Page: JPL internships (may mean applications opened)",
+    "url": "https://www.jpl.nasa.gov/edu/internships/"
+  },
+  "pw::https://intern.nasa.gov/::#06ec365c9633264a": {
+    "title": "Page changed - check Page: NASA OSTEM internships (may mean applications opened)",
+    "url": "https://intern.nasa.gov/"
+  },
+  "pw::https://science.osti.gov/wdts/suli::#886898baef698bb4": {
+    "title": "Page changed - check Page: DOE SULI (may mean applications opened)",
+    "url": "https://science.osti.gov/wdts/suli"
+  },
+  "pw::https://etap.nsf.gov/::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: NSF ETAP (all NSF REUs) (may mean applications opened)",
+    "url": "https://etap.nsf.gov/"
+  },
+  "pw::https://www.pathwaystoscience.org/::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: Pathways to Science (REU database) (may mean applications opened)",
+    "url": "https://www.pathwaystoscience.org/"
+  },
+  "pw::https://careers.gatech.edu/::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: GTRI student assistant roles (may mean applications opened)",
+    "url": "https://careers.gatech.edu/"
+  },
+  "pw::https://raw.githubusercontent.com/karanwxliaa/research-for-ug-students/main/readme.md::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: karanwxliaa research-for-UG list (may mean applications opened)",
+    "url": "https://raw.githubusercontent.com/karanwxliaa/Research-for-UG-Students/main/README.md"
+  },
+  "pw::https://www.google.com/about/careers/applications/jobs/results?employment_type=intern::#5fecf29568bc90fe": {
+    "title": "Page changed - check Page: Google Careers (interns) (may mean applications opened)",
+    "url": "https://www.google.com/about/careers/applications/jobs/results?employment_type=INTERN"
+  },
+  "pw::https://careers.microsoft.com/v2/global/en/students.html::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Page: Microsoft Careers (may mean applications opened)",
+    "url": "https://careers.microsoft.com/v2/global/en/students.html"
+  },
+  "pw::https://jobs.apple.com/en-us/search?team=internships-stdnt-intrn::#5fecf29568bc90fe": {
+    "title": "Page changed - check Page: Apple Jobs (may mean applications opened)",
+    "url": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
   }
 }
