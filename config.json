@@ -429,14 +429,6 @@
       "verified": true
     },
     {
-      "name": "Chip: Plexus",
-      "ats": "workday",
-      "host": "plexus.wd5.myworkdayjobs.com",
-      "tenant": "plexus",
-      "site": "Plexus_Careers",
-      "verified": true
-    },
-    {
       "name": "Chip: Tenstorrent (university)",
       "ats": "greenhouse",
       "token": "tenstorrentuniversity",
@@ -484,12 +476,6 @@
       "token": "etched",
       "verified": true,
       "note": "posts 'ASIC Intern'"
-    },
-    {
-      "name": "Chip: Atomic Semi",
-      "ats": "ashby",
-      "token": "atomicsemi",
-      "verified": true
     },
     {
       "name": "Chip: Astera Labs",
@@ -733,12 +719,6 @@
       "note": "posts 'Signal Processing' + firmware intern roles"
     },
     {
-      "name": "Hardware: AnySignal",
-      "ats": "lever",
-      "token": "anysignal",
-      "verified": true
-    },
-    {
       "name": "Hardware: Reflect Orbital",
       "ats": "ashby",
       "token": "reflect-orbital",
@@ -817,19 +797,17 @@
       "digest": false
     },
     {
-      "name": "Page: Broadcom",
-      "ats": "pagewatch",
-      "url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
-      "watch_keywords": [
-        "intern",
-        "2027"
-      ],
-      "digest": false
+      "name": "Chip: Broadcom",
+      "ats": "workday",
+      "host": "broadcom.wd1.myworkdayjobs.com",
+      "tenant": "broadcom",
+      "site": "External_Career",
+      "verified": true
     },
     {
       "name": "Page: Lattice Semiconductor (FPGA)",
       "ats": "pagewatch",
-      "url": "https://careers.latticesemi.com/",
+      "url": "https://careers-latticesemi.icims.com/jobs/intro",
       "watch_keywords": [
         "intern",
         "2027"
@@ -839,7 +817,7 @@
     {
       "name": "Page: Renesas",
       "ats": "pagewatch",
-      "url": "https://careers.renesas.com/jobs",
+      "url": "https://jobs.renesas.com/",
       "watch_keywords": [
         "intern",
         "2027"
@@ -849,7 +827,7 @@
     {
       "name": "Page: Infineon",
       "ats": "pagewatch",
-      "url": "https://www.infineon.com/cms/en/careers/job-search/",
+      "url": "https://www.infineon.com/careers",
       "watch_keywords": [
         "intern",
         "2027"
@@ -859,7 +837,7 @@
     {
       "name": "Page: onsemi",
       "ats": "pagewatch",
-      "url": "https://careers.onsemi.com/",
+      "url": "https://www.onsemi.com/careers/career-opportunities",
       "watch_keywords": [
         "intern",
         "2027"
@@ -897,24 +875,11 @@
       "digest": false
     },
     {
-      "name": "Page: Cirrus Logic",
-      "ats": "pagewatch",
-      "url": "https://cirrus.wd1.myworkdayjobs.com/CirrusLogicCareers",
-      "watch_keywords": [
-        "intern",
-        "2027"
-      ],
-      "digest": false
-    },
-    {
-      "name": "Page: Ampere Computing",
-      "ats": "pagewatch",
-      "url": "https://amperecomputing.com/careers/",
-      "watch_keywords": [
-        "intern",
-        "2027"
-      ],
-      "digest": false
+      "name": "Chip: Cirrus Logic",
+      "ats": "workday",
+      "host": "cirrus.wd1.myworkdayjobs.com",
+      "tenant": "cirrus",
+      "site": "CirrusLogicCareers"
     },
     {
       "name": "Page: SiFive (RISC-V)",
@@ -977,29 +942,9 @@
       "digest": false
     },
     {
-      "name": "Page: Ayar Labs",
-      "ats": "pagewatch",
-      "url": "https://ayarlabs.com/careers/",
-      "watch_keywords": [
-        "intern",
-        "2027"
-      ],
-      "digest": false
-    },
-    {
       "name": "Page: EnCharge AI",
       "ats": "pagewatch",
       "url": "https://www.enchargeai.com/careers",
-      "watch_keywords": [
-        "intern",
-        "2027"
-      ],
-      "digest": false
-    },
-    {
-      "name": "Page: Untether AI",
-      "ats": "pagewatch",
-      "url": "https://www.untether.ai/careers/",
       "watch_keywords": [
         "intern",
         "2027"
@@ -1027,26 +972,6 @@
       "digest": false
     },
     {
-      "name": "Page: General Dynamics Mission Systems",
-      "ats": "pagewatch",
-      "url": "https://careers-gdms.icims.com/jobs/search?ss=1&searchKeyword=intern",
-      "watch_keywords": [
-        "2027",
-        "intern"
-      ],
-      "digest": false
-    },
-    {
-      "name": "Page: Leidos careers",
-      "ats": "pagewatch",
-      "url": "https://careers.leidos.com/",
-      "watch_keywords": [
-        "2027",
-        "intern"
-      ],
-      "digest": false
-    },
-    {
       "name": "Page: Booz Allen careers",
       "ats": "pagewatch",
       "url": "https://www.boozallen.com/careers.html",
@@ -1057,29 +982,9 @@
       "digest": false
     },
     {
-      "name": "Page: MITRE students",
-      "ats": "pagewatch",
-      "url": "https://www.mitre.org/careers/student-programs",
-      "watch_keywords": [
-        "2027",
-        "intern"
-      ],
-      "digest": false
-    },
-    {
       "name": "Page: Johns Hopkins APL",
       "ats": "pagewatch",
       "url": "https://www.jhuapl.edu/careers/internships",
-      "watch_keywords": [
-        "2027",
-        "apply"
-      ],
-      "digest": false
-    },
-    {
-      "name": "Page: MIT Lincoln Laboratory",
-      "ats": "pagewatch",
-      "url": "https://www.ll.mit.edu/careers/entry-professionals/internships-cooperative-programs",
       "watch_keywords": [
         "2027",
         "apply"
@@ -1109,7 +1014,7 @@
     {
       "name": "Page: JPL internships",
       "ats": "pagewatch",
-      "url": "https://www.jpl.nasa.gov/careers/internships/",
+      "url": "https://www.jpl.nasa.gov/edu/internships/",
       "watch_keywords": [
         "2027",
         "apply"
@@ -1135,17 +1040,6 @@
         "2027",
         "now accepting",
         "application"
-      ],
-      "digest": false
-    },
-    {
-      "name": "Page: NREIP",
-      "ats": "pagewatch",
-      "url": "https://nreip.asee.org/",
-      "watch_keywords": [
-        "2027",
-        "application",
-        "now open"
       ],
       "digest": false
     },
@@ -1213,17 +1107,6 @@
       "digest": false
     },
     {
-      "name": "Page: Meta Careers (internships)",
-      "ats": "pagewatch",
-      "url": "https://www.metacareers.com/jobs",
-      "watch_keywords": [
-        "2027",
-        "intern"
-      ],
-      "note": "JS-heavy SPA - weak signal; also set Meta's own job alert",
-      "digest": false
-    },
-    {
       "name": "Page: Apple Jobs",
       "ats": "pagewatch",
       "url": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN",
@@ -1273,9 +1156,9 @@
       "digest": true
     },
     {
-      "name": "Program: Efabless chipIgnite shuttles",
+      "name": "Program: ChipFoundry (ex-Efabless) chipIgnite shuttles",
       "ats": "pagewatch",
-      "url": "https://efabless.com/chipignite",
+      "url": "https://chipfoundry.io/",
       "watch_keywords": [
         "2027",
         "apply",
@@ -1288,18 +1171,6 @@
       "name": "Program: Google/SkyWater open MPW shuttle",
       "ats": "pagewatch",
       "url": "https://developers.google.com/silicon",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: Intel/Altera university program",
-      "ats": "pagewatch",
-      "url": "https://www.intel.com/content/www/us/en/education/university-program.html",
       "watch_keywords": [
         "2027",
         "apply",
@@ -1359,7 +1230,7 @@
     {
       "name": "Conference: DAC student research + Young Fellows",
       "ats": "pagewatch",
-      "url": "https://www.dac.com/Conference/Student-Research-Forum",
+      "url": "https://dac.com/2026/dac-young-fellows",
       "watch_keywords": [
         "2027",
         "apply",
@@ -1371,7 +1242,7 @@
     {
       "name": "Conference: ISSCC student programs",
       "ats": "pagewatch",
-      "url": "https://www.isscc.org/student-programs",
+      "url": "https://www.isscc.org/",
       "watch_keywords": [
         "2027",
         "apply",
@@ -1576,7 +1447,7 @@
     {
       "name": "Lab: NREIP (Navy research)",
       "ats": "pagewatch",
-      "url": "https://navalsteminterns.us/nreip/",
+      "url": "https://www.onr.navy.mil/education-outreach/undergraduate-graduate/nreip-naval-internship",
       "watch_keywords": [
         "2027",
         "application",
@@ -1617,36 +1488,12 @@
     {
       "name": "Lab: MIT Haystack REU (radar/DSP)",
       "ats": "pagewatch",
-      "url": "https://www.haystack.mit.edu/haystack-public-outreach/reu-research-experience-for-undergraduates/",
+      "url": "https://www.haystack.mit.edu/",
       "watch_keywords": [
         "2027",
         "apply",
         "deadline",
         "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Lab: NRAO REU (radio astronomy DSP/FPGA)",
-      "ats": "pagewatch",
-      "url": "https://science.nrao.edu/opportunities/student-programs",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "NatSec: NSA Codebreaker (fall launch)",
-      "ats": "pagewatch",
-      "url": "https://nsa-codebreaker.org/",
-      "watch_keywords": [
-        "challenge",
-        "register",
-        "2026",
-        "2027"
       ],
       "digest": true
     },
