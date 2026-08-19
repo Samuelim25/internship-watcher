@@ -1,25 +1,25 @@
-name: Watcher (weekly competitions digest)
+name: Watcher (chip-design internships + weekly digest)
 
 on:
   schedule:
-    # Sunday 14:00 UTC (~10am ET): weekly competitions/programs/scholarships
-    # digest.
+    # Sunday 14:00 UTC (~10am ET): weekly chip-design programs / shuttles /
+    # conference student programs / scholarships digest.
     - cron: "0 14 * * 0"
-    # Hourly role sweep. REINSTATED 2026-08-07, but narrowed: top-tier quant
-    # firms only, Fall-2027 cycle only (Alex has a Summer 2027 offer and is
-    # interviewing with Citadel for Fall 2027 SWE). Controlled by
-    # `top_firms_only` / `fall_2027_only` in config.json -> filters.
+    # Hourly role sweep for Summer 2027 FPGA / ASIC / RTL / DSP design
+    # internships. Retuned 2026-08-19. Controlled by `top_firms_only` (off) and
+    # `summer_2027_only` (on) in config.json -> filters.
     - cron: "0 * * * *"
   workflow_dispatch:      # "Run workflow" button
     inputs:
       mode:
         description: "What to run"
         required: false
-        default: digest
+        default: internships
         type: choice
         options:
-          - digest        # competitions/programs digest (the live one)
-          - internships   # full internship sweep (paused; manual only)
+          - internships   # full chip-design role sweep
+          - digest        # programs/shuttles/scholarships digest
+          - verify        # probe every source, report the dead ones
 
 permissions:
   contents: write          # allows committing the updated seen_jobs.json
@@ -53,10 +53,21 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
           USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
-          # Digest on the Sunday cron, and on a manual run unless "internships"
-          # was explicitly chosen.
+          # Digest ONLY on the Sunday cron or an explicit "digest" run --
+          # every other trigger runs the role sweep.
           DIGEST_MODE: ${{ (github.event.schedule == '0 14 * * 0' || github.event.inputs.mode == 'digest') && '1' || '0' }}
+        if: ${{ github.event.inputs.mode != 'verify' }}
         run: python watcher.py
+
+      # A mistyped ATS token returns zero jobs instead of raising, which is
+      # indistinguishable from "nothing is open". This surfaces those.
+      - name: Verify sources
+        if: ${{ github.event.inputs.mode == 'verify' }}
+        run: python verify_sources.py
+
+      - name: Run filter regression tests
+        if: ${{ github.event.inputs.mode == 'verify' }}
+        run: python test_filters.py
 
       - name: Save state
         run: |
