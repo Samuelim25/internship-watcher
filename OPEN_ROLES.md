@@ -1,9 +1,10 @@
 # Open roles right now
 
-_Auto-generated each run; do not hand-edit. Last update: 2026-08-20 09:50 UTC. 103 posting(s) currently open and matching filters._
+_Auto-generated each run; do not hand-edit. Last update: 2026-08-20 10:45 UTC. 106 posting(s) currently open and matching filters._
 
-## AUTO-DISCOVER (all boards found in trackers) (47)
+## AUTO-DISCOVER (all boards found in trackers) (49)
 
+- [spacex — Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) — Flexible - Any SpaceX Site
 - [nvidia — NVIDIA 2027 Internships: Hardware ASIC Design](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) — US, CA, Santa Clara
 - [nvidia — NVIDIA 2027 Internships: Deep Learning Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491) — US, CA, Santa Clara
 - [nvidia — NVIDIA 2027 Internships: Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489) — US, CA, Santa Clara
@@ -13,7 +14,8 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-08-20 09:50 UTC. 1
 - [thales — Hardware Obsolescence Engineer - Internship (Open also to Protected Categories, Law 68/99)](https://thales.wd3.myworkdayjobs.com/en-US/careers/job/Gorgonzola/Hardware-Obsolescence-Engineer---Internship--Open-also-to-Protected-Categories--Law-68-99-_R0333671) — Gorgonzola
 - [andurilindustries — 2027 Electrical Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) — Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States
 - [virtu — 2027 Internship- Hardware Engineer (FPGA)](https://job-boards.greenhouse.io/virtu/jobs/8657286002) — Austin, TX
-- [spacex — Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) — Flexible - Any SpaceX Site
+- [BoschGroup — (EDT) Intern for Embedded Testing](https://jobs.smartrecruiters.com/BoschGroup/744000144514639) — Tân Bình, Hồ Chí Minh, vn
+- [BoschGroup — (EDA) Intern for Embedded Developer](https://jobs.smartrecruiters.com/BoschGroup/744000144513250) — Tân Bình, Thành phố Hồ Chí Minh, vn
 - [hyannisportresearch — FPGA Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) — Needham, MA
 - [axontalentcommunity — 2027 US Electrical Engineering Internship](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837252003) — Scottsdale, Arizona, United States
 - [axontalentcommunity — US Firmware Engineering Internship](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003) — Seattle, Washington, United States
@@ -24,22 +26,22 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-08-20 09:50 UTC. 1
 - [neuralink — Firmware Engineer Intern, Robotics and Surgery Engineering](https://boards.greenhouse.io/neuralink/jobs/6648992003?gh_jid=6648992003) — South San Francisco, California, United States
 - [neuralink — Manufacturing Intern, Surgery & Robot Hardware](https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003) — South San Francisco, California, United States
 - [WesternDigital — Intern, Firmware Engineering](https://jobs.smartrecruiters.com/WesternDigital/744000141840819) — Petaling Jaya, Selangor, my
-- [imc — Hardware Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823945101) — Chicago, United States
 - [globalhr — RF Design Electrical Engineer Intern (Summer 2027)(Onsite)](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/RF-Design-Electrical-Engineer-Intern--Summer-2027--Onsite-_01866250) — US-AZ-TUCSON-M02 ~ 1151 E Hermans Rd ~ BLDG M02
 - [globalhr — Radar Digital Products Engineering Intern (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Radar-Digital-Products-Engineering-Intern--Summer-2027-_01866243) — US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG
 - [globalhr — Intern Radar Systems Special Test Equipment (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Intern-Radar-Systems-Special-Test-Equipment--Summer-2027-_01867448) — US-CA-EL SEGUNDO-R01 ~ 2000 E Imperial Hwy ~ BLDG R01
+- [imc — Hardware Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823945101) — Chicago, United States
 - [freeformfuturecorp — Electrical Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7895657003) — Los Angeles, CA (On-site)
-- [diversified-automation — Hardware Engineering Co-Op](https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146) — Louisville, KY
 - [generac — Intern- Electrical Engineering](https://generac.wd5.myworkdayjobs.com/en-US/external/job/Reno-NV---USA/Intern--Electrical-Engineering_JR16148) — Reno, NV - USA
-- [motorolasolutions — Electrical Engineer Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67781) — Plantation, FL
+- [diversified-automation — Hardware Engineering Co-Op](https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146) — Louisville, KY
 - [drweng — FPGA Intern](https://job-boards.greenhouse.io/drweng/jobs/8038923) — Chicago
+- [motorolasolutions — Electrical Engineer Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67781) — Plantation, FL
 - [windborne-systems — Electrical Engineer Intern](https://jobs.ashbyhq.com/windborne-systems/a0adb58d-37e7-4e37-abf5-c77d63d4dd8f) — RWC HQ
 - [flir — Computer Engineering Intern](https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Lincoln-NE/Computer-Engineering-Intern_REQ29119) — US - Lincoln, NE
 - [flir — Electrical Engineering Intern](https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Miamisburg-OH/Electrical-Engineering-Intern_REQ35563) — US - Miamisburg, OH
 - [chevron — 2026-2027 Facilities Engineering Electrical Engineering Intern](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Facilities-Engineering-Electrical-Engineering-Intern_R000072378) — 13 Locations
+- [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) — Peachtree Corners, GA
 - [base-power — Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) — Austin, TX
 - [base-power — Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) — Austin, TX
-- [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) — Peachtree Corners, GA
 - [nidec — Electrical Engineering Co-op](https://nidec.wd1.myworkdayjobs.com/en-US/nidec/job/North-AmericaUSAArkansasFt-Smith-AR/Electrical-Engineering-Co-op_R0017331) — North America/USA/Arkansas/Ft. Smith, AR
 - [nxp — Internship: Python Tooling & Embedded Systems (C) (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Software-Support-in-NFC-Customer-Application-Support-Team--m-f-d-_R-10063612) — Gratkorn
 - [nxp — Internship - Hardware Robustness for SMI Register Interfaces in Automotive PHY Chips](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Hardware-Robustness-for-SMI-Register-Interfaces-in-Automotive-PHY-Chips_R-10064294-1) — Eindhoven
@@ -104,6 +106,10 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-08-20 09:50 UTC. 1
 ## Page: EnCharge AI (1)
 
 - [Page: EnCharge AI — Page changed - check Page: EnCharge AI (may mean applications opened)](https://www.enchargeai.com/careers)
+
+## Page: GTRI student assistant roles (1)
+
+- [Page: GTRI student assistant roles — Page changed - check Page: GTRI student assistant roles (may mean applications opened)](https://careers.gatech.edu/)
 
 ## Page: Google Careers (interns) (1)
 
