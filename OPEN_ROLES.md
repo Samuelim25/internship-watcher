@@ -1,8 +1,8 @@
 # Open roles right now
 
-_Auto-generated each run; do not hand-edit. Last update: 2026-08-20 16:51 UTC. 110 posting(s) currently open and matching filters._
+_Auto-generated each run; do not hand-edit. Last update: 2026-08-20 17:46 UTC. 108 posting(s) currently open and matching filters._
 
-## AUTO-DISCOVER (all boards found in trackers) (50)
+## AUTO-DISCOVER (all boards found in trackers) (48)
 
 - [spacex — Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) — Flexible - Any SpaceX Site
 - [nvidia — NVIDIA 2027 Internships: Hardware ASIC Design](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) — US, CA, Santa Clara
@@ -17,15 +17,13 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-08-20 16:51 UTC. 1
 - [BoschGroup — (EDT) Intern for Embedded Testing](https://jobs.smartrecruiters.com/BoschGroup/744000144514639) — Tân Bình, Hồ Chí Minh, vn
 - [BoschGroup — (EDA) Intern for Embedded Developer](https://jobs.smartrecruiters.com/BoschGroup/744000144513250) — Tân Bình, Thành phố Hồ Chí Minh, vn
 - [hyannisportresearch — FPGA Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) — Needham, MA
-- [axontalentcommunity — 2027 US Electrical Engineering Internship](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837252003) — Scottsdale, Arizona, United States
-- [axontalentcommunity — US Firmware Engineering Internship](https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837246003) — Seattle, Washington, United States
 - [mosaic — Electrical Engineer Co-Op/Intern - Summer 2027](https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/US---Bartow-FL/Electrical-Engineer-Co-Op-Intern---Summer-2027_64428) — 2 Locations
 - [mosaic — Electrical Engineer/Technologist Co-op Student - Summer 2027](https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/CA---Esterhazy-SK/Electrical-Engineer-Technologist-Co-op-Student---Summer-2027_64714) — 2 Locations
-- [WesternDigital — Intern, Firmware Engineering](https://jobs.smartrecruiters.com/WesternDigital/744000141840819) — Petaling Jaya, Selangor, my
 - [neuralink — Electrical Engineer Intern, Implant Embedded Systems](https://boards.greenhouse.io/neuralink/jobs/7702527003?gh_jid=7702527003) — Austin, Texas, United States; South San Francisco, California, United States
 - [neuralink — Embedded Software Engineer Intern, Implant Embedded Systems](https://boards.greenhouse.io/neuralink/jobs/6283663003?gh_jid=6283663003) — Austin, Texas, United States; South San Francisco, California, United States
 - [neuralink — Firmware Engineer Intern, Robotics and Surgery Engineering](https://boards.greenhouse.io/neuralink/jobs/6648992003?gh_jid=6648992003) — South San Francisco, California, United States
 - [neuralink — Manufacturing Intern, Surgery & Robot Hardware](https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003) — South San Francisco, California, United States
+- [WesternDigital — Intern, Firmware Engineering](https://jobs.smartrecruiters.com/WesternDigital/744000141840819) — Petaling Jaya, Selangor, my
 - [globalhr — RF Design Electrical Engineer Intern (Summer 2027)(Onsite)](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/RF-Design-Electrical-Engineer-Intern--Summer-2027--Onsite-_01866250) — US-AZ-TUCSON-M02 ~ 1151 E Hermans Rd ~ BLDG M02
 - [globalhr — Radar Digital Products Engineering Intern (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Radar-Digital-Products-Engineering-Intern--Summer-2027-_01866243) — US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG
 - [globalhr — Intern Radar Systems Special Test Equipment (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Intern-Radar-Systems-Special-Test-Equipment--Summer-2027-_01867448) — US-CA-EL SEGUNDO-R01 ~ 2000 E Imperial Hwy ~ BLDG R01
