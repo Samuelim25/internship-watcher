@@ -1,6 +1,6 @@
 # Open roles right now
 
-_Auto-generated each run; do not hand-edit. Last update: 2026-08-21 04:55 UTC. 109 posting(s) currently open and matching filters._
+_Auto-generated each run; do not hand-edit. Last update: 2026-08-21 05:47 UTC. 109 posting(s) currently open and matching filters._
 
 ## AUTO-DISCOVER (all boards found in trackers) (48)
 
@@ -33,14 +33,14 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-08-21 04:55 UTC. 1
 - [diversified-automation — Hardware Engineering Co-Op](https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146) — Louisville, KY
 - [generac — Intern- Electrical Engineering](https://generac.wd5.myworkdayjobs.com/en-US/external/job/Reno-NV---USA/Intern--Electrical-Engineering_JR16148) — Reno, NV - USA
 - [drweng — FPGA Intern](https://job-boards.greenhouse.io/drweng/jobs/8038923) — Chicago
+- [windborne-systems — Electrical Engineer Intern](https://jobs.ashbyhq.com/windborne-systems/a0adb58d-37e7-4e37-abf5-c77d63d4dd8f) — RWC HQ
+- [motorolasolutions — Electrical Engineer Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67781) — Plantation, FL
 - [flir — Computer Engineering Intern](https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Lincoln-NE/Computer-Engineering-Intern_REQ29119) — US - Lincoln, NE
 - [flir — Electrical Engineering Intern](https://flir.wd1.myworkdayjobs.com/en-US/flircareers/job/US---Miamisburg-OH/Electrical-Engineering-Intern_REQ35563) — US - Miamisburg, OH
-- [motorolasolutions — Electrical Engineer Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67781) — Plantation, FL
 - [chevron — 2026-2027 Facilities Engineering Electrical Engineering Intern](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Facilities-Engineering-Electrical-Engineering-Intern_R000072378) — 13 Locations
-- [windborne-systems — Electrical Engineer Intern](https://jobs.ashbyhq.com/windborne-systems/a0adb58d-37e7-4e37-abf5-c77d63d4dd8f) — RWC HQ
-- [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) — Peachtree Corners, GA
 - [base-power — Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) — Austin, TX
 - [base-power — Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) — Austin, TX
+- [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) — Peachtree Corners, GA
 - [nidec — Electrical Engineering Co-op](https://nidec.wd1.myworkdayjobs.com/en-US/nidec/job/North-AmericaUSAArkansasFt-Smith-AR/Electrical-Engineering-Co-op_R0017331) — North America/USA/Arkansas/Ft. Smith, AR
 - [agilent — Electrical Engineering Intern](https://agilent.wd5.myworkdayjobs.com/en-US/agilent_student_careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526) — US-DE-Wilmington
 - [nxp — Internship: Python Tooling & Embedded Systems (C) (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Software-Support-in-NFC-Customer-Application-Support-Team--m-f-d-_R-10063612) — Gratkorn
