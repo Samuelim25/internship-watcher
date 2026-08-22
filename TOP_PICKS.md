@@ -1,14 +1,12 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 26 of 110 open roles. Rebuilt every sweep: 2026-08-22 05:42 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 17 of 77 open roles. Rebuilt every sweep: 2026-08-22 06:54 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
 
 ## 📡 DSP / SIGNAL PROCESSING — apply first
 
-- [nxp — Internship/Thesis – Signal Processing and AI for autonomous driving ](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Internship-Thesis---Signal-Processing-and-AI-for-autonomous-driving-_R-10064090) — Eindhoven
-- [globalhr — Intern Radar Systems Special Test Equipment (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Intern-Radar-Systems-Special-Test-Equipment--Summer-2027-_01867448) — US-CA-EL SEGUNDO-R01 ~ 2000 E Imperial Hwy ~ BLDG R01
 - [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) 🇺🇸 — Peachtree Corners, GA
 
 ## 🧩 FPGA DESIGN
@@ -22,19 +20,9 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 ## 💻 ASIC / SoC / RTL DESIGN
 
-- [Chip: Micron — Intern - HBM SoC RTL Design Engineer](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Folsom-CA/Intern---HBM-SoC-RTL-Design-Engineer_JR109290) — Folsom, CA
-- [Chip: NXP — Internship – Digital Design & Generative AI Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship---Digital-Design---Generative-AI-Support--m-f-d-_R-10064592) — Gratkorn
-- [nxp — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
-- [nvidia — NVIDIA 2027 Internships: Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489) ⚡elite — US, CA, Santa Clara
-- [nvidia — NVIDIA 2027 Internships: Deep Learning Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491) ⚡elite — US, CA, Santa Clara
-- [nvidia — NVIDIA 2027 Internships: Hardware ASIC Design](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) ⚡elite — US, CA, Santa Clara
 - [Page: Apple (silicon) — Page changed - check Page: Apple (silicon) (may mean applications opened)](https://jobs.apple.com/en-us/search?team=hardware-HRDW) ⚡elite
 - [Page: Qualcomm (CPU/GPU/SoC digital design) — Page changed - check Page: Qualcomm (CPU/GPU/SoC digital design) (may mean applications opened)](https://careers.qualcomm.com/careers?query=intern) ⚡elite
 - [spacex — Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) 🇺🇸 ⚡elite — Flexible - Any SpaceX Site
-
-## Other roles at silicon & defense employers
-
-- [nvidia — NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) ⚡elite — US, CA, Santa Clara
 
 ## Everything else that matched
 
