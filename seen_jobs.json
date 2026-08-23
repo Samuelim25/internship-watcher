@@ -7534,5 +7534,89 @@
   "https://hp.wd5.myworkdayjobs.com/en-us/exteu-ac-careersite/job/corvallis-oregon-united-states-of-america/technology---innovation-organization-electrical-engineering-internship_3167270": {
     "title": "Technology & Innovation Organization Electrical Engineering Internship",
     "url": "https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Corvallis-Oregon-United-States-of-America/Technology---Innovation-Organization-Electrical-Engineering-Internship_3167270"
+  },
+  "pw::https://www.src.org/student-center/::#97a5e41b45ddd2b2": {
+    "title": "Page changed - check Program: SRC (Semiconductor Research Corp) students (may mean applications opened)",
+    "url": "https://www.src.org/student-center/"
+  },
+  "pw::https://tinytapeout.com/::#2348f99874421257": {
+    "title": "Page changed - check Program: TinyTapeout (open shuttle runs) (may mean applications opened)",
+    "url": "https://tinytapeout.com/"
+  },
+  "pw::https://chipfoundry.io/::#e6b0bad76ffe47ca": {
+    "title": "Page changed - check Program: ChipFoundry (ex-Efabless) chipIgnite shuttles (may mean applications opened)",
+    "url": "https://chipfoundry.io/"
+  },
+  "pw::https://developers.google.com/silicon::#2348f99874421257": {
+    "title": "Page changed - check Program: Google/SkyWater open MPW shuttle (may mean applications opened)",
+    "url": "https://developers.google.com/silicon"
+  },
+  "pw::https://www.amd.com/en/corporate/university-program.html::#cf519777c02e1c53": {
+    "title": "Page changed - check Program: AMD university program (Xilinx boards) (may mean applications opened)",
+    "url": "https://www.amd.com/en/corporate/university-program.html"
+  },
+  "pw::https://www.arm.com/resources/education::#2348f99874421257": {
+    "title": "Page changed - check Program: Arm Education / research programs (may mean applications opened)",
+    "url": "https://www.arm.com/resources/education"
+  },
+  "pw::https://riscv.org/community/::#2348f99874421257": {
+    "title": "Page changed - check Program: RISC-V International student programs (may mean applications opened)",
+    "url": "https://riscv.org/community/"
+  },
+  "pw::https://www.nist.gov/chips/workforce-development::#2348f99874421257": {
+    "title": "Page changed - check Program: CHIPS for America workforce (may mean applications opened)",
+    "url": "https://www.nist.gov/chips/workforce-development"
+  },
+  "pw::https://dac.com/2026/dac-young-fellows::#10601550426c7589": {
+    "title": "Page changed - check Conference: DAC student research + Young Fellows (may mean applications opened)",
+    "url": "https://dac.com/2026/dac-young-fellows"
+  },
+  "pw::https://www.isscc.org/::#e6b0bad76ffe47ca": {
+    "title": "Page changed - check Conference: ISSCC student programs (may mean applications opened)",
+    "url": "https://www.isscc.org/"
+  },
+  "pw::https://www.isfpga.org/::#5313e5bf17148de8": {
+    "title": "Page changed - check Conference: FPGA (ACM/SIGDA) symposium (may mean applications opened)",
+    "url": "https://www.isfpga.org/"
+  },
+  "pw::https://www.fccm.org/::#2e96d83bb944157e": {
+    "title": "Page changed - check Conference: FCCM (field-programmable custom computing) (may mean applications opened)",
+    "url": "https://www.fccm.org/"
+  },
+  "pw::https://www.iscaconf.org/::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Conference: MICRO / ISCA student travel + workshops (may mean applications opened)",
+    "url": "https://www.iscaconf.org/"
+  },
+  "pw::https://hotchips.org/::#2348f99874421257": {
+    "title": "Page changed - check Conference: Hot Chips (may mean applications opened)",
+    "url": "https://hotchips.org/"
+  },
+  "pw::https://www.src.org/program/grc/::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Competition: SRC SRC-Bench / student design contests (may mean applications opened)",
+    "url": "https://www.src.org/program/grc/"
+  },
+  "pw::https://www.openhw.eu/::#2348f99874421257": {
+    "title": "Page changed - check Competition: Xilinx/AMD Open Hardware design contest (may mean applications opened)",
+    "url": "https://www.openhw.eu/"
+  },
+  "pw::https://sscs.ieee.org/membership/awards::#2348f99874421257": {
+    "title": "Page changed - check Scholarship: IEEE SSCS scholarships (may mean applications opened)",
+    "url": "https://sscs.ieee.org/membership/awards"
+  },
+  "pw::https://www.semi.org/en/workforce-development::#e3b0c44298fc1c14": {
+    "title": "Page changed - check Scholarship: SEMI Foundation scholarships (may mean applications opened)",
+    "url": "https://www.semi.org/en/workforce-development"
+  },
+  "pw::https://www.onr.navy.mil/education-outreach/undergraduate-graduate/nreip-naval-internship::#dcdf3ab688634c29": {
+    "title": "Page changed - check Lab: NREIP (Navy research) (may mean applications opened)",
+    "url": "https://www.onr.navy.mil/education-outreach/undergraduate-graduate/nreip-naval-internship"
+  },
+  "pw::https://www.sandia.gov/careers/students-postdocs/internships/::#cf519777c02e1c53": {
+    "title": "Page changed - check Lab: Sandia student internships (may mean applications opened)",
+    "url": "https://www.sandia.gov/careers/students-postdocs/internships/"
+  },
+  "pw::https://www.haystack.mit.edu/::#2348f99874421257": {
+    "title": "Page changed - check Lab: MIT Haystack REU (radar/DSP) (may mean applications opened)",
+    "url": "https://www.haystack.mit.edu/"
   }
 }
