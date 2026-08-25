@@ -1,6 +1,6 @@
 # Open roles right now
 
-_Auto-generated each run; do not hand-edit. Last update: 2026-08-25 09:52 UTC. 112 posting(s) currently open and matching filters._
+_Auto-generated each run; do not hand-edit. Last update: 2026-08-25 10:49 UTC. 111 posting(s) currently open and matching filters._
 
 ## AUTO-DISCOVER (all boards found in trackers) (50)
 
@@ -34,8 +34,8 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-08-25 09:52 UTC. 1
 - [generalmatter — Summer 2027 Internship - Electrical Engineering (Buildings) ](https://job-boards.greenhouse.io/generalmatter/jobs/5376639008) — Los Angeles, CA
 - [brunswick — Electrical Engineer Intern](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Edgewater-FL/Electrical-Engineer-Intern_JR-050891) — Edgewater, FL
 - [hp — Technology & Innovation Organization Electrical Engineering Internship](https://hp.wd5.myworkdayjobs.com/en-US/exteu-ac-careersite/job/Corvallis-Oregon-United-States-of-America/Technology---Innovation-Organization-Electrical-Engineering-Internship_3167270) — Corvallis, Oregon, United States of America
-- [diversified-automation — Hardware Engineering Co-Op](https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146) — Louisville, KY
 - [drweng — FPGA Intern](https://job-boards.greenhouse.io/drweng/jobs/8038923) — Chicago
+- [diversified-automation — Hardware Engineering Co-Op](https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146) — Louisville, KY
 - [windborne-systems — Electrical Engineer Intern](https://jobs.ashbyhq.com/windborne-systems/a0adb58d-37e7-4e37-abf5-c77d63d4dd8f) — RWC HQ
 - [generac — Intern- Electrical Engineering](https://generac.wd5.myworkdayjobs.com/en-US/external/job/Reno-NV---USA/Intern--Electrical-Engineering_JR16148) — Reno, NV - USA
 - [chevron — 2026-2027 Facilities Engineering Electrical Engineering Intern](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Facilities-Engineering-Electrical-Engineering-Intern_R000072378) — 13 Locations
@@ -156,10 +156,6 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-08-25 09:52 UTC. 1
 ## Page: NSF ETAP (all NSF REUs) (1)
 
 - [Page: NSF ETAP (all NSF REUs) — Page changed - check Page: NSF ETAP (all NSF REUs) (may mean applications opened)](https://etap.nsf.gov/)
-
-## Page: Pathways to Science (REU database) (1)
-
-- [Page: Pathways to Science (REU database) — Page changed - check Page: Pathways to Science (REU database) (may mean applications opened)](https://www.pathwaystoscience.org/)
 
 ## Page: Qorvo (1)
 
