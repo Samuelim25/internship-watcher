@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 28 of 117 open roles. Rebuilt every sweep: 2026-08-25 16:58 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 29 of 118 open roles. Rebuilt every sweep: 2026-08-25 17:47 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -22,6 +22,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 ## 💻 ASIC / SoC / RTL DESIGN
 
+- [Chip: Analog Devices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
 - [Chip: Micron — Intern - HBM SoC RTL Design Engineer](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Folsom-CA/Intern---HBM-SoC-RTL-Design-Engineer_JR109290) — Folsom, CA
 - [nxp — Internship – Digital Design & Generative AI Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship---Digital-Design---Generative-AI-Support--m-f-d-_R-10064592) — Gratkorn
 - [nxp — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
