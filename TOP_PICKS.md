@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 28 of 118 open roles. Rebuilt every sweep: 2026-08-26 09:02 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 28 of 118 open roles. Rebuilt every sweep: 2026-08-26 09:59 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
