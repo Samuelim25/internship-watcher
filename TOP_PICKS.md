@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 30 of 141 open roles. Rebuilt every sweep: 2026-09-01 14:52 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 29 of 136 open roles. Rebuilt every sweep: 2026-09-01 18:30 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -22,11 +22,11 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 ## 💻 ASIC / SoC / RTL DESIGN
 
+- [Chip: Analog Devices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604277-1) — SGP - Science Park
 - [Chip: Micron — Intern  - Design Architecture, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern----Design-Architecture--HBM_JR110177) — Richardson, TX
 - [Chip: NXP — Internship – Digital Design & Generative AI Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship---Digital-Design---Generative-AI-Support--m-f-d-_R-10064592) — Gratkorn
 - [nxp — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
-- [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
 - [Daktronics — Firmware/Hardware Design Co-op Intern](https://careers-daktronics.icims.com/jobs/7518/firmware-hardware-design-co-op-intern/job) — Brookings, SD
 - [Amazon (AWS / Robotics / all) — ASIC Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027) ⚡elite — Cupertino, California, USA
 - [nvidia — NVIDIA 2027 Internships: Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489) ⚡elite — US, CA, Santa Clara
@@ -43,7 +43,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 ## Everything else that matched
 
 - [Akuna Capital — Hardware Engineer Intern](https://akunacapital.com/careers/job/8018880/?gh_jid=8018880) 🇺🇸 — Chicago, IL
-- [base-power — Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) — Austin, TX
 - [ByteDance — GPU/AI Application System Software Engineer Intern](https://joinbytedance.com/search/7668464504736876853) — San Jose, CA
 - [diversified-automation — Hardware Engineering Co-Op](https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146) — Louisville, KY
 - [IMC — Hardware Engineer Intern](https://www.imc.com/us/careers/jobs/4823945101) — Chicago, IL
