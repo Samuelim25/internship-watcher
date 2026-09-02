@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 30 of 151 open roles. Rebuilt every sweep: 2026-09-02 18:41 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 32 of 155 open roles. Rebuilt every sweep: 2026-09-02 21:52 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -46,6 +46,8 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Akuna Capital — Hardware Engineer Intern](https://akunacapital.com/careers/job/8018880/?gh_jid=8018880) 🇺🇸 — Chicago, IL
 - [ByteDance — GPU/AI Application System Software Engineer Intern](https://joinbytedance.com/search/7668464504736876853) — San Jose, CA
 - [diversified-automation — Hardware Engineering Co-Op](https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146) — Louisville, KY
+- [hpe — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213408) — 2 Locations
+- [hpe — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213421) — Spring, Texas, United States of America
 - [IMC — Hardware Engineer Intern](https://www.imc.com/us/careers/jobs/4823945101) — Chicago, IL
 - [imc — Hardware Engineer Intern - Summer 2027](https://job-boards.eu.greenhouse.io/imc/jobs/4823945101) — Chicago, United States
 - [Nightwing — Software / Hardware Engineering Intern](https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733) 🇺🇸 — Annapolis Junction, MD
