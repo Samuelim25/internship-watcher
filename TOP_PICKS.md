@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 34 of 178 open roles. Rebuilt every sweep: 2026-09-05 19:04 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 35 of 181 open roles. Rebuilt every sweep: 2026-09-05 21:14 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -37,6 +37,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [nvidia — NVIDIA 2027 Internships: Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489) ⚡elite — US, CA, Santa Clara
 - [nvidia — NVIDIA 2027 Internships: Deep Learning Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491) ⚡elite — US, CA, Santa Clara
 - [nvidia — NVIDIA 2027 Internships: Hardware ASIC Design](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) ⚡elite — US, CA, Santa Clara
+- [Page: Apple (silicon) — Page changed - check Page: Apple (silicon) (may mean applications opened)](https://jobs.apple.com/en-us/search?team=hardware-HRDW) ⚡elite
 - [Page: Qualcomm (CPU/GPU/SoC digital design) — Page changed - check Page: Qualcomm (CPU/GPU/SoC digital design) (may mean applications opened)](https://careers.qualcomm.com/careers?query=intern) ⚡elite
 - [spacex — Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) 🇺🇸 ⚡elite — Flexible - Any SpaceX Site
 
