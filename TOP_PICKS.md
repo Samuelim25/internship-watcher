@@ -1,12 +1,13 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 37 of 182 open roles. Rebuilt every sweep: 2026-09-07 06:03 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 39 of 183 open roles. Rebuilt every sweep: 2026-09-07 12:26 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
 
 ## 📡 DSP / SIGNAL PROCESSING — apply first
 
+- [Chip: NXP — Embedded Machine Learning & Radar Processing Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/Embedded-Machine-Learning---Radar-Processing-Intern---Summer-2027_R-10065534) — San Jose (Holger Way)
 - [Chip: NXP — Internship/Thesis – Signal Processing and AI for autonomous driving ](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Internship-Thesis---Signal-Processing-and-AI-for-autonomous-driving-_R-10064090) — Eindhoven
 - [bah — University - Summer 2027 Electronic Warfare FPGA Engineering Intern](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Beavercreek-OH/University---Summer-2027-Electronic-Warfare-FPGA-Engineering-Intern_R0248465-1) — Beavercreek, OH
 - [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) 🇺🇸 — Peachtree Corners, GA
@@ -24,6 +25,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604277-1) — SGP - Science Park
 - [Chip: Micron — Intern  - Design Architecture, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern----Design-Architecture--HBM_JR110177) — Richardson, TX
+- [Chip: NXP — AI/ML ASIC Design and Implementation Automation Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Diego-Treena-St/AI-ML-ASIC-Design-and-Implementation-Automation-Intern---Summer-2027_R-10065562) — San Diego (Treena St)
 - [Chip: NXP — Internship – Digital Design & Generative AI Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship---Digital-Design---Generative-AI-Support--m-f-d-_R-10064592) — Gratkorn
 - [Chip: NXP — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
 - [nxp — Digital Design Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Summer-2027_R-10065551) — Austin (Oakhill, Office)
