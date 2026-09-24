@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 73 of 296 open roles. Rebuilt every sweep: 2026-09-24 19:09 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 73 of 294 open roles. Rebuilt every sweep: 2026-09-24 22:26 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -39,7 +39,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: Micron — Intern - ASIC Digital Design](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163) — Minneapolis, MN
 - [Chip: Micron — Intern - Design Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR111814) — Richardson, TX
 - [Chip: Micron — Intern - Design Engineer, HIG HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Engineer--HIG-HBM_JR112512) — Richardson, TX
-- [Chip: Micron — Intern - Semiconductor Research & Technology Development](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Albany-NY/Intern---Semiconductor-Research---Technology-Development_JR110876) — Albany, NY
 - [Chip: Micron — Intern Design Engineer - HIG HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern-Design-Engineer---HIG-HBM_JR112516) — Richardson, TX
 - [Chip: NXP — Digital Design Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Spring-2027_R-10065537) — Austin (Oakhill, Office)
 - [Chip: NXP — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
@@ -58,6 +57,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [hpe — VLSI Engineer Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/VLSI-Engineer-Intern_1213422) — Spring, Texas, United States of America
 - [togetherai — Systems Research Engineer Intern - GPU Programming (Summer 2027)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) — San Francisco
 - [Amazon (AWS / Robotics / all) — ASIC Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027) ⚡elite — Cupertino, California, USA
+- [Chip: Marvell — Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525) ⚡elite — 2 Locations
 - [intel — Silicon Hardware Engineering - Intern, Bachelor’s](https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829) ⚡elite — 5 Locations
 - [intel — Silicon Hardware Engineering - Intern, Graduate](https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Graduate_JR0286830) ⚡elite — 5 Locations
 - [marvell — Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525) ⚡elite — 2 Locations
