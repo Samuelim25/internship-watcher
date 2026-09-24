@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 69 of 293 open roles. Rebuilt every sweep: 2026-09-24 04:38 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 69 of 291 open roles. Rebuilt every sweep: 2026-09-24 10:00 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -8,7 +8,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 ## 📡 DSP / SIGNAL PROCESSING — apply first
 
 - [Chip: NXP — Embedded Machine Learning & Radar Processing Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/Embedded-Machine-Learning---Radar-Processing-Intern---Summer-2027_R-10065534) — San Jose (Holger Way)
-- [Chip: NXP — Internship/Thesis – Signal Processing and AI for autonomous driving ](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Internship-Thesis---Signal-Processing-and-AI-for-autonomous-driving-_R-10064090) — Eindhoven
+- [Chip: NXP — Intern (f/m/d) Agentic AI for Signal Processing in Embedded Systems](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Intern--f-m-d--Agentic-AI-for-Signal-Processing-in-Embedded-Systems_R-10064059) — 2 Locations
 - [Defense: The Aerospace Corporation — 2027 Communication Systems and Signal Processing Graduate Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Communication-Systems-and-Signal-Processing-Graduate-Intern_R016555) — El Segundo, CA
 - [Defense: The Aerospace Corporation — 2027 Communication Systems and Signal Processing Undergrad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Communication-Systems-and-Signal-Processing-Undergrad-Intern_R016600) — El Segundo, CA
 - [Defense: The Aerospace Corporation — 2027 SDR/Digital Signal Processing Undergraduate Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/Chantilly-VA/XMLNAME-2027-SDR-Digital-Signal-Processing-Undergraduate-Intern_R016558) — Chantilly, VA
