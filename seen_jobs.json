@@ -8912,7 +8912,7 @@
     "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1"
   },
   "https://jobs.ashbyhq.com/rivianvw.tech/f421a524-72da-4dd6-a549-bbee9e98622e": {
-    "title": "Embedded Systems Software Engineering Intern at UIUC Research Park - January - August 2027",
+    "title": "Embedded Systems Software Engineering Intern at UIUC Research Park - RVT-1644",
     "url": "https://jobs.ashbyhq.com/rivianvw.tech/f421a524-72da-4dd6-a549-bbee9e98622e"
   },
   "https://philips.wd3.myworkdayjobs.com/en-us/jobs-and-careers/job/cambridge-us-massachusetts-united-states/intern---electrical-engineering---cambridge--ma---summer-2027_592605": {
@@ -8973,7 +8973,7 @@
   },
   "https://micron.wd1.myworkdayjobs.com/en-us/external/job/san-jose-ca/intern---memory-systems-architecture---ai_jr112524": {
     "title": "Intern – Memory Systems Architecture & AI",
-    "url": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524"
+    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524"
   },
   "https://marvell.wd1.myworkdayjobs.com/en-us/marvellcareers2/job/burlington-vt/architecture-intern--ms---summer-2027_2604613": {
     "title": "Architecture Intern, MS - Summer 2027",
@@ -8997,7 +8997,7 @@
   },
   "https://micron.wd1.myworkdayjobs.com/en-us/external/job/richardson-tx/intern----hbm-design-development-technical-leadership--ddtl-_jr112565": {
     "title": "Intern -  HBM Design Development Technical Leadership (DDTL)",
-    "url": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern----HBM-Design-Development-Technical-Leadership--DDTL-_JR112565"
+    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern----HBM-Design-Development-Technical-Leadership--DDTL-_JR112565"
   },
   "https://hp.wd5.myworkdayjobs.com/en-us/externalcareersite/job/corvallis-oregon-united-states-of-america/electrical-hardware-engineering-intern_uni4765-1": {
     "title": "Electrical/Hardware Engineering Intern",
@@ -9008,11 +9008,23 @@
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/CA-ON-MIDLAND-450--450-Leitz-Rd--BLDG-450/Electrical-Engineering-Co-op_01878707"
   },
   "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd": {
-    "title": "Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027",
+    "title": "Flight Software Engineering Intern - Simulation/Hardware-In-The-Loop - Spring & Summer 2027",
     "url": "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd"
   },
   "https://nvidia.wd5.myworkdayjobs.com/en-us/nvidiaexternalcareersite/job/taiwan-taipei/software-cad-engineer--vlsi--rdss-intern-_jr2026181": {
     "title": "Software CAD Engineer, VLSI (RDSS Intern)",
     "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Software-CAD-Engineer--VLSI--RDSS-Intern-_JR2026181"
+  },
+  "https://philips.wd3.myworkdayjobs.com/en-us/jobs-and-careers/job/bothell-washington-united-states/intern---embedded-systems-test-automation-engineer---bothell--wa---summer-2027_592074": {
+    "title": "Intern - Embedded Systems Test Automation Engineer - Bothell - WA - Summer 2027",
+    "url": "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Bothell-Washington-United-States/Intern---Embedded-Systems-Test-Automation-Engineer---Bothell--WA---Summer-2027_592074"
+  },
+  "https://leidos.wd5.myworkdayjobs.com/en-us/external/job/huntsville-al/electrical-hardware-design-engineering-intern_r-00193413": {
+    "title": "Electrical Hardware Design Engineering Intern",
+    "url": "https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Electrical-Hardware-Design-Engineering-Intern_R-00193413"
+  },
+  "https://hp.wd5.myworkdayjobs.com/en-us/externalcareersite/job/corvallis-oregon-united-states-of-america/electrical-hardware-engineering-intern_uni4760-1": {
+    "title": "Electrical/Hardware Engineering Intern",
+    "url": "https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Corvallis-Oregon-United-States-of-America/Electrical-Hardware-Engineering-Intern_UNI4760-1"
   }
 }
