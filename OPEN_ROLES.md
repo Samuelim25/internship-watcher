@@ -1,12 +1,12 @@
 # Open roles right now
 
-_Auto-generated each run; do not hand-edit. Last update: 2026-09-29 23:46 UTC. 304 posting(s) currently open and matching filters._
+_Auto-generated each run; do not hand-edit. Last update: 2026-09-30 05:29 UTC. 305 posting(s) currently open and matching filters._
 
-## AUTO-DISCOVER (all boards found in trackers) (130)
+## AUTO-DISCOVER (all boards found in trackers) (131)
 
+- [hermeus — Avionics Electrical Engineering Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462) — Atlanta, GA
 - [skhynixmemorysolutionsamericainc — Embedded Software Engineer Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4404646009) — San Jose
 - [skhynixmemorysolutionsamericainc — SSD Firmware Development Engineer Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4387708009) — San Jose
-- [hermeus — Avionics Electrical Engineering Intern - Spring/Summer 2027](https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462) — Atlanta, GA
 - [spacex — Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) — Flexible - Any SpaceX Site
 - [nvidia — NVIDIA 2027 Internships: Hardware ASIC Design](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) — US, CA, Santa Clara
 - [nvidia — NVIDIA 2027 Internships: Deep Learning Computer Architecture](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491) — US, CA, Santa Clara
@@ -20,20 +20,20 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-09-29 23:46 UTC. 3
 - [intel — Platform Hardware and Systems Engineering - Intern, Bachelor’s](https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Platform-Hardware-and-Systems-Engineering---Intern--Bachelor-s_JR0286827) — 5 Locations
 - [thales — Hardware Obsolescence Engineer - Internship (Open also to Protected Categories, Law 68/99)](https://thales.wd3.myworkdayjobs.com/en-US/careers/job/Gorgonzola/Hardware-Obsolescence-Engineer---Internship--Open-also-to-Protected-Categories--Law-68-99-_R0333671) — Gorgonzola
 - [philips — Intern - Electrical Engineering - Cambridge, MA - Summer 2027](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Intern---Electrical-Engineering---Cambridge--MA---Summer-2027_592605) — Cambridge (US), Massachusetts, United States
+- [andurilindustries — 2027 Electrical Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) — Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States
 - [astranis — FPGA Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704805006) — San Francisco
 - [astranis — Power Electronics Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4706425006) — San Francisco
-- [andurilindustries — 2027 Electrical Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) — Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States
 - [fab2 — Electrical Engineering Intern - Summer](https://jobs.ashbyhq.com/fab2/aec19ef8-2257-4295-abc2-87afd05224ae) — Austin
 - [fab2 — Electrical Engineering Intern, High Frequency Power Electronics - Summer](https://jobs.ashbyhq.com/fab2/b3628272-a336-4dd6-968d-041bc4de5bc5) — Austin
 - [fab2 — Embedded Software Engineering Intern - Summer](https://jobs.ashbyhq.com/fab2/15020e6e-be1c-4455-95a3-aa798474cec4) — Austin
 - [fab2 — Rust Software Engineering Intern, Chip Design Tools - Summer](https://jobs.ashbyhq.com/fab2/2b0ab443-c7d8-4547-9766-111747f0b361) — Austin
 - [virtu — 2027 Internship- Hardware Engineer (FPGA)](https://job-boards.greenhouse.io/virtu/jobs/8657286002) — Austin, TX
-- [selinc — Electrical Engineering Intern](https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Idaho---Boise/Electrical-Engineering-Intern_2026-22931-1) — Idaho - Boise · Washington - Pullman · Illinois - Fairview Heights +2 more
-- [selinc — Electrical Engineering Specialist Intern](https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Texas---Houston/Electrical-Engineering-Specialist-Intern_2026-23259) — 3 Locations
 - [leidos — Radar Engineer Intern](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Radar-Engineer-Intern_R-00191986) — Huntsville, AL
 - [leidos — Naval Architecture Intern](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/New-York-NY/Naval-Architecture-Intern_R-00192491) — New York, NY
 - [leidos — Electrical Hardware Design Engineering Intern](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Electrical-Hardware-Design-Engineering-Intern_R-00193413) — Huntsville, AL
 - [moog — Intern, Electrical Engineering](https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-20268) — Buffalo, NY
+- [selinc — Electrical Engineering Intern](https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Idaho---Boise/Electrical-Engineering-Intern_2026-22931-1) — Idaho - Boise · Washington - Pullman · Illinois - Fairview Heights +3 more
+- [selinc — Electrical Engineering Specialist Intern](https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Texas---Houston/Electrical-Engineering-Specialist-Intern_2026-23259) — 3 Locations
 - [mosaic — Electrical Engineer/Technologist Co-op Student - Summer 2027](https://mosaic.wd5.myworkdayjobs.com/en-US/mosaic/job/CA---Esterhazy-SK/Electrical-Engineer-Technologist-Co-op-Student---Summer-2027_64714) — 2 Locations
 - [globalhr — Power Electrical Engineer Intern (Summer 2027) - Onsite](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-AL-HUNTSVILLE-315--315-Bob-Heath-Dr--BOB-HEATH/Power-Electrical-Engineer-Intern--Summer-2027----Onsite_01876775) — US-AL-HUNTSVILLE-315 ~ 315 Bob Heath Dr ~ BOB HEATH
 - [globalhr — Electrical Engineer Intern - Test](https://globalhr.wd5.myworkdayjobs.com/en-US/Private_Posting_No_TMP/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Electrical-Engineer-Intern---Test_01874305) — US-AZ-TUCSON-805 ~ 1151 E Hermans Rd ~ BLDG 805
@@ -52,6 +52,7 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-09-29 23:46 UTC. 3
 - [allegion — Summer Intern - Firmware Engineer](https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Farmington-CT/Firmware-Engineer-Intern_JR37449-1) — Farmington, CT
 - [allegion — Summer Intern – Hardware Engineer (Advanced Development)](https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Hardware-Engineer--Advanced-Development-_JR37459-1) — Indianapolis, IN - Hague Rd
 - [allegion — Summer Intern - Hardware Engineering - Indianapolis, Indiana](https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Hardware-Engineering---Indianapolis--Indiana_JR37467-1) — Indianapolis, IN - Hague Rd
+- [allegion — Summer Intern – Firmware Engineer (Advanced Development) – Indianapolis, IN](https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Indianapolis-IN---Hague-Rd/Summer-Intern---Firmware-Engineer--Advanced-Development----Indianapolis--IN_JR37458-1) — Indianapolis, IN - Hague Rd
 - [graphcore — Hardware Platform Development Intern](https://job-boards.greenhouse.io/graphcore/jobs/8841941002) — Austin, Texas, United States
 - [graphcore-early-careers — Firmware Engineering Intern](https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8842203002) — Austin, Texas, United States
 - [motorolasolutions — Electrical Engineer Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/Electrical-Engineer-Intern---Summer-2027_R67780) — Plantation, FL
@@ -60,12 +61,12 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-09-29 23:46 UTC. 3
 - [sonos — Electrical Engineering Co-Op](https://sonos.wd1.myworkdayjobs.com/en-US/sonos/job/Boston-MA/Electrical-Engineering-Co-Op_R2824-2) — Boston, MA
 - [symbotic — Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) — USA Wilmington, MA - ITC
 - [symbotic — Intern - Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101) — USA Wilmington, MA - ITC
-- [snc — Electrical Engineering Intern (Summer 2027)](https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Hagerstown-MD/Electrical-Engineering-Intern--Summer-2027-_R0030743-1) — Hagerstown, MD · Sparks, NV · Plano, TX +2 more
 - [opengov — SDR Intern](https://jobs.ashbyhq.com/opengov/0396a565-17a6-465e-bac7-675185882bc2) — US | Massachusetts | Boston
-- [avav — Summer 2027 Electrical Engineering Intern](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Summer-2027-Electrical-Engineering-Intern_8557)
-- [avav — Summer 2027 Embedded Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8388) — 16 Locations
+- [snc — Electrical Engineering Intern (Summer 2027)](https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Hagerstown-MD/Electrical-Engineering-Intern--Summer-2027-_R0030743-1) — Hagerstown, MD · Sparks, NV · Plano, TX +2 more
 - [acronaviation — Electrical Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/0cd327f1-0f91-41d0-8b88-093a084fb082) — St Petersburg, FL
 - [acronaviation — Electrical Engineer Intern (EE, RF, FPGA disciplines) - Phoenix Site](https://jobs.lever.co/acronaviation/69dcdf12-38f2-41ab-81fb-9af7903e7329) — Phoenix, AZ
+- [avav — Summer 2027 Electrical Engineering Intern](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Summer-2027-Electrical-Engineering-Intern_8557)
+- [avav — Summer 2027 Embedded Software Engineering Intern](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8388) — 16 Locations
 - [togetherai — Systems Research Engineer Intern - GPU Programming (Summer 2027)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) — San Francisco
 - [nordsonhcm — Electrical Engineering Intern](https://nordsonhcm.wd501.myworkdayjobs.com/en-US/nordsoncareers/job/USA---Minnesota---Minneapolis---5900-Golden-Hills-Drive/Electrical-Engineering-Intern_REQ52913) — USA - Minnesota - Minneapolis - 5900 Golden Hills Drive
 - [antares — Electrical Engineering Intern - Summer 2027](https://jobs.ashbyhq.com/antares/3061297c-a666-47be-a58a-b62881bf183d) — Los Angeles
@@ -84,8 +85,8 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-09-29 23:46 UTC. 3
 - [base-power —  Construction and Architecture Intern](https://jobs.ashbyhq.com/base-power/8e6ffc4c-a470-41d2-bb2d-1c3021380e04) — Austin, TX
 - [base-power — Hardware Technical Program Management Intern](https://jobs.ashbyhq.com/base-power/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2) — Austin, TX
 - [base-power — Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) — Austin, TX
-- [cyvl — Hardware Engineering Intern (Co-Op Spring/Intern Summer 2027)](https://jobs.ashbyhq.com/cyvl/3590960d-4d02-48bb-a335-cb82e121a01e) — Boston, Massachusetts
 - [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
+- [cyvl — Hardware Engineering Intern (Co-Op Spring/Intern Summer 2027)](https://jobs.ashbyhq.com/cyvl/3590960d-4d02-48bb-a335-cb82e121a01e) — Boston, Massachusetts
 - [saabusa — Electrical Engineering Co-Op (Summer 2027)](https://saabusa.wd1.myworkdayjobs.com/en-US/saab_careers/job/East-Syracuse-NY-Aspen-Park/Electrical-Engineering-Co-Op--Summer-2027-_R-03293-1) — 2 Locations
 - [viavisolutions — Electrical Engineer Intern](https://viavisolutions.wd1.myworkdayjobs.com/en-US/careers/job/Indianapolis-IN-USA/Electrical-Engineer-Intern_260005049-1) — Indianapolis, IN USA
 - [viavisolutions — Optical & Electrical Engineering Intern](https://viavisolutions.wd1.myworkdayjobs.com/en-US/careers/job/Indianapolis-IN-USA/Optical---Electrical-Engineering-Intern_260004968-2) — Indianapolis, IN USA
@@ -97,43 +98,43 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-09-29 23:46 UTC. 3
 - [k2spacecorporation — Electrical Engineering Intern – Summer 2027](https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411918008) — Los Angeles, CA
 - [hypertherm — Firmware Developer - Internship](https://hypertherm.wd503.myworkdayjobs.com/en-US/hypertherm-careers/job/Hanover-NH/Intern_R4100) — Hanover, NH
 - [bah — University - Summer 2027 Electronic Warfare FPGA Engineering Intern](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Beavercreek-OH/University---Summer-2027-Electronic-Warfare-FPGA-Engineering-Intern_R0248465-1) — Beavercreek, OH
-- [shieldai — Summer 2027 - Electrical Engineering Co-op (June 2027)](https://jobs.lever.co/shieldai/8c6cfcee-c6da-4a73-9bdf-3ef098ff59e6) — Dallas, Texas
-- [shieldai — Summer 2027 - Electrical Engineering Intern](https://jobs.lever.co/shieldai/200a293f-71ce-4982-a100-ac4b500c4cf7) — Dallas, Texas
 - [syskahennessy — Electrical Engineering Summer Intern](https://job-boards.greenhouse.io/syskahennessy/jobs/8178057) — Tampa, FL
 - [syskahennessy — Electrical Engineering Summer Interns](https://job-boards.greenhouse.io/syskahennessy/jobs/8177745) — New York, NY
 - [syskahennessy — Electrical Engineer Summer Intern](https://job-boards.greenhouse.io/syskahennessy/jobs/8177241) — San Diego, CA · Dallas, TX · Los Angeles, CA +5 more
 - [generalmatter — Summer 2027 Internship - Electrical Engineering](https://job-boards.greenhouse.io/generalmatter/jobs/5376052008) — Los Angeles, CA
 - [generalmatter — Summer 2027 Internship - Electrical Engineering (Buildings) ](https://job-boards.greenhouse.io/generalmatter/jobs/5376639008) — Los Angeles, CA
 - [simon — Intern - Design (Architecture/Interior Design Majors)](https://simon.wd1.myworkdayjobs.com/en-US/simon/job/Indianapolis-IN/Intern---Design--Architecture-Interior-Design-Majors-_R13971-1) — Indianapolis, IN
+- [hp — Electrical/Hardware Engineering Intern](https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Corvallis-Oregon-United-States-of-America/Electrical-Hardware-Engineering-Intern_UNI4760-1) — Corvallis, Oregon, United States of America
 - [otis — Electrical Engineering Intern](https://otis.wd504.myworkdayjobs.com/en-US/rec_ext_gateway/job/OT494-5FS---Farmington-CT-5-Farm-Springs-Farmington-CT-06032-USA/Electrical-Engineering-Intern_20166693) — OT494: 5FS - Farmington, CT 5 Farm Springs, Farmington, CT, 06032 USA
 - [otis — Electrical Engineering Intern - Testing Engineering](https://otis.wd504.myworkdayjobs.com/en-US/rec_ext_gateway/job/OT499-BTT---BRISTOL-CT-99-CENTURY-DRIVE-BRISTOL-CT-06010-USA/Electrical-Engineering-Intern---Testing-Engineering_20166690) — OT499: BTT - BRISTOL, CT 99 CENTURY DRIVE, BRISTOL, CT, 06010 USA
-- [hp — Electrical/Hardware Engineering Intern](https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Corvallis-Oregon-United-States-of-America/Electrical-Hardware-Engineering-Intern_UNI4760-1) — Corvallis, Oregon, United States of America
 - [alcon — 2027 Electrical & Computer Engineering Intern](https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Fort-Worth-Texas/XMLNAME-2027-Electrical---Computer-Engineering-Intern_R-2026-49479) — 5 Locations
+- [shieldai — Summer 2027 - Electrical Engineering Co-op (June 2027)](https://jobs.lever.co/shieldai/8c6cfcee-c6da-4a73-9bdf-3ef098ff59e6) — Dallas, Texas
+- [shieldai — Summer 2027 - Electrical Engineering Intern](https://jobs.lever.co/shieldai/200a293f-71ce-4982-a100-ac4b500c4cf7) — Dallas, Texas
 - [onlogic-inc — Firmware Engineering Co-op](https://apply.workable.com/j/10EC1527D8) — Cary, North Carolina, United States
 - [hpe — Electrical Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Electrical-Engineering-Intern_1213423) — Spring, Texas, United States of America
 - [hpe — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213408) — 2 Locations
 - [hpe — VLSI Engineer Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/VLSI-Engineer-Intern_1213422) — Spring, Texas, United States of America
 - [hpe — Electrical Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213421) — Spring, Texas, United States of America
 - [hpe — Pre-Silicon Diagnostics Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Pre-Silicon-Diagnostics-Intern_1213394) — Ft. Collins, Colorado, United States of America
+- [stryker — Summer 2027 Internship - Electrical Engineering - California](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Electrical-Engineering---California_R572604) — 2 Locations
+- [stryker — Summer 2027 Internship - Electrical Engineering - Michigan](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Portage-Michigan/Summer-2027-Internship---Electrical-Engineering---Michigan_R572609) — Portage, Michigan
 - [northwoodspace — Electrical Engineering Intern (2027 Summer Internship)](https://jobs.ashbyhq.com/northwoodspace/1bc230b1-5ad2-44b8-ad61-e80a730e5026) — Torrance, CA
 - [brunswick — Electrical Engineer Intern](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Edgewater-FL/Electrical-Engineer-Intern_JR-050891) — Edgewater, FL
 - [brunswick — Electrical Engineering Intern](https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Menomonee-Falls-WI/Electrical-Engineering-Intern_JR-051233) — Menomonee Falls, WI
 - [persona.ai — Electrical Engineering Internship](https://jobs.ashbyhq.com/persona.ai/a68c0823-0b61-4741-9fbc-a1f6d701e4ed) — Pensacola, FL or Houston, TX
 - [sbdinc — Electrical Engineering Intern Summer 2027](https://sbdinc.wd1.myworkdayjobs.com/en-US/stanley_black_decker_career_site/job/Towson-MD-United-States/Electrical-Engineering-Intern-Summer-2027_REQ-1000052018) — Towson, MD, United States
 - [vermeer — Electrical Engineer Internship Summer 2027](https://vermeer.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/Electrical-Engineer-Internship-Summer-2027_REQ-22166) — Pella, Iowa, USA - Corporate Office
-- [stryker — Summer 2027 Internship - Electrical Engineering - California](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Electrical-Engineering---California_R572604) — 2 Locations
-- [stryker — Summer 2027 Internship - Electrical Engineering - Michigan](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Portage-Michigan/Summer-2027-Internship---Electrical-Engineering---Michigan_R572609) — Portage, Michigan
 - [drweng — FPGA Intern](https://job-boards.greenhouse.io/drweng/jobs/8038923) — Chicago
 - [windborne-systems — Electrical Engineer Intern](https://jobs.ashbyhq.com/windborne-systems/a0adb58d-37e7-4e37-abf5-c77d63d4dd8f) — RWC HQ
-- [chevron — 2026-2027 Facilities Engineering Electrical Engineering Intern](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Facilities-Engineering-Electrical-Engineering-Intern_R000072378) — 13 Locations
 - [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) — Peachtree Corners, GA
+- [chevron — 2026-2027 Facilities Engineering Electrical Engineering Intern](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Facilities-Engineering-Electrical-Engineering-Intern_R000072378) — 13 Locations
 - [nidec — Electrical Engineering Co-op](https://nidec.wd1.myworkdayjobs.com/en-US/nidec/job/North-AmericaUSAArkansasFt-Smith-AR/Electrical-Engineering-Co-op_R0017331) — North America/USA/Arkansas/Ft. Smith, AR
 - [nxp — Embedded SW Developer Intern - Security](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Brno/Embedded-SW-Developer-Intern---Security_R-10066538-1) — 2 Locations
 - [nxp — SOC DFT Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Summer-2027_R-10065550) — Austin (Oakhill, Office)
 - [nxp — Digital Design Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Summer-2027_R-10065551) — Austin (Oakhill, Office)
 - [AristaNetworks — Hardware Intern ](https://jobs.smartrecruiters.com/AristaNetworks/744000151659973) — Nashua, NH, us
-- [michelinhr — Spring or Summer 2027 Internship:  Central Electrical Engineering Co-op](https://michelinhr.wd3.myworkdayjobs.com/en-US/michelin/job/GREENVILLE-SC/Spring-or-Summer-2027-Internship---Central-Electrical-Engineering-Co-op_R-2026033786) — GREENVILLE, SC
 - [agilent — Electrical Engineering Intern](https://agilent.wd5.myworkdayjobs.com/en-US/agilent_student_careers/job/US-DE-Wilmington/Electrical-Engineering-Intern_4038526) — US-DE-Wilmington
+- [michelinhr — Spring or Summer 2027 Internship:  Central Electrical Engineering Co-op](https://michelinhr.wd3.myworkdayjobs.com/en-US/michelin/job/GREENVILLE-SC/Spring-or-Summer-2027-Internship---Central-Electrical-Engineering-Co-op_R-2026033786) — GREENVILLE, SC
 
 ## Amazon (AWS / Robotics / all) (3)
 
@@ -149,10 +150,6 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-09-29 23:46 UTC. 3
 ## Chip: HPE (1)
 
 - [Chip: HPE — Electrical Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Spring-Texas-United-States-of-America/Electrical-Engineering-Intern_1213424) — Spring, Texas, United States of America
-
-## Chip: Lightmatter (1)
-
-- [Chip: Lightmatter — Silicon, Hardware, & Photonics Engineering - Internship ](https://boards.greenhouse.io/lightmatter/jobs/5425407008?gh_jid=5425407008) — Boston, MA; Mountain View, CA
 
 ## Chip: Marvell (5)
 
@@ -206,15 +203,14 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-09-29 23:46 UTC. 3
 - [Defense: GE Aerospace — Systems Engineering Intern - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Summer 2027](https://geaerospace.wd5.myworkdayjobs.com/en-US/ge_externalsite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1) — 2 Locations
 - [Defense: GE Aerospace — Systems Engineering Intern - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Summer 2027](https://geaerospace.wd5.myworkdayjobs.com/en-US/ge_externalsite/job/Dayton/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Summer-2027_R5030137-1) — 2 Locations
 
-## Defense: Moog (2)
+## Defense: Moog (1)
 
-- [Defense: Moog — Intern, Electrical Engineering](https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-19569) — Buffalo, NY
 - [Defense: Moog — Intern, Hardware Design Engineering](https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Mineral-Wells-TX/Intern--Hardware-Design-Engineering_R-26-19887) — Mineral Wells, TX
 
 ## Defense: RTX (Raytheon) (10)
 
+- [Defense: RTX (Raytheon) — Electrical Engineering Intern (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MN-BURNSVILLE-MEMS--14300-Judicial-Rd--MEMS-BLDG/Electrical-Engineering-Intern--Summer-2027-_01876591) — US-MN-BURNSVILLE-MEMS ~ 14300 Judicial Rd ~ MEMS BLDG · US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166
 - [Defense: RTX (Raytheon) — FPGA Engineering Co-op (Spring/Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/FPGA-Engineering-Co-op--Spring-Summer-2027-_01878678) — US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166
-- [Defense: RTX (Raytheon) — Electrical Engineering Intern (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Electrical-Engineering-Intern--Summer-2027-_01864197-1) — US-IA-CEDAR RAPIDS-166 ~ 855 35Th St NE ~ BLDG 166
 - [Defense: RTX (Raytheon) — Electrical Engineering Co-op](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/CA-ON-MIDLAND-450--450-Leitz-Rd--BLDG-450/Electrical-Engineering-Co-op_01878707) — CA-ON-MIDLAND-450 ~ 450 Leitz Rd ~ BLDG 450
 - [Defense: RTX (Raytheon) — Electrical Engineering Hardware Intern (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-312--795-W-Nasa-Blvd--BLDG-312/Electrical-Engineering-Hardware-Intern--Summer-2027-_01876736) — US-FL-MELBOURNE-312 ~ 795 W Nasa Blvd ~ BLDG 312
 - [Defense: RTX (Raytheon) — Electrical Engineer Intern (Summer 2027)(Onsite)](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/Electrical-Engineer-Intern--Summer-2027--Onsite-_01877175) — US-TX-MCKINNEY-513WC ~ 2501 W University Dr ~ WING C BLDG

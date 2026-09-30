@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 78 of 304 open roles. Rebuilt every sweep: 2026-09-29 23:46 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 77 of 305 open roles. Rebuilt every sweep: 2026-09-30 05:29 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -37,7 +37,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 ## 💻 ASIC / SoC / RTL DESIGN
 
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604277-1) — SGP - Science Park
-- [Chip: Lightmatter — Silicon, Hardware, & Photonics Engineering - Internship ](https://boards.greenhouse.io/lightmatter/jobs/5425407008?gh_jid=5425407008) — Boston, MA; Mountain View, CA
 - [Chip: Micron — Intern -  HBM Design Development Technical Leadership (DDTL)](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern----HBM-Design-Development-Technical-Leadership--DDTL-_JR112565) — Richardson, TX
 - [Chip: Micron — Intern - ASIC Digital Design](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163) — Minneapolis, MN
 - [Chip: Micron — Intern - Design Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR111814) — Richardson, TX
