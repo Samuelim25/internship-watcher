@@ -8393,7 +8393,7 @@
   },
   "https://micron.wd1.myworkdayjobs.com/en-us/external/job/albany-ny/intern---semiconductor-research---technology-development_jr110876": {
     "title": "Intern - Semiconductor Research & Technology Development",
-    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Albany-NY/Intern---Semiconductor-Research---Technology-Development_JR110876"
+    "url": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Albany-NY/Intern---Semiconductor-Research---Technology-Development_JR110876"
   },
   "https://aero.wd5.myworkdayjobs.com/en-us/external/job/chantilly-va/xmlname-2027-sdr-digital-signal-processing-undergraduate-intern_r016558": {
     "title": "2027 SDR/Digital Signal Processing Undergraduate Intern",
@@ -9089,7 +9089,7 @@
   },
   "https://micron.wd1.myworkdayjobs.com/en-us/external/job/boise-id---main-site/intern---sdr_jr112775": {
     "title": "Intern - SDR",
-    "url": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---SDR_JR112775"
+    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SDR_JR112775"
   },
   "https://micron.wd1.myworkdayjobs.com/en-us/external/job/san-jose-ca/intern---dram-architecture_jr113295": {
     "title": "Intern - DRAM ARCHITECTURE",
@@ -9098,5 +9098,17 @@
   "https://globalhr.wd5.myworkdayjobs.com/en-us/rec_rtx_ext_gateway/job/us-ct-east-hartford-etc--400-main-st--bldg-etc/summer-2027-embedded-software-engineering-intern--onsite-_01878014": {
     "title": "Summer 2027 Embedded Software Engineering Intern (Onsite)",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Summer-2027-Embedded-Software-Engineering-Intern--Onsite-_01878014"
+  },
+  "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8842280002": {
+    "title": "Hardware Platform Development Intern",
+    "url": "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8842280002"
+  },
+  "https://hpe.wd5.myworkdayjobs.com/en-us/jobsathpe/job/heredia-heredia-costa-rica/embedded-software-engineer-internship_1214117": {
+    "title": "Embedded Software Engineer Internship",
+    "url": "https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Heredia-Heredia-Costa-Rica/Embedded-Software-Engineer-Internship_1214117"
+  },
+  "https://globalhr.wd5.myworkdayjobs.com/en-us/rec_rtx_ext_gateway/job/us-ia-cedar-rapids-109--400-collins-rd-ne--bldg-109/manufacturing-electrical-engineering-co-op--spring-summer-2027-_01871448": {
+    "title": "Manufacturing Electrical Engineering Co-Op (Spring/Summer 2027)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-109--400-Collins-Rd-NE--BLDG-109/Manufacturing-Electrical-Engineering-Co-Op--Spring-Summer-2027-_01871448"
   }
 }

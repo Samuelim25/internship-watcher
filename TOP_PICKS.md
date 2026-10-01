@@ -1,20 +1,19 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 75 of 306 open roles. Rebuilt every sweep: 2026-10-01 08:55 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 73 of 306 open roles. Rebuilt every sweep: 2026-10-01 16:27 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
 
 ## 📡 DSP / SIGNAL PROCESSING — apply first
 
+- [Chip: Micron — Intern - SDR](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---SDR_JR112775) — Boise, ID - Main Site
 - [Chip: NXP — Embedded Machine Learning & Radar Processing Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/San-Jose-Holger-Way/Embedded-Machine-Learning---Radar-Processing-Intern---Summer-2027_R-10065534) — San Jose (Holger Way)
 - [Defense: RTX (Raytheon) — Systems Engineering Intern, Weather Radar](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-307--1100-W-Hibiscus-Blvd--BLDG-307/Systems-Engineering-Intern--Weather-Radar_01876489) — US-FL-MELBOURNE-307 ~ 1100 W Hibiscus Blvd ~ BLDG 307
 - [Defense: The Aerospace Corporation — 2027 Communication Systems and Signal Processing Graduate Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Communication-Systems-and-Signal-Processing-Graduate-Intern_R016555) — El Segundo, CA
 - [Defense: The Aerospace Corporation — 2027 SDR/Digital Signal Processing Undergraduate Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/Chantilly-VA/XMLNAME-2027-SDR-Digital-Signal-Processing-Undergraduate-Intern_R016558) — Chantilly, VA
 - [leidos — Radar Engineer Intern](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Radar-Engineer-Intern_R-00191986) — Huntsville, AL
-- [micron — Intern - SDR](https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---SDR_JR112775) — Boise, ID - Main Site
 - [Astranis Space Technologies — Software Defined Radio Hardware Intern - Summer 2027](https://job-boards.greenhouse.io/astranis/jobs/4716088006) — San Francisco, CA
-- [bah — University - Summer 2027 Electronic Warfare FPGA Engineering Intern](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Beavercreek-OH/University---Summer-2027-Electronic-Warfare-FPGA-Engineering-Intern_R0248465-1) — Beavercreek, OH
 - [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) 🇺🇸 — Peachtree Corners, GA
 
 ## 🧩 FPGA DESIGN
@@ -36,7 +35,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604277-1) — SGP - Science Park
 - [Chip: Micron — Intern -  HBM Design Development Technical Leadership (DDTL)](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern----HBM-Design-Development-Technical-Leadership--DDTL-_JR112565) — Richardson, TX
-- [Chip: Micron — Intern - Design Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR111814) — Richardson, TX
 - [Chip: Micron — Intern - Design Engineer, HIG HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Engineer--HIG-HBM_JR112512) — Richardson, TX
 - [Chip: Micron — Intern Design Engineer - HIG HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern-Design-Engineer---HIG-HBM_JR112516) — Richardson, TX
 - [Chip: NXP — Digital Design Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Spring-2027_R-10065537) — Austin (Oakhill, Office)
@@ -44,6 +42,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: NXP — Internship: Digital Design F/M](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Catania/Internship--Digital-Design-F-M_R-10064632) — Catania
 - [Chip: NXP — Master Thesis Internship – Intelligent Thread across Semiconductor Product Lifecycle](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1) — Eindhoven
 - [leidos — Electrical Hardware Design Engineering Intern](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Electrical-Hardware-Design-Engineering-Intern_R-00193413) — Huntsville, AL
+- [micron — Intern - Semiconductor Research & Technology Development](https://micron.wd1.myworkdayjobs.com/en-US/external/job/Albany-NY/Intern---Semiconductor-Research---Technology-Development_JR110876) — Albany, NY
 - [motorolasolutions — 2027 Intern - SoC Digital Engineer](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/XMLNAME-2027-Intern---SoC-Digital-Engineer_R69149) — Plantation, FL
 - [nxp — Digital Design Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Austin-Oakhill-Office/Digital-Design-Intern---Summer-2027_R-10065551) — Austin (Oakhill, Office)
 - [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
@@ -69,7 +68,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 ## Other roles at silicon & defense employers
 
-- [Defense: RTX (Raytheon) — Flight Controls Hardware Engineering Intern (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Controls-Hardware-Engineering-Intern--Summer-2027-_01870408) — US-IA-CEDAR RAPIDS-193 ~ 1120 Collins Rd NE ~ BLDG193
 - [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
 - [Chip: NVIDIA — AI Computing Software Intern, GPU Kernel Libraries - 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Computing-Software-Intern--GPU-Kernel-Libraries---2027_JR2026170) ⚡elite — 2 Locations
 - [nvidia — NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) ⚡elite — US, CA, Santa Clara
