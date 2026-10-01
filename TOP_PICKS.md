@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 78 of 309 open roles. Rebuilt every sweep: 2026-09-30 23:04 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 77 of 308 open roles. Rebuilt every sweep: 2026-10-01 02:08 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -11,7 +11,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: NXP — Intern (f/m/d) Agentic AI for Signal Processing in Embedded Systems](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Munich/Intern--f-m-d--Agentic-AI-for-Signal-Processing-in-Embedded-Systems_R-10064059) — 2 Locations
 - [Defense: RTX (Raytheon) — Systems Engineering Intern, Weather Radar](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-307--1100-W-Hibiscus-Blvd--BLDG-307/Systems-Engineering-Intern--Weather-Radar_01876489) — US-FL-MELBOURNE-307 ~ 1100 W Hibiscus Blvd ~ BLDG 307
 - [Defense: The Aerospace Corporation — 2027 Communication Systems and Signal Processing Graduate Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Communication-Systems-and-Signal-Processing-Graduate-Intern_R016555) — El Segundo, CA
-- [Defense: The Aerospace Corporation — 2027 Communication Systems and Signal Processing Undergrad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Communication-Systems-and-Signal-Processing-Undergrad-Intern_R016600) — El Segundo, CA
 - [Defense: The Aerospace Corporation — 2027 SDR/Digital Signal Processing Undergraduate Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/Chantilly-VA/XMLNAME-2027-SDR-Digital-Signal-Processing-Undergraduate-Intern_R016558) — Chantilly, VA
 - [leidos — Radar Engineer Intern](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Radar-Engineer-Intern_R-00191986) — Huntsville, AL
 - [micron — Intern - SDR](https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---SDR_JR112775) — Boise, ID - Main Site
