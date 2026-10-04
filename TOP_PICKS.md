@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 77 of 308 open roles. Rebuilt every sweep: 2026-10-04 12:20 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 76 of 306 open roles. Rebuilt every sweep: 2026-10-04 17:34 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -36,7 +36,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604277-1) — SGP - Science Park
 - [Chip: Micron — Intern -  HBM Design Development Technical Leadership (DDTL)](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern----HBM-Design-Development-Technical-Leadership--DDTL-_JR112565) — Richardson, TX
-- [Chip: Micron — Intern - Design Engineer, HIG HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Engineer--HIG-HBM_JR112512) — Richardson, TX
 - [Chip: Micron — Intern - Semiconductor Research & Technology Development](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Albany-NY/Intern---Semiconductor-Research---Technology-Development_JR110876) — Albany, NY
 - [Chip: Micron — Intern Design Engineer - HIG HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern-Design-Engineer---HIG-HBM_JR112516) — Richardson, TX
 - [Chip: NXP — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
