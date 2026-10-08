@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 81 of 321 open roles. Rebuilt every sweep: 2026-10-08 02:48 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 80 of 320 open roles. Rebuilt every sweep: 2026-10-08 10:31 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -52,7 +52,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [hpe — ASIC Design Engineer Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/ASIC-Design-Engineer-Intern_1214180) — Sunnyvale, California, United States of America
 - [hpe — ASIC Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Durham-North-Carolina-United-States-of-America/ASIC-Engineering-Intern_1214213) — Durham, North Carolina, United States of America
 - [hpe — Pre-Silicon Diagnostics Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Pre-Silicon-Diagnostics-Intern_1213394) — Ft. Collins, Colorado, United States of America
-- [pwc — Silicon Valley - Audit - Intern - Summer 2027](https://pwc.wd3.myworkdayjobs.com/en-US/nonpublic_postings/job/CA-Silicon-Valley/Silicon-Valley---Audit---Intern---Summer-2027_757068WD-1) — CA-Silicon Valley
 - [sonyglobal — IC Digital Design Intern](https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/Lysaker/IC-Digital-Design-Intern_JR-119536-1) — Lysaker
 - [togetherai — Systems Research Engineer Intern - GPU Programming (Summer 2027)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) — San Francisco
 - [Amazon (AWS / Robotics / all) — ASIC Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027) ⚡elite — Cupertino, California, USA
