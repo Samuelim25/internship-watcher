@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 81 of 319 open roles. Rebuilt every sweep: 2026-10-11 18:56 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 82 of 320 open roles. Rebuilt every sweep: 2026-10-11 22:54 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -74,6 +74,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: Marvell — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975-1) ⚡elite — Santa Clara, CA
 - [Chip: NVIDIA — NVIDIA 2027 Ignite Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047) ⚡elite — US, CA, Santa Clara
 - [marvell — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
+- [nvidia — CPU Compiler Intern - 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/CPU-Compiler-Intern---2027_JR2027260-1) ⚡elite — 2 Locations
 - [nvidia — NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) ⚡elite — US, CA, Santa Clara
 
 ## Everything else that matched
