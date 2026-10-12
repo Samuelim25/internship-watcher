@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 82 of 320 open roles. Rebuilt every sweep: 2026-10-11 22:54 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 81 of 320 open roles. Rebuilt every sweep: 2026-10-12 02:23 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -37,7 +37,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: Micron — Intern - Memory Design Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Memory-Design-Engineer--HBM_JR112528) — Richardson, TX
 - [Chip: Micron — Intern - Next Gen HBM Platform Arch](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Folsom-CA/Intern---Next-Gen-HBM-Platform-Arch_JR112993) — Folsom, CA
 - [Chip: Micron — Intern - Next-Generation HBM Architecture](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Folsom-CA/Intern---Next-Generation-HBM-Architecture_JR112185) — Folsom, CA
-- [Chip: Micron — Intern - Semiconductor Research & Technology Development](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Albany-NY/Intern---Semiconductor-Research---Technology-Development_JR110876) — Albany, NY
 - [Chip: NXP — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
 - [Chip: NXP — Master Thesis Internship – Intelligent Thread across Semiconductor Product Lifecycle](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1) — Eindhoven
 - [globalfoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604281) — SGP - Science Park
