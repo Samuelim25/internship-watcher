@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 84 of 327 open roles. Rebuilt every sweep: 2026-10-12 20:22 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 86 of 330 open roles. Rebuilt every sweep: 2026-10-13 02:39 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -33,9 +33,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604277-1) — SGP - Science Park
 - [Chip: KLA — Algorithm Engineering Intern (GPU/CUDA)](https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044) — Milpitas, CA
 - [Chip: Micron — Intern - Design Architecture, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Architecture--HBM_JR114300) — Richardson, TX
-- [Chip: Micron — Intern - Design Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR111821) — Richardson, TX
 - [Chip: Micron — Intern - Engineer, HIG HBM DTPCO](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Engineer--HIG-HBM-DTPCO_JR113618) — Richardson, TX
-- [Chip: Micron — Intern - Memory Design Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Memory-Design-Engineer--HBM_JR112528) — Richardson, TX
 - [Chip: Micron — Intern - Next Gen HBM Platform Arch](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Folsom-CA/Intern---Next-Gen-HBM-Platform-Arch_JR112993) — Folsom, CA
 - [Chip: Micron — Intern - Next-Generation HBM Architecture](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Folsom-CA/Intern---Next-Generation-HBM-Architecture_JR112185) — Folsom, CA
 - [Chip: NXP — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
@@ -48,15 +46,19 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
 - [borgwarner — Electronics Hardware Design Intern](https://borgwarner.wd5.myworkdayjobs.com/en-US/borgwarner_careers/job/Kokomo-Technical-Center---Indiana---USA/Electronics-Hardware-Design-Intern_R2026-3787) — Kokomo Technical Center - Indiana - USA
 - [Chip: HPE — VLSI Engineer Internship](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Heredia-Heredia-Costa-Rica/VLSI-Engineer-Internship_1214036) — Heredia, Heredia, Costa Rica
+- [Chip: HPE — VLSI Logic Design Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/VLSI-Logic-Design-Intern_1213412) — Ft. Collins, Colorado, United States of America
+- [Chip: HPE — VLSI Logic Design Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/VLSI-Logic-Design-Intern_1213411) — Chippewa Falls, Wisconsin, United States of America
 - [fab2 — Rust Software Engineering Intern, Chip Design Tools - Summer](https://jobs.ashbyhq.com/fab2/2b0ab443-c7d8-4547-9766-111747f0b361) — Austin
 - [Hewlett Packard Enterprise — ASIC Firmware and Diagnostic Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/ASIC-Firmware-and-Diagnostic-Intern_1213415) — Chippewa Falls, WI +1
 - [hpe — ASIC Design Engineer Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/ASIC-Design-Engineer-Intern_1214180) — Sunnyvale, California, United States of America
 - [hpe — ASIC Engineer Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/ASIC-Engineer-Intern_1216555) — Sunnyvale, California, United States of America
 - [hpe — ASIC Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Durham-North-Carolina-United-States-of-America/ASIC-Engineering-Intern_1214213) — Durham, North Carolina, United States of America
+- [hpe — ASIC Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/ASIC-Intern_1214034) — Sunnyvale, California, United States of America
 - [hpe — Pre-Silicon Diagnostics Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Pre-Silicon-Diagnostics-Intern_1213394) — Ft. Collins, Colorado, United States of America
 - [sonyglobal — IC Digital Design Intern](https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/Lysaker/IC-Digital-Design-Intern_JR-119536-1) — Lysaker
 - [togetherai — Systems Research Engineer Intern - GPU Programming (Summer 2027)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) — San Francisco
 - [Amazon (AWS / Robotics / all) — ASIC Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027) ⚡elite — Cupertino, California, USA
+- [Amazon (AWS / Robotics / all) — ASIC Engineer Intern, Summer 2027](https://www.amazon.jobs/en/jobs/10576619/asic-engineer-intern-summer-2027) ⚡elite — Sunnyvale, California, USA
 - [Chip: Marvell — Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525) ⚡elite — 2 Locations
 - [intel — AI GPU Arch Perf Optimization Intern](https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-GPU-Arch-Perf-Optimization-Intern_JR0287915) ⚡elite — 2 Locations
 - [intel — Silicon Hardware Engineering - Intern, Bachelor’s](https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829) ⚡elite — 5 Locations
@@ -100,6 +102,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [muonspace — GNC Hardware Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/muonspace/jobs/5252677007) 🇺🇸 — Mountain View, CA
 - [Nightwing — Software / Hardware Engineering Intern](https://nwis.wd12.myworkdayjobs.com/en-US/NW/job/Annapolis-Junction-MD/Software---Hardware-Engineering---Intern_JR101733) 🇺🇸 — Annapolis Junction, MD
 - [selinc — Hardware Engineering Intern](https://selinc.wd1.myworkdayjobs.com/en-US/SEL/job/Washington---Pullman/Hardware-Engineering-Intern_2026-23159) — Washington - Pullman
-- [Sonos — Software Engineering Co-op - Signal Processing](https://sonos.wd1.myworkdayjobs.com/en-US/sonos/job/Boston-MA/Software-Engineering-Co-op--Signal-Processing-_R2821-2) — Boston, MA
+- [solopulseco — RF Hardware Engineer Intern](https://jobs.lever.co/solopulseco/28672f78-6d59-4674-8e35-ee784d5c34be) 🇺🇸 — Peachtree Corners, GA
 - [symbotic — Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) — USA Wilmington, MA - ITC
 - [symbotic — Intern - Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101) — USA Wilmington, MA - ITC
