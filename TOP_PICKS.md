@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 82 of 350 open roles. Rebuilt every sweep: 2026-10-14 10:11 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 82 of 351 open roles. Rebuilt every sweep: 2026-10-14 15:57 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -32,7 +32,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604277-1) — SGP - Science Park
 - [Chip: KLA — Algorithm Engineering Intern (GPU/CUDA)](https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044) — Milpitas, CA
 - [Chip: Micron — Intern - Design Architecture, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Architecture--HBM_JR114300) — Richardson, TX
-- [Chip: Micron — Intern - Engineer, HIG HBM DTPCO](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Engineer--HIG-HBM-DTPCO_JR113618) — Richardson, TX
 - [Chip: NXP — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
 - [Chip: NXP — Master Thesis Internship – Intelligent Thread across Semiconductor Product Lifecycle](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1) — Eindhoven
 - [globalfoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604281) — SGP - Science Park
@@ -74,6 +73,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
 - [Chip: Marvell (careers2) — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
 - [Chip: NVIDIA — NVIDIA 2027 Ignite Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Ignite-Internships--Hardware-Engineering_JR2027047) ⚡elite — US, CA, Santa Clara
+- [Chip: NVIDIA — System Software Engineering Intern, GPU - 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Poland-Remote/System-Software-Engineering-Intern--GPU---2027_JR2025334) ⚡elite — 2 Locations
 - [marvell — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975-1) ⚡elite — Santa Clara, CA
 - [nvidia — NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) ⚡elite — US, CA, Santa Clara
 
