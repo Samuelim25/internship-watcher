@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 81 of 351 open roles. Rebuilt every sweep: 2026-10-14 20:19 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 82 of 354 open roles. Rebuilt every sweep: 2026-10-14 23:59 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -56,6 +56,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: Intel — AI GPU Arch Perf Optimization Intern](https://intel.wd1.myworkdayjobs.com/en-US/external/job/PRC-Shanghai/AI-GPU-Arch-Perf-Optimization-Intern_JR0287915) ⚡elite — 2 Locations
 - [Chip: Marvell — Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525) ⚡elite — 2 Locations
 - [Chip: NVIDIA — Product Management MBA Intern, Data Center GPU - Summer 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Management-MBA-Intern--Data-Center-GPU---Summer-2027_JR2025670-1) ⚡elite — US, CA, Santa Clara
+- [cisco — ASIC Design Engineer I (Intern) - United States](https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/ASIC-Design-Engineer-I--Intern----United-States_2027790) ⚡elite — San Jose, California, US
 - [intel — Silicon Hardware Engineering - Intern, Bachelor’s](https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829) ⚡elite — 5 Locations
 - [intel — Silicon Hardware Engineering - Intern, Graduate](https://intel.wd1.myworkdayjobs.com/en-US/External/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Graduate_JR0286830) ⚡elite — 5 Locations
 - [marvell — Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525) ⚡elite — 2 Locations
