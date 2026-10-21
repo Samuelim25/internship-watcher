@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 88 of 360 open roles. Rebuilt every sweep: 2026-10-21 10:09 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 91 of 368 open roles. Rebuilt every sweep: 2026-10-21 15:20 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -8,6 +8,8 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 ## 📡 DSP / SIGNAL PROCESSING — apply first
 
 - [Defense: RTX (Raytheon) — Systems Engineering Intern, Weather Radar](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-307--1100-W-Hibiscus-Blvd--BLDG-307/Systems-Engineering-Intern--Weather-Radar_01876489) — US-FL-MELBOURNE-307 ~ 1100 W Hibiscus Blvd ~ BLDG 307
+- [aero — 2027 Digital Signals & RF Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Digital-Signals---RF-Engineering-Grad-Intern_R016952) — El Segundo, CA
+- [aero — 2027 Digital Signals & RF Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Digital-Signals---RF-Engineering-Undergrad-Intern_R016951) — El Segundo, CA
 - [Astranis Space Technologies — Software Defined Radio Hardware Intern - Summer 2027](https://job-boards.greenhouse.io/astranis/jobs/4716088006) — San Francisco, CA
 - [generalmotors — 2027 Summer Intern, Radar Hardware Development Engineer,  ASD](https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Milford-Proving-Ground---Bldg-104A/XMLNAME-2027-Summer-Intern--Radar-Hardware-Development-Engineer---ASD_JR-202621645) — Milford Proving Ground - Bldg 104A
 - [hp — Audio and DSP Development Engineering Intern](https://hp.wd5.myworkdayjobs.com/en-US/externalcareersite/job/Scotts-Valley-California-United-States-of-America/Audio-and-DSP-Development-Engineering-Intern_UNI4508-2) — Scotts Valley, California, United States of America
@@ -80,6 +82,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
 - [Apple — SoC Machine Learning Software Engineer Intern](https://jobs.apple.com/en-us/details/200689488) ⚡elite — Sunnyvale, CA
 - [Chip: Marvell (careers2) — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
+- [Chip: NVIDIA — GPU Computing Software Engineering Intern, Autonomous Driving - 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/GPU-Computing-Software-Engineering-Intern--Autonomous-Driving---2027_JR2026546) ⚡elite — 2 Locations
 - [nvidia — NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) ⚡elite — US, CA, Santa Clara
 
 ## Everything else that matched
