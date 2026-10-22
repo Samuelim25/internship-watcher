@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 88 of 377 open roles. Rebuilt every sweep: 2026-10-22 15:19 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 90 of 375 open roles. Rebuilt every sweep: 2026-10-22 20:06 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -44,8 +44,10 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Micron Technology — HBM Design Engineer Intern - HBM](https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---Design-Engineer--HBM_JR112545) — Richardson, TX
 - [motorolasolutions — 2027 Intern - SoC Digital Engineer](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/XMLNAME-2027-Intern---SoC-Digital-Engineer_R69149) — Plantation, FL
 - [nxp — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
+- [AbbVie — 2027 Finance Leader Accelerator Program Intern (MBA)](https://jobs.smartrecruiters.com/AbbVie/3743990016342296) — North Chicago, IL, us
 - [ambarella — ASIC Design Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/en-US/ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357) — US Headquarters
 - [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
+- [Chip: HPE — ASIC Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Durham-North-Carolina-United-States-of-America/ASIC-Engineering-Intern_1214234) — Durham, North Carolina, United States of America
 - [Chip: HPE — VLSI Engineer Internship](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Heredia-Heredia-Costa-Rica/VLSI-Engineer-Internship_1214036) — Heredia, Heredia, Costa Rica
 - [Chip: HPE — VLSI Logic Design Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/VLSI-Logic-Design-Intern_1213412) — Ft. Collins, Colorado, United States of America
 - [Chip: HPE — VLSI Logic Design Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/VLSI-Logic-Design-Intern_1213411) — Chippewa Falls, Wisconsin, United States of America
@@ -77,7 +79,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 ## Other roles at silicon & defense employers
 
 - [Chip: Micron — Intern - SSD Hardware Engineering](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Longmont-MAX--Office-CO/Intern---SSD-Hardware-Engineering_JR114232) — Longmont-MAX- Office, CO
-- [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
+- [Defense: Motorola Solutions — DSP (Digital Signal Processing) Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
 - [Apple — SoC Machine Learning Software Engineer Intern](https://jobs.apple.com/en-us/details/200689488) ⚡elite — Sunnyvale, CA
 - [Chip: Marvell (careers2) — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
 - [Chip: NVIDIA — GPU Computing Software Engineering Intern, Autonomous Driving - 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/GPU-Computing-Software-Engineering-Intern--Autonomous-Driving---2027_JR2026546) ⚡elite — 2 Locations
