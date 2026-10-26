@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 88 of 363 open roles. Rebuilt every sweep: 2026-10-25 21:46 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 87 of 361 open roles. Rebuilt every sweep: 2026-10-26 00:12 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -20,7 +20,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 ## 🧩 FPGA DESIGN
 
 - [motorolasolutions — FPGA Design Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Schaumburg-IL/FPGA-Design-Engineering-Intern---Summer-2027_R68401) — Schaumburg, IL
-- [acronaviation — Electrical Engineer Intern (EE, RF, FPGA disciplines) - Phoenix Site](https://jobs.lever.co/acronaviation/69dcdf12-38f2-41ab-81fb-9af7903e7329) — Phoenix, AZ
 - [astranis — FPGA Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704805006) 🇺🇸 — San Francisco
 - [DRW — FPGA Intern](https://go.vansh.nyc/5n) — Chicago, IL
 - [HPR — FPGA Engineering Intern](https://go.vansh.nyc/6R) — Needham, MA
