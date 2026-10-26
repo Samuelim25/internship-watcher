@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 118 of 424 open roles. Rebuilt every sweep: 2026-10-26 19:19 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 119 of 425 open roles. Rebuilt every sweep: 2026-10-26 23:53 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -9,12 +9,14 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 - [Aerospace Corporation — Signal Processing and RF Engineering Intern](https://go.vansh.nyc/ee) 🇺🇸 — El Segundo, CA
 - [Defense: RTX (Raytheon) — Systems Engineering Intern, Weather Radar](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-307--1100-W-Hibiscus-Blvd--BLDG-307/Systems-Engineering-Intern--Weather-Radar_01876489) — US-FL-MELBOURNE-307 ~ 1100 W Hibiscus Blvd ~ BLDG 307
+- [nxp — UWB Radar Signal Processing & Algorithms Intern - Summer 2027](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Irvine/UWB-Radar-Signal-Processing---Algorithms-Intern---Summer-2027_R-10065402) — Irvine
 - [aero — 2027 Digital Signals & RF Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Digital-Signals---RF-Engineering-Grad-Intern_R016952) — El Segundo, CA
 - [aero — 2027 Digital Signals & RF Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Digital-Signals---RF-Engineering-Undergrad-Intern_R016951) — El Segundo, CA
 - [aero — 2027 Signal Processing and RF Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Grad-Intern_R016848) — El Segundo, CA
 - [aero — 2027 Signal Processing and RF Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849) — El Segundo, CA
 - [Astranis Space Technologies — Software Defined Radio Hardware Intern - Summer 2027](https://job-boards.greenhouse.io/astranis/jobs/4716088006) — San Francisco, CA
 - [generalmotors — 2027 Summer Intern, Radar Hardware Development Engineer,  ASD](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Milford-Proving-Ground---Bldg-104A/XMLNAME-2027-Summer-Intern--Radar-Hardware-Development-Engineer---ASD_JR-202621645) — Milford Proving Ground - Bldg 104A
+- [jj — TDS Proteins API DSP HTPD Co-Op](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Malvern-Pennsylvania-United-States-of-America/TDS-Proteins-API-DSP-HTPD-Co-Op_R-104168) — 2 Locations
 - [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) 🇺🇸 — Peachtree Corners, GA
 
 ## 🧩 FPGA DESIGN
@@ -33,7 +35,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [hyannisportresearch — FPGA Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) — Needham, MA
 - [Jane Street — Hardware Engineer (FPGA/ASIC) Intern](https://go.vansh.nyc/44) — New York, NY
 - [Keysight Technologies — FPGA Design Intern](https://go.vansh.nyc/hE) — Calabasas, CA
-- [Space Dynamics Laboratory — FPGA Electrical Engineer Intern, Civil & Commercial Space](https://go.vansh.nyc/PU) — North Logan, UT
 - [virtu — 2027 Internship- Hardware Engineer (FPGA)](https://job-boards.greenhouse.io/virtu/jobs/8657286002) — Austin, TX
 - [Page: AMD (FPGA/Xilinx heritage) — Page changed - check Page: AMD (FPGA/Xilinx heritage) (may mean applications opened)](https://careers.amd.com/careers-home/jobs?keywords=intern) ⚡elite
 
@@ -63,8 +64,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
 - [Chip: HPE — ASIC Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Durham-North-Carolina-United-States-of-America/ASIC-Engineering-Intern_1214234) — Durham, North Carolina, United States of America
 - [Chip: HPE — VLSI Engineer Internship](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Heredia-Heredia-Costa-Rica/VLSI-Engineer-Internship_1214036) — Heredia, Heredia, Costa Rica
-- [Chip: HPE — VLSI Logic Design Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/VLSI-Logic-Design-Intern_1213412) — Ft. Collins, Colorado, United States of America
-- [Chip: HPE — VLSI Logic Design Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/VLSI-Logic-Design-Intern_1213411) — Chippewa Falls, Wisconsin, United States of America
 - [Hewlett Packard Enterprise — ASIC Engineer Intern](https://go.vansh.nyc/Er) — Durham, NC
 - [Hewlett Packard Enterprise — ASIC Engineer Intern](https://go.vansh.nyc/Gm) — Sunnyvale, CA
 - [Hewlett Packard Enterprise — ASIC Firmware and Diagnostic Intern](https://go.vansh.nyc/M3) — Bloomington, MN, Chippewa Falls, WI
@@ -105,7 +104,9 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Apple — Software Engineering Intern, AI-Assisted Baseband Debugging Evaluation](https://go.vansh.nyc/D3) ⚡elite — United States
 - [Chip: Marvell (careers2) — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
 - [Chip: NVIDIA — GPU Computing Software Engineering Intern, Autonomous Driving - 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/GPU-Computing-Software-Engineering-Intern--Autonomous-Driving---2027_JR2026546) ⚡elite — 2 Locations
+- [cisco — Hardware Engineer I (Intern) - United States](https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756) ⚡elite — 2 Locations
 - [Cisco — Hardware Engineer I Intern](https://go.vansh.nyc/JR) ⚡elite — San Jose, CA, Austin, TX, Research Triangle Park, NC
+- [cisco — Hardware Engineer II (Co-op) - United States](https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Hardware-Engineer-II--Co-op----United-States_2025375) ⚡elite — San Jose, California, US
 - [intel — AI Hardware Engineering Intern](https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Santa-Clara/AI-Hardware-Engineering-Intern_JR0287533) ⚡elite — 2 Locations
 - [Marvell — Hardware Engineer Intern](https://go.vansh.nyc/EK) ⚡elite — Santa Clara, CA
 - [nvidia — NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) ⚡elite — US, CA, Santa Clara
