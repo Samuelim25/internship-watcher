@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 115 of 420 open roles. Rebuilt every sweep: 2026-10-27 16:33 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 120 of 425 open roles. Rebuilt every sweep: 2026-10-27 21:21 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -43,6 +43,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Astera Labs — Applied AI Intern, Non-Silicon](https://go.vansh.nyc/Fc) — San Jose, CA
 - [Astera Labs — Digital Design Intern](https://go.vansh.nyc/Fm) — San Jose, CA
 - [Astera Labs — Digital RTL Design Engineer Intern](https://go.vansh.nyc/C8) — San Jose, CA
+- [Chip: GlobalFoundries — Silicon Photonics Process Integration Intern (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Intern--Summer-2027-_JR-2604265) — USA - New York - Malta
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604278) — SGP - Science Park
 - [Chip: NXP — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
 - [Chip: NXP — Master Thesis Internship – Intelligent Thread across Semiconductor Product Lifecycle](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1) — Eindhoven
@@ -76,7 +77,8 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [hpe — Pre-Silicon Diagnostics Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Ft-Collins-Colorado-United-States-of-America/Pre-Silicon-Diagnostics-Intern_1213394) — Ft. Collins, Colorado, United States of America
 - [Oceaneering — Cybersecurity SOC Intern](https://go.vansh.nyc/GZ) — Houston, TX
 - [Sentinel Technologies — SOC Intern](https://go.vansh.nyc/Hg) — Downers Grove, IL
-- [sonyglobal — IC Digital Design Intern](https://sonyglobal.wd1.myworkdayjobs.com/en-US/sony_europe_careers/job/Lysaker/IC-Digital-Design-Intern_JR-119536) — Lysaker
+- [sonyglobal — IC Digital Design Intern](https://sonyglobal.wd1.myworkdayjobs.com/en-US/sonyglobalcareers/job/Lysaker/IC-Digital-Design-Intern_JR-119536-1) — Lysaker
+- [togetherai — Systems Research Engineer Intern - GPU Programming (Summer 2027)](https://job-boards.greenhouse.io/togetherai/jobs/5238460007) — San Francisco
 - [Amazon — ASIC Engineer Intern](https://go.vansh.nyc/gF) ⚡elite — Sunnyvale, CA
 - [Amazon — ASIC Engineer Intern](https://go.vansh.nyc/hA) ⚡elite — Seattle, WA, Austin, TX, Cupertino, CA
 - [Amazon (AWS / Robotics / all) — ASIC Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027) ⚡elite — Cupertino, California, USA
@@ -98,6 +100,9 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 ## Other roles at silicon & defense employers
 
+- [micron — Intern - HBM Data Scientist](https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127) — Richardson, TX
+- [Micron Technology — HBM Data Scientist Intern](https://go.vansh.nyc/VY) — Richardson, TX
+- [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
 - [Apple — Software Engineering Intern, AI-Assisted Baseband Debugging Evaluation](https://go.vansh.nyc/D3) ⚡elite — United States
 - [Chip: Marvell (careers2) — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
 - [Chip: NVIDIA — GPU Computing Software Engineering Intern, Autonomous Driving - 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/GPU-Computing-Software-Engineering-Intern--Autonomous-Driving---2027_JR2026546) ⚡elite — 2 Locations
