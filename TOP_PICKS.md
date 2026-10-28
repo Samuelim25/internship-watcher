@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 119 of 430 open roles. Rebuilt every sweep: 2026-10-28 08:24 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 120 of 426 open roles. Rebuilt every sweep: 2026-10-28 16:04 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -48,6 +48,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: NXP — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
 - [Chip: NXP — Master Thesis Internship – Intelligent Thread across Semiconductor Product Lifecycle](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1) — Eindhoven
 - [Chip: SK hynix America — ASIC Design Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009) — San Jose
+- [Defense: Draper — Analog ASIC Design Intern (Summer 2027)](https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085) — Cambridge, MA
 - [globalfoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604281) — SGP - Science Park
 - [kla — Algorithm Engineering Intern (GPU/CUDA)](https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Algorithm-Engineering-Intern--GPU-CUDA-_2642044) — Milpitas, CA
 - [KLA — Algorithm Engineering Intern, GPU/CUDA](https://go.vansh.nyc/8h) — Milpitas, CA
@@ -100,7 +101,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 ## Other roles at silicon & defense employers
 
-- [micron — Intern - HBM Data Scientist](https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127) — Richardson, TX
+- [Chip: Micron — Intern - HBM Data Scientist](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127) — Richardson, TX
 - [Micron Technology — HBM Data Scientist Intern](https://go.vansh.nyc/VY) — Richardson, TX
 - [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
 - [Chip: Marvell (careers2) — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
