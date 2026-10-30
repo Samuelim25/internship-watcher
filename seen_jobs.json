@@ -8633,7 +8633,7 @@
   },
   "https://micron.wd1.myworkdayjobs.com/en-us/external/job/minneapolis-mn/intern---asic-digital-design_jr112163": {
     "title": "Intern - ASIC Digital Design",
-    "url": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163"
+    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163"
   },
   "https://careers-gdms.icims.com/jobs/75013/embedded-software-engineer-%e2%80%93-intern/job": {
     "title": "Embedded Software Engineer - Intern",
@@ -10000,7 +10000,7 @@
     "url": "https://careers-gdms.icims.com/jobs/75516/intern-engineer-%28electrical-or-firmware%29/job"
   },
   "https://rockwellautomation.wd1.myworkdayjobs.com/en-us/external-rockwell-automation-early-careers/job/milwaukee-wisconsin-united-states/intern--firmware-engineering_r26-7922": {
-    "title": "Intern - Firmware Engineering",
+    "title": "Intern, Firmware Engineering",
     "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Milwaukee-Wisconsin-United-States/Intern--Firmware-Engineering_R26-7922"
   },
   "https://studentopportunities-lutron.icims.com/jobs/5362/summer-2027---embedded-firmware-engineering-intern---boynton-beach%2c-fl/job": {
@@ -10660,8 +10660,8 @@
     "url": "https://go.vansh.nyc/VI"
   },
   "https://globalhr.wd5.myworkdayjobs.com/en-us/rec_rtx_ext_gateway/job/us-ca-goleta-h01--6380-hollister-ave--bldg-h01/embedded-software-engineering-intern--summer-2027-_01884782": {
-    "title": "Embedded Software Engineering Intern (Summer 2027)",
-    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Embedded-Software-Engineering-Intern--Summer-2027-_01884782"
+    "title": "Embedded Software Engineering Intern - Summer 2027",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Embedded-Software-Engineering-Intern--Summer-2027-_01884782"
   },
   "https://go.vansh.nyc/vy": {
     "title": "HBM Data Scientist Intern",
@@ -10800,8 +10800,8 @@
     "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/VLSI-CAD-Timing-Intern--Applied-AI---Summer-2027_JR2026799"
   },
   "https://globalfoundries.wd1.myworkdayjobs.com/en-us/external/job/usa---california---santa-clara/digital-design-backend-engineering-intern--3d-and-ai-flows_jr-2604355": {
-    "title": "Digital Design Backend Engineering Intern, 3D and AI Flows",
-    "url": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---California---Santa-Clara/Digital-Design-Backend-Engineering-Intern--3D-and-AI-Flows_JR-2604355"
+    "title": "Digital Design Backend Engineering Intern - 3D and AI Flows",
+    "url": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/USA---California---Santa-Clara/Digital-Design-Backend-Engineering-Intern--3D-and-AI-Flows_JR-2604355"
   },
   "https://jobs.smartrecruiters.com/westerndigital/744000158684529": {
     "title": " Internship - Software Development (Embedded)",
@@ -10810,5 +10810,21 @@
   "https://jobs.smartrecruiters.com/aumovio/744000158682240": {
     "title": "Internship - Strategic Purchasing Electronics",
     "url": "https://jobs.smartrecruiters.com/Aumovio/744000158682240"
+  },
+  "https://go.vansh.nyc/10g": {
+    "title": "Firmware Engineering Intern",
+    "url": "https://go.vansh.nyc/10G"
+  },
+  "https://snc.wd1.myworkdayjobs.com/en-us/snc_external_career_site/job/folsom-ca/firmware-engineering-intern_r0031219": {
+    "title": "Firmware Engineering Intern",
+    "url": "https://snc.wd1.myworkdayjobs.com/en-US/snc_external_career_site/job/Folsom-CA/Firmware-Engineering-Intern_R0031219"
+  },
+  "https://caresource.wd1.myworkdayjobs.com/en-us/caresource/job/remote/xmlname-2027-summer-internship-program----enterprise-architecture_r14135": {
+    "title": "2027 Summer Internship Program -  Enterprise Architecture",
+    "url": "https://caresource.wd1.myworkdayjobs.com/en-US/caresource/job/Remote/XMLNAME-2027-Summer-Internship-Program----Enterprise-Architecture_R14135"
+  },
+  "https://globalfoundries.wd1.myworkdayjobs.com/en-us/external/job/usa---new-york---malta/device-engineering-intern--silicon-photonics--summer-2027-_jr-2604263": {
+    "title": "Device Engineering Intern, Silicon Photonics (Summer 2027)",
+    "url": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Device-Engineering-Intern--Silicon-Photonics--Summer-2027-_JR-2604263"
   }
 }
