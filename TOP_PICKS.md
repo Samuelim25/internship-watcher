@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 118 of 424 open roles. Rebuilt every sweep: 2026-10-31 17:46 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 121 of 427 open roles. Rebuilt every sweep: 2026-10-31 21:31 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -126,10 +126,13 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: HPE — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214067) — Sunnyvale, California, United States of America
 - [Dell Technologies — Hardware Engineering Intern, Infrastructure Solutions Group](https://go.vansh.nyc/In) — Round Rock, TX, Hopkinton, MA
 - [Hewlett Packard Enterprise — Hardware Engineering Design Intern](https://go.vansh.nyc/c3) — Roseville, CA
+- [hpe — Electrical Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213421) — Spring, Texas, United States of America
 - [hpe — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213408) — 2 Locations
 - [hpe — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214064) — Sunnyvale, California, United States of America
 - [Keysight Technologies — R&D Hardware Engineer Intern](https://go.vansh.nyc/ce) — Santa Clara, CA
 - [muonspace — GNC Hardware Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/muonspace/jobs/5252677007) 🇺🇸 — Mountain View, CA
+- [Nintendo — Software Engineer Intern, CPU Debugger](https://go.vansh.nyc/12k) — Redmond, WA
+- [Nintendo — Software Engineer Intern, CPU Profiler](https://go.vansh.nyc/12l) — Redmond, WA
 - [selinc — Hardware Engineering Intern](https://selinc.wd1.myworkdayjobs.com/en-US/sel/job/Washington---Pullman/Hardware-Engineering-Intern_2026-23159) — Washington - Pullman
 - [Skydio — Wireless Hardware Engineer Intern](https://go.vansh.nyc/i) — San Mateo, CA
 - [skydio — Wireless Hardware Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea) — San Mateo, California, United States
