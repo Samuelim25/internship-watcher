@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 121 of 427 open roles. Rebuilt every sweep: 2026-11-01 07:29 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 121 of 432 open roles. Rebuilt every sweep: 2026-11-01 15:05 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -63,6 +63,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [SK Hynix Memory Solution — ASIC Design Intern](https://go.vansh.nyc/gp) — San Jose, CA
 - [ambarella — ASIC Design Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/en-US/ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357) — US Headquarters
 - [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
+- [ByteDance — ASIC Design Engineer Intern, Video Silicon IP](https://go.vansh.nyc/14u) — San Jose, CA
 - [Chip: HPE — ASIC Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Durham-North-Carolina-United-States-of-America/ASIC-Engineering-Intern_1214234) — Durham, North Carolina, United States of America
 - [Chip: HPE — VLSI Engineer Internship](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Heredia-Heredia-Costa-Rica/VLSI-Engineer-Internship_1214036) — Heredia, Heredia, Costa Rica
 - [Hewlett Packard Enterprise — ASIC Engineer Intern](https://go.vansh.nyc/Er) — Durham, NC
@@ -126,7 +127,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: HPE — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214067) — Sunnyvale, California, United States of America
 - [Dell Technologies — Hardware Engineering Intern, Infrastructure Solutions Group](https://go.vansh.nyc/In) — Round Rock, TX, Hopkinton, MA
 - [Hewlett Packard Enterprise — Hardware Engineering Design Intern](https://go.vansh.nyc/c3) — Roseville, CA
-- [hpe — Electrical Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213421) — Spring, Texas, United States of America
 - [hpe — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Spring-Texas-United-States-of-America/Hardware-Engineering-Intern_1213408) — 2 Locations
 - [hpe — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214064) — Sunnyvale, California, United States of America
 - [Keysight Technologies — R&D Hardware Engineer Intern](https://go.vansh.nyc/ce) — Santa Clara, CA
