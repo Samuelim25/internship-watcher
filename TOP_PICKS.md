@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 121 of 442 open roles. Rebuilt every sweep: 2026-11-03 06:34 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 121 of 443 open roles. Rebuilt every sweep: 2026-11-03 15:10 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -45,7 +45,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: GlobalFoundries — Silicon Photonics Process Integration Intern (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Intern--Summer-2027-_JR-2604265) — USA - New York - Malta
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604278) — SGP - Science Park
 - [Chip: Micron — Intern - ASIC Digital Design](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163) — Minneapolis, MN
-- [Chip: NXP — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
 - [Chip: NXP — Master Thesis Internship – Intelligent Thread across Semiconductor Product Lifecycle](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1) — Eindhoven
 - [Chip: SK hynix America — ASIC Design Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009) — San Jose
 - [Defense: Draper — Analog ASIC Design Intern (Summer 2027)](https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085) — Cambridge, MA
@@ -60,6 +59,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Micron Technology — Next-Generation HBM Architecture Intern](https://go.vansh.nyc/EH) — Folsom, CA
 - [Micron Technology — System Engineer Intern, HBM](https://go.vansh.nyc/1bI) — Boise, ID
 - [motorolasolutions — 2027 Intern - SoC Digital Engineer](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/XMLNAME-2027-Intern---SoC-Digital-Engineer_R69149) — Plantation, FL
+- [nxp — Internship - Reliability of Advanced Semiconductor Packages](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Nijmegen/Internship---Understanding-the-reliability-of-advanced-laminate-based-electronic-packages-at-NXP_R-10065970) — Nijmegen
 - [nxp — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
 - [samsungsemiconductor — Intern, RTL Power Macromodeling Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046830003) — San Jose, California, United States
 - [SK Hynix Memory Solution — ASIC Design Intern](https://go.vansh.nyc/gp) — San Jose, CA
