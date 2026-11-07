@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 120 of 447 open roles. Rebuilt every sweep: 2026-11-07 10:01 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 125 of 459 open roles. Rebuilt every sweep: 2026-11-07 16:25 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -90,6 +90,8 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Amazon — ASIC Engineer Intern](https://go.vansh.nyc/hA) ⚡elite — Seattle, WA, Austin, TX, Cupertino, CA
 - [Amazon (AWS / Robotics / all) — ASIC Engineer Intern, Annapurna Labs - 2027](https://www.amazon.jobs/en/jobs/10517535/asic-engineer-intern-annapurna-labs-2027) ⚡elite — Cupertino, California, USA
 - [Amazon (AWS / Robotics / all) — ASIC Engineer Intern, Summer 2027](https://www.amazon.jobs/en/jobs/10576619/asic-engineer-intern-summer-2027) ⚡elite — Sunnyvale, California, USA
+- [Chip: Marvell — Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525) ⚡elite — 2 Locations
+- [Chip: Marvell (careers2) — Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525) ⚡elite — 2 Locations
 - [Chip: NVIDIA — VLSI Timing Methodology Intern - Summer 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/VLSI-Timing-Methodology-Intern---Summer-2027_JR2026798) ⚡elite — US, CA, Santa Clara
 - [intel — GPU Architecture Graduate Intern](https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/GPU-Architecture-Graduate-Intern_JR0287529) ⚡elite — US, California, Folsom
 - [intel — Silicon Hardware Engineering - Intern, Bachelor’s](https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829) ⚡elite — 5 Locations
@@ -109,6 +111,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: Micron — Intern - HBM Data Scientist](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127) — Richardson, TX
 - [Micron Technology — HBM Data Scientist Intern](https://go.vansh.nyc/VY) — Richardson, TX
 - [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
+- [Chip: Marvell (careers2) — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
 - [intel — AI Hardware Engineering Intern](https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Santa-Clara/AI-Hardware-Engineering-Intern_JR0287533) ⚡elite — 2 Locations
 - [Marvell — Hardware Engineer Intern](https://go.vansh.nyc/EK) ⚡elite — Santa Clara, CA
 - [nvidia — NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) ⚡elite — US, CA, Santa Clara
@@ -136,6 +139,8 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Nintendo — Software Engineer Intern, CPU Profiler](https://go.vansh.nyc/12l) — Redmond, WA
 - [Skydio — Wireless Hardware Engineer Intern](https://go.vansh.nyc/i) — San Mateo, CA
 - [skydio — Wireless Hardware Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea) — San Mateo, California, United States
+- [symbotic — Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) — USA Wilmington, MA - ITC
+- [symbotic — Intern - Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101) — USA Wilmington, MA - ITC
 - [Two Sigma — Hardware Engineering Intern](https://go.vansh.nyc/Jg) — New York, NY
 - [zoox — Hardware Engineer Intern, Vehicle Development (Summer 2027)](https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62) — Foster City, CA
 - [zoox — Hardware Engineer Intern, Vehicle Systems (Summer 2027)](https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b) — Foster City, CA
