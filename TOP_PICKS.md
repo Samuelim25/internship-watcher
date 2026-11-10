@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 130 of 460 open roles. Rebuilt every sweep: 2026-11-10 08:22 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 131 of 461 open roles. Rebuilt every sweep: 2026-11-10 17:08 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -36,6 +36,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Garmin — FPGA Engineer Intern](https://go.vansh.nyc/FV) — Olathe, KS
 - [HPR — FPGA Engineering Intern](https://go.vansh.nyc/6R) — Needham, MA
 - [hyannisportresearch — FPGA Engineering Intern - Summer 2027](https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822801003) — Needham, MA
+- [Ixana — Embedded Hardware Engineer Intern, FPGA Design](https://go.vansh.nyc/1qS) — West Lafayette, IN
 - [Jane Street — Hardware Engineer (FPGA/ASIC) Intern](https://go.vansh.nyc/44) — New York, NY
 - [Keysight Technologies — FPGA Design Intern](https://go.vansh.nyc/hE) — Calabasas, CA
 - [virtu — 2027 Internship- Hardware Engineer (FPGA)](https://job-boards.greenhouse.io/virtu/jobs/8657286002) — Austin, TX
@@ -52,14 +53,13 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: GlobalFoundries — Silicon Photonics Process Integration Engineering Intern (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Engineering-Intern--Summer-2027-_JR-2605135) — USA - New York - Malta
 - [Chip: GlobalFoundries — Silicon Photonics Process Integration Intern (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Intern--Summer-2027-_JR-2604267) — USA - New York - Malta
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604278) — SGP - Science Park
-- [Chip: Micron — Intern - ASIC Digital Design](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163) — Minneapolis, MN
 - [Chip: Micron — Intern - Design Architecture, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Architecture--HBM_JR114300) — Richardson, TX
+- [Chip: Micron — Intern - HIG HBM DTPCO](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---HIG-HBM-DTPCO_JR116993) — Richardson, TX
 - [Chip: Micron — Intern - System Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469) — Boise, ID - Main Site
 - [Chip: SK hynix America — ASIC Design Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009) — San Jose
 - [Defense: Draper — Analog ASIC Design Intern (Summer 2027)](https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085) — Cambridge, MA
 - [globalfoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604281) — SGP - Science Park
 - [KLA — Algorithm Engineering Intern, GPU/CUDA](https://go.vansh.nyc/8h) — Milpitas, CA
-- [micron — Intern - HIG HBM DTPCO](https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---HIG-HBM-DTPCO_JR116993) — Richardson, TX
 - [Micron Technology — ASIC Digital Design Intern](https://go.vansh.nyc/Z8) — Minneapolis, MN
 - [Micron Technology — HBM Design Engineer Intern - HBM](https://go.vansh.nyc/bW) — Richardson, TX
 - [Micron Technology — HBM Memory Design Engineer Intern](https://go.vansh.nyc/Ev) — Richardson, TX
@@ -67,6 +67,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Micron Technology — System Engineer Intern, HBM](https://go.vansh.nyc/1bI) — Boise, ID
 - [samsungsemiconductor — Intern, RTL Power Macromodeling Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046830003) — San Jose, California, United States
 - [SK Hynix Memory Solution — ASIC Design Intern](https://go.vansh.nyc/gp) — San Jose, CA
+- [Tenstorrent — Hardware Intern, Architecture, AI HW & SoC](https://go.vansh.nyc/1qf) — Austin, TX, Boston, MA, Fort Collins, CO, Santa Clara, CA
 - [ambarella — ASIC Design Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/en-US/ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357) — US Headquarters
 - [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
 - [borgwarner — Electronics Hardware Design Intern](https://borgwarner.wd5.myworkdayjobs.com/en-US/borgwarner_careers/job/Kokomo-Technical-Center---Indiana---USA/Electronics-Hardware-Design-Intern_R2026-3787) — Kokomo Technical Center - Indiana - USA
