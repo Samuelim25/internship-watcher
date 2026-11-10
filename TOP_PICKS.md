@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 129 of 461 open roles. Rebuilt every sweep: 2026-11-10 00:20 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 130 of 460 open roles. Rebuilt every sweep: 2026-11-10 08:22 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -48,9 +48,9 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Astera Labs — Applied AI Intern, Non-Silicon](https://go.vansh.nyc/Fc) — San Jose, CA
 - [Astera Labs — Digital Design Intern](https://go.vansh.nyc/Fm) — San Jose, CA
 - [Astera Labs — Digital RTL Design Engineer Intern](https://go.vansh.nyc/C8) — San Jose, CA
-- [Chip: GlobalFoundries — Device Engineering Intern, Silicon Photonics (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Device-Engineering-Intern--Silicon-Photonics--Summer-2027-_JR-2604264) — USA - New York - Malta
-- [Chip: GlobalFoundries — Program Management Intern, Silicon Photonics (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Program-Management-Intern--Silicon-Photonics--Summer-2027-_JR-2605132) — USA - New York - Malta
-- [Chip: GlobalFoundries — Silicon Photonics Process Integration Intern (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Intern--Summer-2027-_JR-2604266) — USA - New York - Malta
+- [Chip: GlobalFoundries — Device Engineering Intern, Silicon Photonics (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Device-Engineering-Intern--Silicon-Photonics--Summer-2027-_JR-2604261) — USA - New York - Malta
+- [Chip: GlobalFoundries — Silicon Photonics Process Integration Engineering Intern (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Engineering-Intern--Summer-2027-_JR-2605135) — USA - New York - Malta
+- [Chip: GlobalFoundries — Silicon Photonics Process Integration Intern (Summer 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Intern--Summer-2027-_JR-2604267) — USA - New York - Malta
 - [Chip: GlobalFoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604278) — SGP - Science Park
 - [Chip: Micron — Intern - ASIC Digital Design](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Minneapolis-MN/Intern---ASIC-Digital-Design_JR112163) — Minneapolis, MN
 - [Chip: Micron — Intern - Design Architecture, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Architecture--HBM_JR114300) — Richardson, TX
@@ -128,6 +128,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Celestica — Software & Hardware Engineer Intern](https://go.vansh.nyc/R2) — Austin, TX
 - [Chip: HPE — Electrical Hardware Engineer Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Electrical-Hardware-Engineer-Intern_1214992) — Sunnyvale, California, United States of America
 - [Chip: HPE — Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineering-Intern_1214067) — Sunnyvale, California, United States of America
+- [Chip: HPE — Wireless Hardware Engineering Intern](https://hpe.wd5.myworkdayjobs.com/en-US/Jobsathpe/job/San-Jose-California-United-States-of-America/Wireless-Hardware-Engineering-Intern_1218701) — San Jose, California, United States of America
 - [Dell Technologies — Hardware Engineering Intern, Infrastructure Solutions Group](https://go.vansh.nyc/In) — Round Rock, TX, Hopkinton, MA
 - [Hewlett Packard Enterprise — Hardware Engineer Intern](https://go.vansh.nyc/1nA) — Sunnyvale, CA
 - [Hewlett Packard Enterprise — Hardware Engineering Design Intern](https://go.vansh.nyc/c3) — Roseville, CA
