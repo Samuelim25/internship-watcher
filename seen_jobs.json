@@ -1168,7 +1168,7 @@
     "url": "http://prospectequities.applytojob.com/apply/XTbzSAcNtg/Backend-Frontend-Developer-Intern"
   },
   "https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7": {
-    "title": "Firmware Engineering Intern",
+    "title": "Embedded Software Engineering Intern",
     "url": "https://jobs.ashbyhq.com/base-power/a8ee9a66-e90b-42c2-a4a2-28d997c3e8c7"
   },
   "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc": {
@@ -8484,7 +8484,7 @@
     "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Silicon-Software-Engineer---System-and-AI--RDSS-Intern-_JR2025538"
   },
   "https://boards.greenhouse.io/lightmatter/jobs/5425407008?gh_jid=5425407008": {
-    "title": "Silicon, Hardware, & Photonics Engineering - Internship ",
+    "title": "Silicon, Hardware, & Photonics Engineering Intern – Summer 2027",
     "url": "https://boards.greenhouse.io/lightmatter/jobs/5425407008?gh_jid=5425407008"
   },
   "https://jobs.lever.co/cesiumastro/96e97f22-a5b2-4e95-af84-b4f765343663": {
@@ -10000,7 +10000,7 @@
     "url": "https://careers-gdms.icims.com/jobs/75516/intern-engineer-%28electrical-or-firmware%29/job"
   },
   "https://rockwellautomation.wd1.myworkdayjobs.com/en-us/external-rockwell-automation-early-careers/job/milwaukee-wisconsin-united-states/intern--firmware-engineering_r26-7922": {
-    "title": "Intern - Firmware Engineering",
+    "title": "Intern, Firmware Engineering",
     "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Milwaukee-Wisconsin-United-States/Intern--Firmware-Engineering_R26-7922"
   },
   "https://studentopportunities-lutron.icims.com/jobs/5362/summer-2027---embedded-firmware-engineering-intern---boynton-beach%2c-fl/job": {
@@ -10364,8 +10364,8 @@
     "url": "https://go.vansh.nyc/Ea"
   },
   "https://go.vansh.nyc/ef": {
-    "title": "DRAM Architecture Intern",
-    "url": "https://go.vansh.nyc/Ef"
+    "title": "AI & Hardware Analytics Intern",
+    "url": "https://go.vansh.nyc/EF"
   },
   "https://go.vansh.nyc/er": {
     "title": "ASIC Engineer Intern",
@@ -11289,7 +11289,7 @@
   },
   "https://kla.wd1.myworkdayjobs.com/en-us/search/job/milpitas-ca/electrical-engineering-intern_2641972-1": {
     "title": "Electrical Engineering Intern",
-    "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Electrical-Engineering-Intern_2641972-1"
+    "url": "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Electrical-Engineering-Intern_2641972-1"
   },
   "https://go.vansh.nyc/1pk": {
     "title": "Embedded Software Engineer Intern",
@@ -11301,7 +11301,7 @@
   },
   "https://globalhr.wd5.myworkdayjobs.com/en-us/rec_rtx_ext_gateway/job/us-ia-manchester-185--901-s-10th-st--s-10th/manufacturing-electrical-engineering-co-op--spring-summer-2027-_01888519": {
     "title": "Manufacturing Electrical Engineering Co-Op (Spring/Summer 2027)",
-    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-MANCHESTER-185--901-S-10th-St--S-10TH/Manufacturing-Electrical-Engineering-Co-Op--Spring-Summer-2027-_01888519"
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-MANCHESTER-185--901-S-10th-St--S-10TH/Manufacturing-Electrical-Engineering-Co-Op--Spring-Summer-2027-_01888519"
   },
   "https://globalfoundries.wd1.myworkdayjobs.com/en-us/external/job/usa---new-york---malta/silicon-photonics-process-integration-intern--summer-2027-_jr-2604267": {
     "title": "Silicon Photonics Process Integration Intern (Summer 2027)",
@@ -11338,5 +11338,49 @@
   "https://parsons.wd5.myworkdayjobs.com/en-us/search/job/us---tx-san-antonio/architecture-intern---summer-2027_r188309": {
     "title": "Architecture Intern - Summer 2027",
     "url": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---TX-San-Antonio/Architecture-Intern---Summer-2027_R188309"
+  },
+  "https://go.vansh.nyc/1rj": {
+    "title": "ASIC/FPGA Engineer Intern",
+    "url": "https://go.vansh.nyc/1rJ"
+  },
+  "https://jobs.smartrecruiters.com/westerndigital/744000160975864": {
+    "title": "Summer 2027 Intern - Hardware Engineering",
+    "url": "https://jobs.smartrecruiters.com/WesternDigital/744000160975864"
+  },
+  "https://jobs.ashbyhq.com/regent/9f25824f-486e-4d3a-b444-116b474619d7": {
+    "title": "Embedded Software Engineering Intern (Summer)",
+    "url": "https://jobs.ashbyhq.com/REGENT/9f25824f-486e-4d3a-b444-116b474619d7"
+  },
+  "https://jobs.lever.co/pivotal/442a0450-f911-4ac1-a112-03374217f7fb": {
+    "title": "Internship, Electrical Engineering (Summer 2027)",
+    "url": "https://jobs.lever.co/pivotal/442a0450-f911-4ac1-a112-03374217f7fb"
+  },
+  "https://jobs.smartrecruiters.com/nbcuniversal3/744000160731587": {
+    "title": "NBC News Creative & Digital Design Internships – Summer 2027",
+    "url": "https://jobs.smartrecruiters.com/NBCUniversal3/744000160731587"
+  },
+  "https://caci.wd1.myworkdayjobs.com/en-us/external/job/sarasota-fl-us/electrical-engineering-intern---summer-2027_332614": {
+    "title": "Electrical Engineering Intern - Summer 2027",
+    "url": "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Sarasota-FL-US/Electrical-Engineering-Intern---Summer-2027_332614"
+  },
+  "https://nxp.wd116.myworkdayjobs.com/en-us/careers/job/irvine/uwb-radar-signal-processing---algorithms-intern---summer-2027_r-10065402": {
+    "title": "UWB Radar Signal Processing & Algorithms Intern - Summer 2027",
+    "url": "https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Irvine/UWB-Radar-Signal-Processing---Algorithms-Intern---Summer-2027_R-10065402"
+  },
+  "https://nxp.wd116.myworkdayjobs.com/en-us/careers/job/gratkorn/internship--secure-firmware-development--m-f-d-_r-10066772": {
+    "title": "Internship: Secure Firmware Development (m/f/d)",
+    "url": "https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Secure-Firmware-Development--m-f-d-_R-10066772"
+  },
+  "https://nxp.wd116.myworkdayjobs.com/en-us/careers/job/gratkorn/internship--digital-design-team-support--m-f-d-_r-10064594": {
+    "title": "Internship: Digital Design Team Support (m/f/d)",
+    "url": "https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594"
+  },
+  "https://globalfoundries.wd1.myworkdayjobs.com/en-us/external/job/usa---new-york---malta/silicon-photonics-process-integration-engineering-intern--summer-2027-_jr-2605134": {
+    "title": "Silicon Photonics Process Integration Engineering Intern (Summer 2027)",
+    "url": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---New-York---Malta/Silicon-Photonics-Process-Integration-Engineering-Intern--Summer-2027-_JR-2605134"
+  },
+  "pw::https://www.onsemi.com/careers/career-opportunities::#fbb5a0ea91357379": {
+    "title": "Page changed - check Page: onsemi (may mean applications opened)",
+    "url": "https://www.onsemi.com/careers/career-opportunities"
   }
 }
