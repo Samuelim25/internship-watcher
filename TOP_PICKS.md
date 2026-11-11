@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 137 of 456 open roles. Rebuilt every sweep: 2026-11-10 22:26 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 140 of 466 open roles. Rebuilt every sweep: 2026-11-11 02:50 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -34,6 +34,7 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [astranis — FPGA Intern (Summer 2027)](https://job-boards.greenhouse.io/astranis/jobs/4704805006) 🇺🇸 — San Francisco
 - [boseallaboutme — Electrical Engineering Co-op — FPGA and Audio Research Platforms](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Electrical-Engineering-Co-op---FPGA-and-Audio-Research-Platforms_R29366) — US, MA - Framingham
 - [CesiumAstro — Electrical Engineering Intern, FPGA](https://go.vansh.nyc/1ow) — Melbourne, FL
+- [CesiumAstro — Summer 2027 - Electrical Engineering Internship, FPGA](https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316) 🇺🇸 — Melbourne, FL
 - [DRW — FPGA Intern](https://go.vansh.nyc/5n) — Chicago, IL
 - [Garmin — FPGA Engineer Intern](https://go.vansh.nyc/FV) — Olathe, KS
 - [HPR — FPGA Engineering Intern](https://go.vansh.nyc/6R) — Needham, MA
@@ -118,7 +119,9 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 
 - [Micron Technology — HBM Data Scientist Intern](https://go.vansh.nyc/VY) — Richardson, TX
 - [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
+- [Western Digital — Hardware Engineering Intern](https://go.vansh.nyc/1sa) — San Jose, CA
 - [Chip: Marvell (careers2) — Hardware Engineer Intern, BS - Summer 2027](https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975) ⚡elite — Santa Clara, CA
+- [cisco — Hardware Engineer I (Intern) - United States](https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756) ⚡elite — 2 Locations
 - [intel — AI Hardware Engineering Intern](https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Santa-Clara/AI-Hardware-Engineering-Intern_JR0287533) ⚡elite — 2 Locations
 - [Marvell — Hardware Engineer Intern](https://go.vansh.nyc/EK) ⚡elite — Santa Clara, CA
 - [nvidia — NVIDIA 2027 Internships: Hardware Engineering](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1) ⚡elite — US, CA, Santa Clara
