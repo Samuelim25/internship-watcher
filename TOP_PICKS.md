@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / DSP design roles, anywhere in the US. 146 of 475 open roles. Rebuilt every sweep: 2026-11-11 18:43 UTC._
+_FPGA / ASIC / DSP design roles, anywhere in the US. 141 of 492 open roles. Rebuilt every sweep: 2026-11-12 01:36 UTC._
 
 Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, then ASIC / SoC / RTL. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -13,7 +13,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [aero — 2027 Digital Signals & RF Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Digital-Signals---RF-Engineering-Undergrad-Intern_R016951) — El Segundo, CA
 - [aero — 2027 Signal Processing and RF Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Grad-Intern_R016848) — El Segundo, CA
 - [aero — 2027 Signal Processing and RF Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Signal-Processing-and-RF-Engineering-Undergrad-Intern_R016849) — El Segundo, CA
-- [Astranis Space Technologies — Software Defined Radio Hardware Intern - Summer 2027](https://job-boards.greenhouse.io/astranis/jobs/4716088006) — San Francisco, CA
 - [Bose — Software/DSP Research Engineer Co-op](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Software-DSP-Research-Engineer-Co-op_R29369) — Framingham, MA
 - [boseallaboutme — DSP/ML Research Engineer Intern | Summer 2027](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/DSP-ML-Research-Engineer-Intern---Summer-2027_R29371) — US, MA - Framingham
 - [generalmotors — 2027 Summer Intern, Radar Hardware Development Engineer,  ASD](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Milford-Proving-Ground---Bldg-104A/XMLNAME-2027-Summer-Intern--Radar-Hardware-Development-Engineer---ASD_JR-202621645) — Milford Proving Ground - Bldg 104A
@@ -26,7 +25,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Astera Labs — Emulation Engineer Intern](https://go.vansh.nyc/Fl) — San Jose, CA
 - [General Dynamics Mission Systems — Electrical Engineering Intern, FPGA](https://go.vansh.nyc/1hW) — Middletown, RI
 - [General Dynamics Mission Systems — FPGA Engineer Intern](https://go.vansh.nyc/1i0) — Manassas, VA
-- [General Dynamics Mission Systems, Inc. — ASIC/FPGA Engineer Intern](https://go.vansh.nyc/1rJ) 🇺🇸 — Scottsdale, AZ
 - [General Dynamics Mission Systems, Inc. — FPGA Engineer Intern](https://go.vansh.nyc/1pc) 🇺🇸 — Scottsdale, AZ
 - [Motorola — FPGA Design Engineering Intern](https://go.vansh.nyc/Mq) — Schaumburg, IL
 - [motorolasolutions — FPGA Design Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Schaumburg-IL/FPGA-Design-Engineering-Intern---Summer-2027_R68401) — Schaumburg, IL
@@ -61,7 +59,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Chip: Micron — Intern - Design Architecture, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Architecture--HBM_JR114300) — Richardson, TX
 - [Chip: Micron — Intern - HIG HBM DTPCO](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---HIG-HBM-DTPCO_JR116993) — Richardson, TX
 - [Chip: Micron — Intern - System Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469) — Boise, ID - Main Site
-- [Chip: SK hynix America — ASIC Design Intern](https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4460200009) — San Jose
 - [Defense: Draper — Analog ASIC Design Intern (Summer 2027)](https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085) — Cambridge, MA
 - [GlobalFoundries — AI Processor Hardware/Software Integration Engineer Intern](https://go.vansh.nyc/1uH) — Richardson, TX
 - [globalfoundries — Technology Development Engineer Intern (Silicon Photonics) (Jan-Jun 2027)](https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/SGP---Science-Park/Technology-Development-Engineer-Intern--Silicon-Photonics---Jan-Jun-2027-_JR-2604281) — SGP - Science Park
@@ -74,7 +71,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 - [Micron Technology — System Engineer Intern, HBM](https://go.vansh.nyc/1bI) — Boise, ID
 - [nxp — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
 - [samsungsemiconductor — Intern, RTL Power Macromodeling Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046830003) — San Jose, California, United States
-- [SK Hynix Memory Solution — ASIC Design Intern](https://go.vansh.nyc/gp) — San Jose, CA
 - [Tenstorrent — Hardware Intern, Architecture, AI HW & SoC](https://go.vansh.nyc/1qf) — Austin, TX, Boston, MA, Fort Collins, CO, Santa Clara, CA
 - [ambarella — ASIC Design Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/en-US/ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357) — US Headquarters
 - [analogdevices — Digital Design Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298) — 2 Locations
@@ -121,7 +117,6 @@ Ranked by Sam's criteria: DSP and signal processing first, then FPGA design, the
 ## Other roles at silicon & defense employers
 
 - [Micron Technology — HBM Data Scientist Intern](https://go.vansh.nyc/VY) — Richardson, TX
-- [Motorola Solutions — DSP - Digital Signal Processing Software Engineering Intern - Summer 2027](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Plantation-FL/DSP--Digital-Signal-Processing--Software-Engineering-Intern---Summer-2027_R68734) — Plantation, FL
 - [Western Digital — Hardware Engineering Intern](https://go.vansh.nyc/1sa) — San Jose, CA
 - [Apple — Hardware Engineering Intern](https://go.vansh.nyc/1tl) ⚡elite — United States
 - [Arista Networks — Hardware Engineering Intern](https://go.vansh.nyc/1tu) ⚡elite — Nashua, NH
