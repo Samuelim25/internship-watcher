@@ -707,6 +707,37 @@ def is_relevant(job, filters):
     return True
 
 
+# ------------------------------ firm exclusion ------------------------------ #
+# config.json -> filters.exclude_firms lists employers whose roles are dropped
+# everywhere (email, OPEN_ROLES, TOP_PICKS) -- quant / HFT firms as of
+# 2026-11-12. Tracker rows carry display names ("Jane Street") while
+# auto-discovered boards carry the ATS token ("janestreet", "optiverus"), so an
+# entry matches either as a whole word in the name or, for entries of 6+
+# letters, as the start of the name once spaces and punctuation are removed.
+# Whole-word on purpose (gotcha #7): "virtu" must not match "Virtusa".
+_FIRM_RES = {}
+
+
+def _firm_excluded(company, filters):
+    """Return the matching exclude_firms entry, or None."""
+    c = (company or "").lower()
+    if not c:
+        return None
+    squashed = re.sub(r"[^a-z0-9]", "", c)
+    for term in filters.get("exclude_firms", []):
+        t = term.lower()
+        rx = _FIRM_RES.get(t)
+        if rx is None:
+            rx = re.compile(r"(?<![a-z0-9])" + re.escape(t) + r"(?![a-z0-9])")
+            _FIRM_RES[t] = rx
+        if rx.search(c):
+            return term
+        ts = re.sub(r"[^a-z0-9]", "", t)
+        if len(ts) >= 6 and squashed.startswith(ts):
+            return term
+    return None
+
+
 # ---------- top-firm + Summer-2027 narrowing (retuned 2026-08-19) ----------- #
 # Sam is hunting FPGA / ASIC digital-design internships for SUMMER 2027, so the
 # cycle gate looks for summer rather than fall. `top_firms_only` is OFF by
@@ -872,13 +903,18 @@ _HUB_RE = re.compile(
 
 
 # --------------------------- role categorisation ---------------------------- #
-# Sam's email is ranked into 4 categories (2026-08-19), in this exact order:
-#   0) DSP / signal processing  -- his stated sub-area priority
+# Sam's email is ranked into 6 categories, in this exact order (DSP / FPGA /
+# ASIC order set 2026-08-19; RF and verification added 2026-11-12):
+#   0) DSP / signal processing  -- the stated sub-area priority
 #   1) FPGA design
 #   2) ASIC / SoC / RTL digital design
-#   3) everything else that matched the filters
-# Verification and physical-design roles never reach here: they are excluded by
-# `title_exclude` in config.json.
+#   3) RF / wireless hardware
+#   4) design verification      -- wanted, but ranked below the design roles
+#   5) everything else that matched the filters
+# Physical-design roles never reach here: they are excluded by `title_exclude`
+# in config.json.
+CAT_DSP, CAT_FPGA, CAT_ASIC, CAT_RF, CAT_DV, CAT_OTHER = range(6)
+
 DSP_RE = re.compile(
     r"\bdsp\b|signal process|digital signal|\bradar\b|\bsdr\b|"
     r"software.?defined radio|waveform|\bmodem\b|baseband|beamform|"
@@ -895,6 +931,16 @@ ASIC_RE = re.compile(
     r"\bcpu\b|\bgpu\b|\bnpu\b|\btpu\b|accelerator|\bip\b design|serdes|"
     r"memory controller|\bddr\b|\bhbm\b|\bpcie\b|interconnect|\bnoc\b|"
     r"processor|architecture", re.I)
+
+RF_RE = re.compile(
+    r"\brf\b|\brfic\b|\bmmic\b|radio.?frequency|microwave|mm.?wave|"
+    r"millimeter.?wave|antenna|wireless|electromagnetic|phased.?array|"
+    r"\bemc\b|transceiver", re.I)
+
+DV_RE = re.compile(r"verification|\bverify\b|\buvm\b|testbench|\bdv\b", re.I)
+# "Design and Verification" is a design role that also verifies its own RTL, so
+# it stays with the design categories instead of being ranked as verification.
+_DESIGN_AND_DV_RE = re.compile(r"design\s*(and|&|/)\s*verification", re.I)
 
 
 # A title can name silicon and still be a pure software job -- "GPU/AI
@@ -913,23 +959,29 @@ _HARD_DESIGN_RE = re.compile(
 
 
 def _role_category(title):
-    """Lower = higher priority. DSP first, then FPGA, then ASIC/SoC."""
+    """Lower = higher priority: DSP, FPGA, ASIC/SoC, RF, verification, other."""
     t = title or ""
     if _SOFTWARE_RE.search(t) and not _HARD_DESIGN_RE.search(t):
-        return 3
+        return CAT_OTHER
+    if DV_RE.search(t) and not _DESIGN_AND_DV_RE.search(t):
+        return CAT_DV
     if DSP_RE.search(t):
-        return 0
+        return CAT_DSP
     if FPGA_RE.search(t):
-        return 1
+        return CAT_FPGA
+    # RF is tested before ASIC so "RF Hardware Design Intern" lands under RF
+    # rather than under ASIC on the strength of "hardware design".
+    if RF_RE.search(t):
+        return CAT_RF
     if ASIC_RE.search(t):
-        return 2
-    return 3
+        return CAT_ASIC
+    return CAT_OTHER
 
 
 def _is_chip_design(company, title):
     """True if the title reads as chip design OR it's at a known silicon /
     defense-electronics employer."""
-    return bool(_role_category(title) < 3 or _tier(company) in (0, 2))
+    return bool(_role_category(title) < CAT_OTHER or _tier(company) in (0, 2))
 
 
 def _loc_rank(loc):
@@ -951,11 +1003,9 @@ def build_email_html(grouped, baseline=False, filters=None):
     )
     parts = [f"<p>{intro}</p>"]
 
-    # Sam's 4 categories (2026-08-19), in priority order. US-only is already
-    # enforced upstream, so every role here is US.
-    #   0) DSP / signal processing   1) FPGA design
-    #   2) ASIC / SoC / RTL design   3) everything else that matched
-    cats = {0: [], 1: [], 2: [], 3: []}
+    # Sam's categories in priority order (see "role categorisation" above).
+    # US-only is already enforced upstream, so every role here is US.
+    cats = {c: [] for c in range(CAT_OTHER + 1)}
     for firm in grouped:
         for j in grouped[firm]:
             j = dict(j)
@@ -964,13 +1014,17 @@ def build_email_html(grouped, baseline=False, filters=None):
             cats[_role_category(title)].append(j)
 
     meta = [
-        (0, "&#128225; DSP / signal processing", "#1553b0",
+        (CAT_DSP, "&#128225; DSP / signal processing", "#1553b0",
          "Your stated priority: DSP datapaths, radar, SDR, baseband."),
-        (1, "&#129518; FPGA design", "#2f6f4f",
+        (CAT_FPGA, "&#129518; FPGA design", "#2f6f4f",
          "FPGA and reconfigurable-logic design roles."),
-        (2, "&#128187; ASIC / SoC / RTL design", "#5b3fa0",
+        (CAT_ASIC, "&#128187; ASIC / SoC / RTL design", "#5b3fa0",
          "Digital design, microarchitecture, SoC and IP roles."),
-        (3, "Other matched roles", "#777", None),
+        (CAT_RF, "&#128246; RF / wireless", "#b0561a",
+         "RF, microwave, antenna and wireless hardware roles."),
+        (CAT_DV, "&#128269; Design verification", "#8a6d1b",
+         "Verification roles, ranked below the design roles."),
+        (CAT_OTHER, "Other matched roles", "#777", None),
     ]
     for cid, header, color, sub in meta:
         jobs = _collapse_locations(cats[cid])
@@ -1119,10 +1173,11 @@ def _is_us_location(loc):
     return not (NON_US_RE.search(s) and not US_LOC_RE.search(s))
 
 
-# Roles Sam wants: FPGA / ASIC digital design and DSP. NOT verification, NOT
-# physical design -- those two are the big adjacent families and they are the
-# whole reason SKIP_RE exists. (config.json's `title_exclude` catches most of
-# them upstream; this is the second line of defence for TOP_PICKS.)
+# Roles Sam wants: FPGA / ASIC digital design, DSP and RF, plus design
+# verification (allowed since 2026-11-12 and ranked below the design roles).
+# NOT physical design and NOT post-silicon validation -- those are the big
+# adjacent families SKIP_RE exists for. (config.json's `title_exclude` catches
+# most of them upstream; this is the second line of defence for TOP_PICKS.)
 WANT_RE = re.compile(
     r"\bfpga\b|\basic\b|\brtl\b|verilog|systemverilog|\bvhdl\b|\bvlsi\b|"
     r"digital design|logic design|chip design|hardware design|hardware eng|"
@@ -1132,11 +1187,14 @@ WANT_RE = re.compile(
     r"processor|computer architect|"
     r"\bdsp\b|signal process|digital signal|\bradar\b|\bsdr\b|waveform|"
     r"software.?defined radio|\bmodem\b|baseband|beamform|"
-    r"high.?level synthesis|\bhls\b|emulation",
+    r"high.?level synthesis|\bhls\b|emulation|"
+    r"\brf\b|\brfic\b|\bmmic\b|radio.?frequency|microwave|mm.?wave|"
+    r"millimeter.?wave|antenna|wireless|electromagnetic|phased.?array|"
+    r"transceiver|verification|\buvm\b|testbench",
     re.I,
 )
 SKIP_RE = re.compile(
-    r"verification|verify|validation|\buvm\b|testbench|\bdv\b eng|"
+    r"validation|"
     r"post.?silicon|physical design|physical implementation|place and route|"
     r"place & route|floorplan|timing closure|static timing|sign.?off|"
     r"\blayout\b|back.?end design|design for test|\bdft\b|"
@@ -1194,25 +1252,25 @@ def _tier(company):
 
 
 def _bucket(comp, title, loc):
-    """Sam's priority: DSP first, then FPGA, then ASIC/SoC, then the rest.
-    Location does not affect the bucket -- he is open to anywhere in the US.
-    Lower number = higher on the list."""
+    """Sam's priority: DSP first, then FPGA, ASIC/SoC, RF, verification, then
+    the rest. Location does not affect the bucket -- anywhere in the US is
+    fine. Lower number = higher on the list."""
     cat = _role_category(title)
-    if cat < 3:
-        return cat          # 0 DSP · 1 FPGA · 2 ASIC/SoC
+    if cat < CAT_OTHER:
+        return cat              # DSP · FPGA · ASIC/SoC · RF · verification
     if _tier(comp) in (0, 2):
-        return 3            # other role at a known silicon/defense employer
-    return 4                # everything else that survived the filters
+        return CAT_OTHER        # other role at a known silicon/defense employer
+    return CAT_OTHER + 1        # everything else that survived the filters
 
 
 DEAD_URLS = {"https://careers.ice.com/jobs/12830"}
 
 
 def write_top_picks(current, filters=None):
-    """Curated subset of OPEN_ROLES: FPGA / ASIC / DSP design roles anywhere in
-    the US, with verification and physical design filtered out. Ranked DSP
-    first, then FPGA, then ASIC/SoC (Sam's stated criteria). Regenerated every
-    full sweep."""
+    """Curated subset of OPEN_ROLES: FPGA / ASIC / DSP / RF design roles
+    anywhere in the US, plus design verification, with physical design
+    filtered out. Ranked DSP first, then FPGA, ASIC/SoC, RF, verification
+    (Sam's stated criteria). Regenerated every full sweep."""
     picks = []
     for rec in current.values():
         j = rec["job"]
@@ -1238,20 +1296,23 @@ def write_top_picks(current, filters=None):
     lines = [
         "# Top picks (auto-generated)",
         "",
-        f"_FPGA / ASIC / DSP design roles, anywhere in the US. {len(picks)} of "
+        f"_FPGA / ASIC / DSP / RF roles, anywhere in the US. {len(picks)} of "
         f"{len(current)} open roles. Rebuilt every sweep: {stamp}._",
         "",
         "Ranked by Sam's criteria: DSP and signal processing first, then FPGA "
-        "design, then ASIC / SoC / RTL. Within each, sweet-spot employers "
+        "design, ASIC / SoC / RTL, RF / wireless, then design verification. "
+        "Within each, sweet-spot employers "
         "(mid-size silicon and defense) before the household names. "
         "🇺🇸 marks a role that asks for US citizenship or a clearance.",
         "",
     ]
-    headers = {0: "## 📡 DSP / SIGNAL PROCESSING — apply first",
-               1: "## 🧩 FPGA DESIGN",
-               2: "## 💻 ASIC / SoC / RTL DESIGN",
-               3: "## Other roles at silicon & defense employers",
-               4: "## Everything else that matched"}
+    headers = {CAT_DSP: "## 📡 DSP / SIGNAL PROCESSING — apply first",
+               CAT_FPGA: "## 🧩 FPGA DESIGN",
+               CAT_ASIC: "## 💻 ASIC / SoC / RTL DESIGN",
+               CAT_RF: "## 📶 RF / WIRELESS",
+               CAT_DV: "## 🔍 DESIGN VERIFICATION",
+               CAT_OTHER: "## Other roles at silicon & defense employers",
+               CAT_OTHER + 1: "## Everything else that matched"}
     seen_b = None
     for b, tier, _, title, comp, loc, url, clr in picks:
         if b != seen_b:
@@ -1268,209 +1329,8 @@ def write_top_picks(current, filters=None):
     print(f"{TOP_PICKS_FILE} written: {len(picks)} pick(s).")
 
 
-# ----------------------------- weekly digest -------------------------------- #
-# Sources that belong in the Sunday digest: chip-design programs, tapeout
-# shuttles, conference student programs, scholarships and lab REUs -- things
-# with an application WINDOW rather than a rolling job posting. Company job
-# boards ("Chip:", "Defense:", "Hardware:", "Page:") are internship-hunting and
-# stay OUT; those are the hourly sweep's job.
-DIGEST_PREFIXES = (
-    "competition", "hackathon", "scholarship", "fellowship", "abroad",
-    "program", "natsec", "lab", "conference", "grant",
-)
-
-
-def _is_digest_source(firm):
-    """Explicit `digest: true/false` in config wins; otherwise fall back to the
-    name prefix so newly-added Competition:/Hackathon:/... entries opt in
-    automatically."""
-    if "digest" in firm:
-        return bool(firm["digest"])
-    name = (firm.get("name") or "").strip().lower()
-    return name.split(":")[0].strip().rstrip("s") in {
-        p.rstrip("s") for p in DIGEST_PREFIXES}
-
-
-def run_digest_sweep(config, seen):
-    """Poll ONLY the competition/event/program sources and report what changed
-    since last week. Returns (changed_items, updated_seen_state).
-
-    A source's first-ever sighting is recorded silently -- otherwise the first
-    digest would scream that all ~60 sources are 'new'."""
-    sources = [f for f in config.get("firms", [])
-               if f.get("enabled", True) and _is_digest_source(f)]
-    print(f"Digest sweep: polling {len(sources)} competition/program source(s)")
-    changed, new_seen = [], dict(seen)
-    # Only URLs we've already fingerprinted can be judged "changed". A URL
-    # present only under the OLD url-only key has no recorded content hash, so
-    # its first fingerprint is a silent baseline -- otherwise the first run
-    # after this change would report every source as new.
-    fingerprinted = {_pw_url(k) for k in seen if k.startswith(PW_PREFIX)}
-
-    def poll(firm):
-        """Fetch one source. Returns (firm, items) -- never raises."""
-        fetcher = FETCHERS.get(firm.get("ats"))
-        if not fetcher:
-            print(f"  - {firm.get('name','?')}: unknown ats")
-            return firm, []
-        try:
-            return firm, fetcher(firm)
-        except Exception as e:  # noqa: BLE001 -- one dead page must not kill the digest
-            print(f"  x {firm.get('name','?')} skipped: {e}")
-            return firm, []
-
-    # Parallel: ~100 pages sequentially takes many minutes (same reason
-    # autodiscover is threaded -- see gotcha #3 in CLAUDE.md).
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        results = list(pool.map(poll, sources))
-
-    for firm, items in results:
-        for j in items:
-            url = (j.get("url") or "").strip().lower()
-            key = (_pw_key(url, j["id"]) if j.get("pagewatch")
-                   else (url or f"{firm.get('name')}:{j['id']}"))
-            if key in new_seen:
-                continue
-            # Known fingerprint that moved => a real change worth emailing.
-            if url in fingerprinted:
-                changed.append({
-                    "name": firm.get("name", "") or j.get("company", ""),
-                    "url": firm.get("url") or j.get("url", ""),
-                    "title": j.get("title", ""),
-                })
-            new_seen[key] = {"title": j.get("title", ""), "url": j.get("url", "")}
-
-    print(f"Digest sweep: {len(changed)} source(s) changed since last week.")
-    return changed, new_seen
-
-
-def _digest_group(name):
-    """Bucket a source name into an email section."""
-    head = (name or "").split(":")[0].strip().lower()
-    if head.startswith("competition") or head.startswith("hackathon"):
-        return "competitions"
-    if head.startswith("scholarship") or head.startswith("fellowship") or head.startswith("grant"):
-        return "money"
-    if head.startswith("abroad") or head.startswith("lab"):
-        return "research"
-    if head.startswith("conference"):
-        return "competitions"
-    return "programs"
-
-
-def send_weekly_digest():
-    """Sunday email. Two halves:
-      1) LIVE -- competition/program pages that CHANGED this week (i.e. an
-         application probably just opened), discovered by run_digest_sweep.
-      2) The PROGRAMS.md master calendar, so nothing with a deadline slips.
-    Deliberately excludes job postings: those go out on the hourly sweep, so
-    this digest is programs, shuttles, conferences and scholarships only."""
-    config = load_json(CONFIG_FILE, None) or {}
-    seen = load_json(SEEN_FILE, {}) or {}
-
-    changed, new_seen = [], seen
-    try:
-        changed, new_seen = run_digest_sweep(config, seen)
-    except Exception as e:  # noqa: BLE001 -- still send the calendar if polling dies
-        print(f"  x digest sweep failed, sending calendar only: {e}")
-
-    parts = [
-        "<p style='font-size:15px'><b>Weekly competitions &amp; opportunities "
-        "digest.</b> Trading competitions, math &amp; CS contests, hackathons, "
-        "CTFs, scholarships, fellowships, research and abroad programs &mdash; "
-        "everything worth chasing that isn't a job posting.</p>"
-    ]
-
-    if changed:
-        buckets = {"competitions": [], "programs": [], "money": [], "research": []}
-        for c in changed:
-            buckets[_digest_group(c["name"])].append(c)
-        labels = [
-            ("competitions", "&#127942; Competitions &amp; hackathons", "#b45309"),
-            ("programs", "&#128188; Programs &amp; events", "#1553b0"),
-            ("money", "&#128176; Scholarships &amp; fellowships", "#2f6f4f"),
-            ("research", "&#128300; Research &amp; abroad", "#5b3fa0"),
-        ]
-        parts.append(
-            "<div style='border-left:4px solid #b45309;padding:6px 12px;margin:16px 0;"
-            "background:#fffbeb'><h3 style='margin:4px 0'>&#9889; CHANGED THIS WEEK "
-            f"&mdash; {len(changed)} page(s)</h3><p style='margin:2px 0;color:#666;"
-            "font-size:12px'>These pages moved since last Sunday, which usually means "
-            "applications just opened. Check them first.</p></div>"
-        )
-        for key, label, color in labels:
-            if not buckets[key]:
-                continue
-            parts.append(f"<h3 style='margin:14px 0 4px;color:{color}'>{label}</h3><ul>")
-            for c in buckets[key]:
-                nm = escape(c["name"]) or "source"
-                parts.append(f"<li><a href='{escape(c['url'])}'>{nm}</a></li>")
-            parts.append("</ul>")
-    else:
-        parts.append(
-            "<p style='color:#666'>No watched competition/program page changed this "
-            "week. The calendar below is still the thing to work off of.</p>"
-        )
-
-    try:
-        programs = open("PROGRAMS.md", encoding="utf-8").read()
-        body = re.sub(r"^# (.*)$", r"<h2>\1</h2>", programs, flags=re.M)
-        body = re.sub(r"^## (.*)$", r"<h3>\1</h3>", body, flags=re.M)
-        body = re.sub(r"^- (.*)$", r"<li>\1</li>", body, flags=re.M)
-        body = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", body)
-        body = re.sub(r"\[(.+?)\]\((https?://[^)]+)\)", r"<a href='\2'>\1</a>", body)
-        parts.append(f"<hr><h2>&#128197; The calendar</h2>{body}")
-    except FileNotFoundError:
-        parts.append("<hr><p>PROGRAMS.md not found &mdash; calendar unavailable.</p>")
-
-    # Clickable index of everything being watched, straight from config.json so
-    # it can never drift out of date. The calendar above names programs; this
-    # makes every one of them one click away.
-    idx = {"competitions": [], "programs": [], "money": [], "research": []}
-    for f in config.get("firms", []):
-        if f.get("enabled", True) and _is_digest_source(f) and f.get("url"):
-            idx[_digest_group(f.get("name", ""))].append(
-                (f.get("name", ""), f["url"]))
-    if any(idx.values()):
-        parts.append(
-            "<hr><h2>&#128279; Every page being watched</h2>"
-            "<p style='color:#888;font-size:12px'>Checked every Sunday. A change "
-            "here is what triggers the alert at the top.</p>"
-        )
-        for key, label in (("competitions", "Competitions &amp; hackathons"),
-                           ("programs", "Programs &amp; events"),
-                           ("money", "Scholarships &amp; fellowships"),
-                           ("research", "Research &amp; abroad")):
-            if not idx[key]:
-                continue
-            parts.append(f"<h4 style='margin:12px 0 4px'>{label}</h4>"
-                         "<ul style='font-size:13px'>")
-            for nm, u in sorted(idx[key]):
-                short = escape(re.sub(r"^[^:]+:\s*", "", nm) or nm)
-                parts.append(f"<li><a href='{escape(u)}'>{short}</a></li>")
-            parts.append("</ul>")
-
-    parts.append(
-        "<p style='color:#888;font-size:12px'>Sent every Sunday by your watcher. "
-        "Internship polling is paused (offer signed); this digest is competitions "
-        "and programs only.</p>"
-    )
-
-    send_email(
-        "[Watcher] Weekly competitions digest"
-        + (f" - {len(changed)} page(s) changed" if changed else ""),
-        "\n".join(parts),
-    )
-    save_json(SEEN_FILE, new_seen)
-    print(f"Digest sent; state saved ({len(new_seen)} keys).")
-
-
 # ----------------------------- main ---------------------------------------- #
 def main():
-    if os.environ.get("DIGEST_MODE") == "1":
-        send_weekly_digest()
-        return
-
     config = load_json(CONFIG_FILE, None)
     if not config:
         print(f"ERROR: {CONFIG_FILE} is missing or invalid.", file=sys.stderr)
@@ -1499,10 +1359,6 @@ def main():
     for firm in config.get("firms", []):
         if not firm.get("enabled", True):
             continue
-        # In narrowed mode the competition/program sources are Sunday's job --
-        # polling them hourly would spam the role email with page-change pings.
-        if (top_only or summer_only) and _is_digest_source(firm):
-            continue
         if time.time() - started > run_budget:
             print("  ! run budget hit -- skipping remaining sources this run")
             sweep_complete = False
@@ -1519,6 +1375,18 @@ def main():
             continue
 
         relevant = [j for j in jobs if j.get("bypass_filters") or is_relevant(j, filters)]
+        # Firms never wanted (config -> filters.exclude_firms, e.g. quant/HFT).
+        # Counted like every other drop so it can never eat roles silently.
+        kept = []
+        for j in relevant:
+            hit = (None if j.get("bypass_filters")
+                   else _firm_excluded(j.get("company") or name, filters))
+            if hit:
+                _drop(f"excluded-firm:{hit}", j.get("title", ""))
+            else:
+                kept.append(j)
+        n_firm = len(relevant) - len(kept)
+        relevant = kept
         # US-only: drop clearly-non-US roles from everything downstream (email,
         # TOP_PICKS, OPEN_ROLES). Keep bypass alerts as-is.
         us_relevant = [j for j in relevant
@@ -1545,6 +1413,7 @@ def main():
         n_clear = sum(1 for j in relevant if j["clearance"])
         print(f"  ok {name}: {len(jobs)} jobs, {len(relevant)} relevant"
               + (f" ({n_clear} clearance/US-citizen)" if n_clear else "")
+              + (f" [-{n_firm} excluded-firm]" if n_firm else "")
               + (f" [-{n_drop} non-US]" if n_drop else "")
               + (f" [-{n_nontop} not-top-firm]" if n_nontop else "")
               + (f" [-{n_notsummer} not-summer-2027]" if n_notsummer else ""))
@@ -1603,10 +1472,6 @@ def main():
         write_top_picks(current, filters)
     else:
         print(f"{OPEN_ROLES_FILE} not rewritten (partial sweep).")
-
-    # NOTE: the weekly digest is NOT triggered from here. It runs as its own
-    # scheduled job via DIGEST_MODE=1 (see send_weekly_digest). Firing it from
-    # inside the sweep too would double-email on any Sunday 13:00 UTC run.
 
     if DROP_COUNTS:
         top = sorted(DROP_COUNTS.items(), key=lambda kv: -kv[1])

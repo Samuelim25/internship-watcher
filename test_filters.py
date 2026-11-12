@@ -2,9 +2,10 @@
 """Filter regression tests.
 
 Every title below is a REAL posting title observed in the community trackers
-(or a close variant), so this pins the two things most likely to break the
-watcher for Sam: chip-design roles must survive, and verification / physical
-design must not.
+or on a company board (or a close variant), so this pins the things most likely
+to break the watcher for Sam: chip-design, RF and verification roles must
+survive, physical design and post-silicon validation must not, and quant / HFT
+firms must stay hidden.
 
 Run:  python3 test_filters.py
 """
@@ -13,54 +14,71 @@ import sys
 
 import watcher as w
 
-FILTERS = json.load(open("config.json"))["filters"]
+FILTERS = json.load(open("config.json", encoding="utf-8"))["filters"]
 
-# (title, should_be_relevant, expected_category_or_None)
-#   category 0 = DSP/signal processing, 1 = FPGA, 2 = ASIC/SoC/RTL, 3 = other
+DSP, FPGA, ASIC, RF, DV, OTHER = (w.CAT_DSP, w.CAT_FPGA, w.CAT_ASIC,
+                                  w.CAT_RF, w.CAT_DV, w.CAT_OTHER)
+
+# (title, expected_category) -- every one of these must pass the filters
 KEEP = [
     # --- real titles seen in the trackers ---
-    ("Hardware ASIC Design Intern", 2),
-    ("NVIDIA Internships: Hardware Engineering", 3),
-    ("Hardware Engineering Intern", 3),
-    ("SoC Digital Design Engineer Intern", 2),
-    ("CPU Microarchitecture Engineer Intern", 2),
-    ("RTL Design Intern - Bachelor's Degree", 2),
-    ("FPGA Intern", 1),
-    ("FPGA Engineer Intern", 1),
-    ("FPGA System Developer Intern", 1),
-    ("FPGA Intern Engineer", 1),
-    ("Internship - FPGA Hardware Design Engineer", 1),
-    ("Silicon Hardware Engineering Intern/Co-op - Silicon Engineering", 2),
-    ("Intern Semiconductor Design Engineer", 2),
-    ("Digital Design Intern", 2),
-    ("ASIC Intern", 2),
-    ("Hardware - Engineering Internship - CPU - GPU - SoC - Digital Design", 2),
-    ("Intern - Silicon Solutions Group", 2),
-    ("SoC Performance Modeling Internship - Platform Architecture", 2),
-    # --- DSP / signal processing: Sam's stated priority, must land in cat 0 ---
-    ("Machine Learning and Digital Signal Processing Intern", 0),
-    ("DSP Firmware Engineering Co-op/Intern", 0),
-    ("Signal Processing Intern", 0),
-    ("Radar Systems Engineering Intern", 0),
-    ("Baseband Modem Design Intern", 0),
-    ("Software Defined Radio Engineering Intern", 0),
-    ("Beamforming Algorithms Intern", 0),
+    ("Hardware ASIC Design Intern", ASIC),
+    ("NVIDIA Internships: Hardware Engineering", OTHER),
+    ("Hardware Engineering Intern", OTHER),
+    ("SoC Digital Design Engineer Intern", ASIC),
+    ("CPU Microarchitecture Engineer Intern", ASIC),
+    ("RTL Design Intern - Bachelor's Degree", ASIC),
+    ("FPGA Intern", FPGA),
+    ("FPGA Engineer Intern", FPGA),
+    ("FPGA System Developer Intern", FPGA),
+    ("FPGA Intern Engineer", FPGA),
+    ("Internship - FPGA Hardware Design Engineer", FPGA),
+    ("Silicon Hardware Engineering Intern/Co-op - Silicon Engineering", ASIC),
+    ("Intern Semiconductor Design Engineer", ASIC),
+    ("Digital Design Intern", ASIC),
+    ("ASIC Intern", ASIC),
+    ("Hardware - Engineering Internship - CPU - GPU - SoC - Digital Design", ASIC),
+    ("Intern - Silicon Solutions Group", ASIC),
+    ("SoC Performance Modeling Internship - Platform Architecture", ASIC),
+    # --- DSP / signal processing: Sam's stated priority, must land first ---
+    ("Machine Learning and Digital Signal Processing Intern", DSP),
+    ("DSP Firmware Engineering Co-op/Intern", DSP),
+    ("Signal Processing Intern", DSP),
+    ("Radar Systems Engineering Intern", DSP),
+    ("Baseband Modem Design Intern", DSP),
+    ("Software Defined Radio Engineering Intern", DSP),
+    ("Beamforming Algorithms Intern", DSP),
+    ("Signal Processing and RF Engineering Intern", DSP),
+    # --- RF / wireless (added 2026-11-12) ---
+    ("Antenna Intern (Summer 2027)", RF),
+    ("Electrical Integration Intern - RF (Summer 2027)", RF),
+    ("Wireless Hardware Engineer Intern - Summer 2027", RF),
+    ("RF Hardware Design Intern", RF),
+    ("RF/Microwave Engineering Intern", RF),
+    ("RFIC Design Intern", RF),
+    # --- design verification (allowed since 2026-11-12, ranked below design) ---
+    ("Intern - ASIC Design Verification - ASIC Design Verification", DV),
+    ("Design DSP Verification Intern - Bachelor's Degree", DV),
+    ("Intern - Firmware Verification Engineering", DV),
+    ("UVM Testbench Development Intern", DV),
+    ("Design Verification Engineer Intern", DV),
+    ("FPGA Design Verification Intern", DV),
+    ("Digital Design Verification Engineer Intern", DV),
+    ("Verification Engineer Intern", DV),
+    # "design AND verification" is a design role: it stays in its design bucket
+    ("ASIC Design and Verification Engineer Intern - Video Silicon IP", ASIC),
     # --- generic but legitimate ---
-    ("Computer Engineering Intern", 3),
-    ("Embedded Systems Engineering Intern", 3),
-    ("Firmware Engineering Intern", 3),
+    ("Computer Engineering Intern", OTHER),
+    ("Embedded Systems Engineering Intern", OTHER),
+    ("Firmware Engineering Intern", OTHER),
 ]
 
-DROP = [
-    # --- verification: explicitly excluded ---
-    "Intern - ASIC Design Verification - ASIC Design Verification",
-    "ASIC Design and Verification Engineer Intern - Video Silicon IP",
-    "ASIC Design Verification Engineer",
-    "Design DSP Verification Intern - Bachelor's Degree",
-    "Intern - Firmware Verification Engineering",
+# Physical design and post-silicon validation: must be dropped by the filters
+# AND must never appear in TOP_PICKS.
+NEVER = [
+    # --- validation (not design verification): still excluded ---
     "Summer Intern - Validation Software Engineer - Silicon Validation Infra",
     "Chassis Validation Engineer Intern, Vehicle Firmware",
-    "UVM Testbench Development Intern",
     "Post-Silicon Validation Intern",
     # --- physical design: explicitly excluded ---
     "Physical Design Engineer Intern",
@@ -70,6 +88,12 @@ DROP = [
     "Layout Design Intern",
     "Floorplanning Engineer Intern",
     "Design for Test (DFT) Engineering Intern",
+    # regression: the "dft" exclude was once stored as "\bdft\b", which JSON
+    # reads as backspace characters, so it matched nothing and this leaked
+    "ASIC DFT Engineer Intern",
+]
+
+DROP = NEVER + [
     # --- wrong discipline / function ---
     "Mechanical Engineer Intern",
     "Hardware Engineering Intern - Mechanical Design",
@@ -81,6 +105,7 @@ DROP = [
     "Supply Chain Intern",
     "Sales Engineering Intern",
     # --- not an internship at all ---
+    "ASIC Design Verification Engineer",
     "Senior ASIC Design Engineer",
     "Principal RTL Design Engineer",
     "Internal Audit Manager",
@@ -107,6 +132,27 @@ CYCLE = [
     ("Summer 2028 ASIC Intern", "", False),
     ("ASIC Design Intern", "This is our Fall 2027 co-op rotation.", False),
     ("RTL Design Intern", "Summer 2027 internship, 12 weeks", True),
+]
+
+# Quant / HFT firms are hidden everywhere (filters.exclude_firms). Trackers
+# give display names; auto-discovered boards give the ATS token.
+FIRM_HIDDEN = [
+    "Jane Street", "janestreet", "Hudson River Trading", "wehrtyou",
+    "Optiver", "optiverus", "Virtu Financial", "HPR (Hyannis Port Research)",
+    "hyannisportresearch", "DRW", "drweng", "Two Sigma", "IMC Trading", "imc",
+    "Citadel Securities", "Tower Research Capital", "towerresearchcapital",
+    "Five Rings Capital", "fiveringsllc", "Akuna Capital", "akunacapital",
+    "Susquehanna International Group (SIG)", "Jump Trading Group",
+    "Defense: Vatic Labs", "vaticlabs", "Headlands Technologies",
+    "headlandstechnologiesllc", "xtxmarketstechnologies", "D. E. Shaw",
+    "DE Shaw", "G-Research",
+]
+# ...and these must NOT be caught by a careless substring match.
+FIRM_KEPT = [
+    "NVIDIA", "Chip: NVIDIA", "Virtusa", "Astranis", "Northrop Grumman",
+    "Millennium Space Systems", "American Tower", "Tower Semiconductor",
+    "Simcorp", "Jumpstart", "Two Six Technologies", "Radix Engineering",
+    "Citizens Energy Group", "HP", "Draper",
 ]
 
 fails = []
@@ -147,14 +193,14 @@ print("\n=== software-vs-design demotion ===")
 # A title can name silicon and still be a pure software job. These must land in
 # the catch-all category, not in the FPGA/ASIC buckets.
 for title, want_cat in [
-    ("GPU/AI Application System Software Engineer Intern", 3),
-    ("Chip Simulation Software Intern", 3),
-    ("Compiler Engineer Intern, GPU", 3),
-    ("CUDA Software Development Intern", 3),
-    ("SoC Driver Software Engineer Intern", 3),
+    ("GPU/AI Application System Software Engineer Intern", OTHER),
+    ("Chip Simulation Software Intern", OTHER),
+    ("Compiler Engineer Intern, GPU", OTHER),
+    ("CUDA Software Development Intern", OTHER),
+    ("SoC Driver Software Engineer Intern", OTHER),
     # ...but a hard design signal outranks the software wording
-    ("FPGA Software Design Engineer", 1),
-    ("RTL Design Software Engineer Intern", 2),
+    ("FPGA Software Design Engineer", FPGA),
+    ("RTL Design Software Engineer Intern", ASIC),
 ]:
     got = w._role_category(title)
     flag = "ok " if got == want_cat else "FAIL"
@@ -163,13 +209,25 @@ for title, want_cat in [
           f"DEMOTION {title!r} -> cat {got}, want {want_cat}")
 
 print("\n=== TOP_PICKS want/skip gate ===")
-for title, _ in KEEP:
+for title, cat in KEEP:
     inpick = bool(w.WANT_RE.search(title) and not w.SKIP_RE.search(title))
-    if not inpick:
+    if cat in (RF, DV):
+        check(inpick, f"TOP_PICKS lost an RF / verification role: {title}")
+    elif not inpick:
         print(f"  note: not in TOP_PICKS (matched no WANT term): {title}")
-for title in DROP[:16]:
+for title in NEVER:
     inpick = bool(w.WANT_RE.search(title) and not w.SKIP_RE.search(title))
     check(not inpick, f"TOP_PICKS kept an excluded role: {title}")
+
+print("\n=== quant / HFT firm exclusion ===")
+for name in FIRM_HIDDEN:
+    hit = w._firm_excluded(name, FILTERS)
+    print(f"  {'ok ' if hit else 'FAIL'} hidden  {name[:40]:40} <- {hit}")
+    check(hit, f"FIRM not hidden: {name}")
+for name in FIRM_KEPT:
+    hit = w._firm_excluded(name, FILTERS)
+    print(f"  {'FAIL' if hit else 'ok '} kept    {name[:40]:40}" + (f" <- {hit}" if hit else ""))
+    check(not hit, f"FIRM wrongly hidden: {name} (matched {hit!r})")
 
 print("\n" + "=" * 62)
 if fails:
@@ -177,4 +235,5 @@ if fails:
     for f in fails:
         print("  -", f)
     sys.exit(1)
-print(f"All {len(KEEP) + len(DROP) + len(CYCLE)} filter assertions passed.")
+total = len(KEEP) + len(DROP) + len(CYCLE) + len(FIRM_HIDDEN) + len(FIRM_KEPT)
+print(f"All {total} filter assertions passed.")

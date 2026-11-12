@@ -67,15 +67,34 @@
       "hls",
       "hardware acceleration",
       "emulation",
-      "prototyping"
-    ],
-    "title_exclude": [
-      "verification",
-      "verify",
-      "validation",
+      "prototyping",
+      "rf",
+      "rfic",
+      "mmic",
+      "radio frequency",
+      "microwave",
+      "mmwave",
+      "mm-wave",
+      "millimeter wave",
+      "antenna",
+      "wireless",
+      "electromagnetic",
+      "phased array",
+      "transceiver",
+      "emc",
+      "design verification",
+      "functional verification",
+      "formal verification",
+      "hardware verification",
+      "ip verification",
+      "verification engineer",
+      "verification intern",
       "uvm",
       "testbench",
-      "dv engineer",
+      "dv"
+    ],
+    "title_exclude": [
+      "validation",
       "post-silicon",
       "post silicon",
       "silicon bring-up",
@@ -92,7 +111,7 @@
       "backend design",
       "back-end design",
       "design for test",
-      "\bdft\b",
+      "dft",
       "scan insertion",
       "test engineer",
       "product engineer",
@@ -150,6 +169,60 @@
       "skillbridge",
       "military veteran"
     ],
+    "exclude_firms": [
+      "jane street",
+      "hudson river trading",
+      "wehrtyou",
+      "optiver",
+      "virtu",
+      "hpr",
+      "hyannis port",
+      "drw",
+      "drweng",
+      "two sigma",
+      "jump trading",
+      "imc",
+      "citadel",
+      "tower research",
+      "five rings",
+      "akuna",
+      "akuna capital",
+      "susquehanna",
+      "old mission",
+      "chicago trading",
+      "belvedere trading",
+      "dv trading",
+      "dv group",
+      "radix trading",
+      "radixuniversity",
+      "headlands technologies",
+      "xtx",
+      "xtx markets",
+      "point72",
+      "de shaw",
+      "d. e. shaw",
+      "pdt partners",
+      "g-research",
+      "qube research",
+      "aquatic capital",
+      "aqr",
+      "arrowstreet",
+      "schonfeld",
+      "walleye",
+      "voleon",
+      "squarepoint",
+      "quantlab",
+      "wolverine trading",
+      "geneva trading",
+      "vatic",
+      "vatic labs",
+      "transmarket",
+      "flow traders",
+      "maven securities",
+      "balyasny",
+      "verition",
+      "quantbot"
+    ],
     "years": [
       2027
     ],
@@ -203,6 +276,17 @@
       "verified": true
     },
     {
+      "name": "Tracker: SimplifyJobs Summer2027",
+      "ats": "github_json",
+      "url": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
+      "cycle_year": "2027",
+      "seasons": [
+        "Summer 2027"
+      ],
+      "verified": true,
+      "note": "Has a Hardware category. Listed as a tracker only; deliberately NOT an autodiscover source (17k rows would swamp the board budget)."
+    },
+    {
       "name": "Tracker: sharunkumar Summer-Internships",
       "ats": "github_json",
       "url": "https://raw.githubusercontent.com/sharunkumar/Summer-Internships/dev/.github/scripts/listings.json",
@@ -240,8 +324,7 @@
         "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/dev/.github/scripts/listings.json",
         "https://raw.githubusercontent.com/sndsh404/summer-2027-internships/main/README.md",
         "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md",
-        "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/INTERN_INTL.md",
-        "https://raw.githubusercontent.com/northwesternfintech/2027QuantInternships/main/README.md"
+        "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/INTERN_INTL.md"
       ],
       "budget_seconds": 600,
       "max_workers": 10
@@ -640,7 +723,7 @@
     },
     {
       "name": "Defense: Saronic",
-      "ats": "lever",
+      "ats": "ashby",
       "token": "saronic",
       "verified": true
     },
@@ -659,7 +742,9 @@
     {
       "name": "Defense: Vatic Labs",
       "ats": "greenhouse",
-      "token": "vaticlabs"
+      "token": "vaticlabs",
+      "enabled": false,
+      "note": "Quant trading firm, not defense. Disabled 2026-11-12; also hidden by filters.exclude_firms."
     },
     {
       "name": "Defense: Metron",
@@ -743,8 +828,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Qualcomm (CPU/GPU/SoC digital design)",
@@ -753,8 +837,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Apple (silicon)",
@@ -763,8 +846,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Texas Instruments",
@@ -773,8 +855,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Synopsys",
@@ -783,8 +864,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Arm",
@@ -793,8 +873,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Chip: Broadcom",
@@ -811,8 +890,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Renesas",
@@ -821,8 +899,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Infineon",
@@ -831,8 +908,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: onsemi",
@@ -841,8 +917,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Skyworks",
@@ -851,8 +926,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Qorvo",
@@ -861,8 +935,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Seagate",
@@ -871,8 +944,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Chip: Cirrus Logic",
@@ -888,8 +960,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Rivos",
@@ -898,8 +969,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Cerebras",
@@ -908,8 +978,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Groq",
@@ -918,8 +987,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: SambaNova",
@@ -928,8 +996,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: d-Matrix",
@@ -938,8 +1005,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: EnCharge AI",
@@ -948,8 +1014,7 @@
       "watch_keywords": [
         "intern",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Lockheed Martin (search)",
@@ -958,8 +1023,7 @@
       "watch_keywords": [
         "2027",
         "intern"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: L3Harris (new grads & interns)",
@@ -968,8 +1032,7 @@
       "watch_keywords": [
         "2027",
         "intern"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Booz Allen careers",
@@ -978,8 +1041,7 @@
       "watch_keywords": [
         "2027",
         "intern"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Johns Hopkins APL",
@@ -988,8 +1050,7 @@
       "watch_keywords": [
         "2027",
         "apply"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Sandia internships",
@@ -998,8 +1059,7 @@
       "watch_keywords": [
         "2027",
         "apply"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: LLNL DSSI",
@@ -1008,8 +1068,7 @@
       "watch_keywords": [
         "2027",
         "apply"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: JPL internships",
@@ -1018,8 +1077,7 @@
       "watch_keywords": [
         "2027",
         "apply"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: NASA OSTEM internships",
@@ -1029,8 +1087,7 @@
         "summer 2027",
         "fall 2027"
       ],
-      "note": "JS-heavy portal; also join their alert list",
-      "digest": false
+      "note": "JS-heavy portal; also join their alert list"
     },
     {
       "name": "Page: DOE SULI",
@@ -1040,8 +1097,7 @@
         "2027",
         "now accepting",
         "application"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: NSF ETAP (all NSF REUs)",
@@ -1051,8 +1107,7 @@
         "2027",
         "apply",
         "open"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Pathways to Science (REU database)",
@@ -1061,8 +1116,7 @@
       "watch_keywords": [
         "summer 2027",
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: GTRI student assistant roles",
@@ -1072,8 +1126,7 @@
         "gtri",
         "student assistant",
         "intern"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: karanwxliaa research-for-UG list",
@@ -1081,8 +1134,7 @@
       "url": "https://raw.githubusercontent.com/karanwxliaa/Research-for-UG-Students/main/README.md",
       "watch_keywords": [
         "2027"
-      ],
-      "digest": false
+      ]
     },
     {
       "name": "Page: Google Careers (interns)",
@@ -1092,8 +1144,7 @@
         "2027",
         "intern"
       ],
-      "note": "JS-heavy SPA - weak signal; also set Google's own job alert",
-      "digest": false
+      "note": "JS-heavy SPA - weak signal; also set Google's own job alert"
     },
     {
       "name": "Page: Microsoft Careers",
@@ -1103,8 +1154,7 @@
         "2027",
         "intern"
       ],
-      "note": "best-effort; API is bearer-token gated",
-      "digest": false
+      "note": "best-effort; API is bearer-token gated"
     },
     {
       "name": "Page: Apple Jobs",
@@ -1114,414 +1164,7 @@
         "2027",
         "intern"
       ],
-      "note": "best-effort",
-      "digest": false
-    },
-    {
-      "name": "Program: NVIDIA Ignite (2-week Oct window!)",
-      "ats": "pagewatch",
-      "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
-      "watch_keywords": [
-        "ignite",
-        "2027",
-        "application",
-        "apply",
-        "freshman",
-        "sophomore"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: SRC (Semiconductor Research Corp) students",
-      "ats": "pagewatch",
-      "url": "https://www.src.org/student-center/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: TinyTapeout (open shuttle runs)",
-      "ats": "pagewatch",
-      "url": "https://tinytapeout.com/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: ChipFoundry (ex-Efabless) chipIgnite shuttles",
-      "ats": "pagewatch",
-      "url": "https://chipfoundry.io/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: Google/SkyWater open MPW shuttle",
-      "ats": "pagewatch",
-      "url": "https://developers.google.com/silicon",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: AMD university program (Xilinx boards)",
-      "ats": "pagewatch",
-      "url": "https://www.amd.com/en/corporate/university-program.html",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: Arm Education / research programs",
-      "ats": "pagewatch",
-      "url": "https://www.arm.com/resources/education",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: RISC-V International student programs",
-      "ats": "pagewatch",
-      "url": "https://riscv.org/community/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Program: CHIPS for America workforce",
-      "ats": "pagewatch",
-      "url": "https://www.nist.gov/chips/workforce-development",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Conference: DAC student research + Young Fellows",
-      "ats": "pagewatch",
-      "url": "https://dac.com/2026/dac-young-fellows",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Conference: ISSCC student programs",
-      "ats": "pagewatch",
-      "url": "https://www.isscc.org/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Conference: FPGA (ACM/SIGDA) symposium",
-      "ats": "pagewatch",
-      "url": "https://www.isfpga.org/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Conference: FCCM (field-programmable custom computing)",
-      "ats": "pagewatch",
-      "url": "https://www.fccm.org/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Conference: MICRO / ISCA student travel + workshops",
-      "ats": "pagewatch",
-      "url": "https://www.iscaconf.org/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Conference: Hot Chips",
-      "ats": "pagewatch",
-      "url": "https://hotchips.org/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Competition: SRC SRC-Bench / student design contests",
-      "ats": "pagewatch",
-      "url": "https://www.src.org/program/grc/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Competition: Xilinx/AMD Open Hardware design contest",
-      "ats": "pagewatch",
-      "url": "https://www.openhw.eu/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Competition: MITRE eCTF",
-      "ats": "pagewatch",
-      "url": "https://ectf.mitre.org/",
-      "digest": true
-    },
-    {
-      "name": "Competition: DOE CyberForce",
-      "ats": "pagewatch",
-      "url": "https://cyberforce.energy.gov/",
-      "watch_keywords": [
-        "2026",
-        "apply",
-        "open",
-        "registration"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Scholarship: DoD SMART",
-      "ats": "pagewatch",
-      "url": "https://www.smartscholarship.org/smart",
-      "digest": true,
-      "watch_keywords": [
-        "open",
-        "apply",
-        "deadline"
-      ]
-    },
-    {
-      "name": "Scholarship: IEEE SSCS scholarships",
-      "ats": "pagewatch",
-      "url": "https://sscs.ieee.org/membership/awards",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Scholarship: SEMI Foundation scholarships",
-      "ats": "pagewatch",
-      "url": "https://www.semi.org/en/workforce-development",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Scholarship: IEEE CS Merwin",
-      "ats": "pagewatch",
-      "url": "https://www.computer.org/volunteering/awards/scholarships/merwin",
-      "watch_keywords": [
-        "open",
-        "apply",
-        "application",
-        "deadline",
-        "2026",
-        "2027"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Scholarship: HKN awards (Madni)",
-      "ats": "pagewatch",
-      "url": "https://hkn.ieee.org/awards",
-      "watch_keywords": [
-        "open",
-        "apply",
-        "application",
-        "deadline",
-        "2026",
-        "2027"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Scholarship: Goldwater key dates",
-      "ats": "pagewatch",
-      "url": "https://goldwaterscholarship.gov/important-dates/",
-      "watch_keywords": [
-        "open",
-        "apply",
-        "application",
-        "deadline",
-        "2026",
-        "2027"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Scholarship: AFCEA STEM Majors (national)",
-      "ats": "pagewatch",
-      "url": "https://www.afcea.org/stem-majors-scholarships",
-      "watch_keywords": [
-        "open",
-        "apply",
-        "application",
-        "deadline",
-        "2027"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Scholarship: DoD Cyber Service Academy",
-      "ats": "pagewatch",
-      "url": "https://public.cyber.mil/wid/csa/",
-      "watch_keywords": [
-        "open",
-        "apply",
-        "application",
-        "deadline",
-        "2027"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Lab: NREIP (Navy research)",
-      "ats": "pagewatch",
-      "url": "https://www.onr.navy.mil/education-outreach/undergraduate-graduate/nreip-naval-internship",
-      "watch_keywords": [
-        "2027",
-        "application",
-        "apply",
-        "register",
-        "deadline"
-      ],
-      "note": "",
-      "digest": true
-    },
-    {
-      "name": "Lab: MIT Lincoln Laboratory summer program",
-      "ats": "pagewatch",
-      "url": "https://careers.ll.mit.edu/content/Summer-Research/",
-      "watch_keywords": [
-        "summer research",
-        "2027",
-        "application",
-        "apply",
-        "register",
-        "deadline"
-      ],
-      "note": "",
-      "digest": true
-    },
-    {
-      "name": "Lab: Sandia student internships",
-      "ats": "pagewatch",
-      "url": "https://www.sandia.gov/careers/students-postdocs/internships/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "Lab: MIT Haystack REU (radar/DSP)",
-      "ats": "pagewatch",
-      "url": "https://www.haystack.mit.edu/",
-      "watch_keywords": [
-        "2027",
-        "apply",
-        "deadline",
-        "open"
-      ],
-      "digest": true
-    },
-    {
-      "name": "NatSec: CIA student programs",
-      "ats": "pagewatch",
-      "url": "https://www.cia.gov/careers/student-programs/",
-      "watch_keywords": [
-        "undergraduate",
-        "internship",
-        "apply",
-        "deadline"
-      ],
-      "digest": true
-    },
-    {
-      "name": "NatSec: NSIN X-Force fellowship",
-      "ats": "pagewatch",
-      "url": "https://www.nsin.us/x-force/",
-      "watch_keywords": [
-        "open",
-        "apply",
-        "application",
-        "deadline",
-        "2026",
-        "2027"
-      ],
-      "digest": true
+      "note": "best-effort"
     }
   ]
 }

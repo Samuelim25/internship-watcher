@@ -1,13 +1,11 @@
-name: Watcher (chip-design internships + weekly digest)
+name: Watcher (chip-design internships)
 
 on:
   schedule:
-    # Sunday 14:00 UTC (~10am ET): weekly chip-design programs / shuttles /
-    # conference student programs / scholarships digest.
-    - cron: "0 14 * * 0"
-    # Hourly role sweep for Summer 2027 FPGA / ASIC / RTL / DSP design
-    # internships. Retuned 2026-08-19. Controlled by `top_firms_only` (off) and
-    # `summer_2027_only` (on) in config.json -> filters.
+    # Hourly role sweep for Summer 2027 FPGA / ASIC / RTL / DSP / RF
+    # internships. Retuned 2026-08-19; RF added and the Sunday digest removed
+    # 2026-11-12. Controlled by `top_firms_only` (off) and `summer_2027_only`
+    # (on) in config.json -> filters.
     - cron: "0 * * * *"
   workflow_dispatch:      # "Run workflow" button
     inputs:
@@ -18,7 +16,6 @@ on:
         type: choice
         options:
           - internships   # full chip-design role sweep
-          - digest        # programs/shuttles/scholarships digest
           - verify        # probe every source, report the dead ones
 
 permissions:
@@ -53,9 +50,6 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
           USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
-          # Digest ONLY on the Sunday cron or an explicit "digest" run --
-          # every other trigger runs the role sweep.
-          DIGEST_MODE: ${{ (github.event.schedule == '0 14 * * 0' || github.event.inputs.mode == 'digest') && '1' || '0' }}
         if: ${{ github.event.inputs.mode != 'verify' }}
         run: python watcher.py
 
