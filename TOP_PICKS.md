@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 161 of 585 open roles. Rebuilt every sweep: 2026-11-13 07:55 UTC._
+_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 164 of 586 open roles. Rebuilt every sweep: 2026-11-13 16:16 UTC._
 
 Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / SoC / RTL, then DSP with no RTL named. Pure RF is hidden. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -45,7 +45,6 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Chip: Lightmatter — Silicon, Hardware, & Photonics Engineering Intern – Summer 2027](https://boards.greenhouse.io/lightmatter/jobs/5425407008?gh_jid=5425407008) — Boston, MA; Mountain View, CA
 - [Chip: Micron — Intern - Design Architecture, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---Design-Architecture--HBM_JR114300) — Richardson, TX
 - [Chip: Micron — Intern - HIG HBM DTPCO](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Richardson-TX/Intern---HIG-HBM-DTPCO_JR116993) — Richardson, TX
-- [Chip: Micron — Intern - System Engineer, HBM](https://micron.wd1.myworkdayjobs.com/en-US/External/job/Boise-ID---Main-Site/Intern---System-Engineer--HBM_JR113469) — Boise, ID - Main Site
 - [Cirrus Logic — Digital Design Engineer Intern](https://jobs.eu.lever.co/cirrus/0310fbd1-a2a8-4c0f-a842-86e05ae7d98e/apply) — Austin, TX
 - [Defense: Draper — Analog ASIC Design Intern (Summer 2027)](https://draper.wd5.myworkdayjobs.com/en-US/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085) — Cambridge, MA
 - [Draper — Analog ASIC Design Intern](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085) — Cambridge, MA
@@ -60,6 +59,7 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Micron Technology — HBM Memory Design Engineer Intern](https://go.vansh.nyc/Ev) — Richardson, TX
 - [Micron Technology — Next-Generation HBM Architecture Intern](https://go.vansh.nyc/EH) — Folsom, CA
 - [Micron Technology — System Engineer Intern, HBM](https://go.vansh.nyc/1bI) — Boise, ID
+- [nxp — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
 - [onsemi — Semiconductor AI Specialist Intern](https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2506918) — Gresham, OR
 - [samsungsemiconductor — Intern, RTL Power Macromodeling Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046830003) — San Jose, California, United States
 - [Tenstorrent — Hardware Intern, Architecture, AI HW & SoC](https://go.vansh.nyc/1qf) — Austin, TX, Boston, MA, Fort Collins, CO, Santa Clara, CA
@@ -98,6 +98,7 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [intel — GPU Architecture Graduate Intern](https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-California-Folsom/GPU-Architecture-Graduate-Intern_JR0287529) ⚡elite — US, California, Folsom
 - [Intel — Silicon Hardware Engineering Intern - Bachelor's](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Bachelor-s_JR0286829) ⚡elite — Austin, TX, Santa Clara, CA, Hillsboro, OR, Folsom, CA, Phoenix, AZ
 - [Intel — Silicon Hardware Engineering Intern - Graduate](https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Silicon-Hardware-Engineering---Intern--Graduate_JR0286830) ⚡elite — Austin, TX, Santa Clara, CA, Hillsboro, OR, Folsom, CA, Phoenix, AZ
+- [marvell — Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525) ⚡elite — 2 Locations
 - [nvidia — Computer Architecture Intern - 2027](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Shanghai/Computer-Architecture-Intern---2027_JR2026052) ⚡elite — 2 Locations
 - [NVIDIA — Deep Learning Computer Architecture Intern](https://go.vansh.nyc/Rn) ⚡elite — Santa Clara, CA
 - [NVIDIA — Hardware ASIC Design Intern - Hardware](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486) ⚡elite — Santa Clara, CA
@@ -115,6 +116,7 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 ## 📡 DSP / SIGNAL PROCESSING (no RTL named)
 
 - [Aerospace Corporation — Signal Processing and RF Engineering Intern](https://go.vansh.nyc/ee) 🇺🇸 — El Segundo, CA
+- [leidos — Radar Engineering Intern](https://leidos.wd5.myworkdayjobs.com/en-US/External/job/Huntsville-AL/Radar-Engineering-Intern_R-00196931-1) — Huntsville, AL
 - [nxp — UWB Radar Signal Processing & Algorithms Intern - Summer 2027](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Irvine/UWB-Radar-Signal-Processing---Algorithms-Intern---Summer-2027_R-10065402) — Irvine
 - [aero — 2027 Digital Signals & RF Engineering Grad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Digital-Signals---RF-Engineering-Grad-Intern_R016952) — El Segundo, CA
 - [aero — 2027 Digital Signals & RF Engineering Undergrad Intern](https://aero.wd5.myworkdayjobs.com/en-US/external/job/El-Segundo-CA/XMLNAME-2027-Digital-Signals---RF-Engineering-Undergrad-Intern_R016951) — El Segundo, CA
@@ -176,6 +178,7 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Nintendo — Software Engineer Intern, CPU Debugger](https://go.vansh.nyc/12k) — Redmond, WA
 - [Nintendo — Software Engineer Intern, CPU Profiler](https://go.vansh.nyc/12l) — Redmond, WA
 - [Schneider Electric — Electronics Hardware Engineer Co-op](https://se.jibeapply.com/jobs/136319?icims=1) — Raleigh, NC, Cedar Rapids, IA
+- [symbotic — Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) — USA Wilmington, MA - ITC
 - [symbotic — Intern - Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101) — USA Wilmington, MA - ITC
 - [Viavi Solutions — Digital Hardware Engineering Intern](https://go.vansh.nyc/1oU) — Lenexa, KS
 - [viavisolutions — Digital Hardware Engineering Intern](https://viavisolutions.wd1.myworkdayjobs.com/en-US/careers/job/Lenexa-KS-USA/Digital-Hardware-Engineering-Intern_260005289-1) — Lenexa, KS, USA
