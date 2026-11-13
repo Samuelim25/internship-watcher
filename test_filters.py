@@ -3,9 +3,9 @@
 
 Every title below is a REAL posting title observed in the community trackers
 or on a company board (or a close variant), so this pins the things most likely
-to break the watcher for Sam: chip-design, RF and verification roles must
-survive, physical design and post-silicon validation must not, and quant / HFT
-firms must stay hidden.
+to break the watcher for Sam: RTL x DSP roles must rank first, chip-design and
+DSP roles must survive; pure RF, design verification, physical design and
+post-silicon validation must not; and quant / HFT firms must stay hidden.
 
 Run:  python3 test_filters.py
 """
@@ -16,8 +16,8 @@ import watcher as w
 
 FILTERS = json.load(open("config.json", encoding="utf-8"))["filters"]
 
-DSP, FPGA, ASIC, RF, DV, OTHER = (w.CAT_DSP, w.CAT_FPGA, w.CAT_ASIC,
-                                  w.CAT_RF, w.CAT_DV, w.CAT_OTHER)
+RTLDSP, FPGA, ASIC, DSP, OTHER = (w.CAT_RTL_DSP, w.CAT_FPGA, w.CAT_ASIC,
+                                  w.CAT_DSP, w.CAT_OTHER)
 
 # (title, expected_category) -- every one of these must pass the filters
 KEEP = [
@@ -40,7 +40,15 @@ KEEP = [
     ("Hardware - Engineering Internship - CPU - GPU - SoC - Digital Design", ASIC),
     ("Intern - Silicon Solutions Group", ASIC),
     ("SoC Performance Modeling Internship - Platform Architecture", ASIC),
-    # --- DSP / signal processing: Sam's stated priority, must land first ---
+    # --- RTL x DSP: Sam's top priority (2026-11-13), must land first ---
+    ("FPGA DSP Design Intern", RTLDSP),
+    ("FPGA Signal Processing Engineer Intern", RTLDSP),
+    ("ASIC Design Intern - Baseband", RTLDSP),
+    ("Digital Signal Processing Hardware Intern", RTLDSP),
+    ("RF Digital Design Intern", RTLDSP),
+    ("Radar FPGA Engineering Intern", RTLDSP),
+    ("SDR RTL Design Intern", RTLDSP),
+    # --- DSP with no RTL named: ranked below FPGA / ASIC design ---
     ("Machine Learning and Digital Signal Processing Intern", DSP),
     ("DSP Firmware Engineering Co-op/Intern", DSP),
     ("Signal Processing Intern", DSP),
@@ -49,23 +57,9 @@ KEEP = [
     ("Software Defined Radio Engineering Intern", DSP),
     ("Beamforming Algorithms Intern", DSP),
     ("Signal Processing and RF Engineering Intern", DSP),
-    # --- RF / wireless (added 2026-11-12) ---
-    ("Antenna Intern (Summer 2027)", RF),
-    ("Electrical Integration Intern - RF (Summer 2027)", RF),
-    ("Wireless Hardware Engineer Intern - Summer 2027", RF),
-    ("RF Hardware Design Intern", RF),
-    ("RF/Microwave Engineering Intern", RF),
-    ("RFIC Design Intern", RF),
-    # --- design verification (allowed since 2026-11-12, ranked below design) ---
-    ("Intern - ASIC Design Verification - ASIC Design Verification", DV),
-    ("Design DSP Verification Intern - Bachelor's Degree", DV),
-    ("Intern - Firmware Verification Engineering", DV),
-    ("UVM Testbench Development Intern", DV),
-    ("Design Verification Engineer Intern", DV),
-    ("FPGA Design Verification Intern", DV),
-    ("Digital Design Verification Engineer Intern", DV),
-    ("Verification Engineer Intern", DV),
-    # "design AND verification" is a design role: it stays in its design bucket
+    # --- RF / wireless survives only with a digital / SoC / RTL signal ---
+    ("Wireless SoC Design Intern", ASIC),
+    # "design AND verification" is a design role: it survives the DV drop
     ("ASIC Design and Verification Engineer Intern - Video Silicon IP", ASIC),
     # --- generic but legitimate ---
     ("Computer Engineering Intern", OTHER),
@@ -76,6 +70,22 @@ KEEP = [
 # Physical design and post-silicon validation: must be dropped by the filters
 # AND must never appear in TOP_PICKS.
 NEVER = [
+    # --- pure RF / wireless: dropped 2026-11-13 unless DSP / RTL is involved ---
+    "Antenna Intern (Summer 2027)",
+    "Electrical Integration Intern - RF (Summer 2027)",
+    "Wireless Hardware Engineer Intern - Summer 2027",
+    "RF Hardware Design Intern",
+    "RF/Microwave Engineering Intern",
+    "RFIC Design Intern",
+    # --- design verification: dropped 2026-11-13 ---
+    "Intern - ASIC Design Verification - ASIC Design Verification",
+    "Design DSP Verification Intern - Bachelor's Degree",
+    "Intern - Firmware Verification Engineering",
+    "UVM Testbench Development Intern",
+    "Design Verification Engineer Intern",
+    "FPGA Design Verification Intern",
+    "Digital Design Verification Engineer Intern",
+    "Verification Engineer Intern",
     # --- validation (not design verification): still excluded ---
     "Summer Intern - Validation Software Engineer - Silicon Validation Infra",
     "Chassis Validation Engineer Intern, Vehicle Firmware",
@@ -182,6 +192,30 @@ for title in DROP:
     print(f"  {flag} {title[:72]}")
     check(not ok, f"DROP kept: {title}")
 
+print("\n=== the job description decides RTL x DSP and RF ===")
+# (title, description, expected_keep, expected_category)
+for title, content, want_keep, want_cat in [
+    ("Signal Processing Intern",
+     "implement filters in vhdl on xilinx fpgas", True, RTLDSP),
+    ("FPGA Design Intern",
+     "you will implement radar signal processing chains", True, RTLDSP),
+    ("RF Systems Engineering Intern",
+     "develop fpga-based digital receivers and channelizers", True, RTLDSP),
+    ("RF Systems Engineering Intern",
+     "write verilog for our transceiver control logic", True, ASIC),
+    ("RF Systems Engineering Intern",
+     "characterize amplifiers on the bench with a vna", False, None),
+    ("Antenna Design Intern", "", False, None),
+]:
+    job = {"title": title, "location": "Huntsville, AL", "content": content}
+    ok = bool(w.is_relevant(job, FILTERS))
+    cat = w._role_category(title, content)
+    good = ok == want_keep and (not want_keep or cat == want_cat)
+    print(f"  {'ok ' if good else 'FAIL'} keep={ok} cat={cat} | {title[:30]} / {content[:30]}")
+    check(ok == want_keep, f"DESC keep {title!r} + {content[:40]!r} -> {ok}")
+    if want_keep:
+        check(cat == want_cat, f"DESC cat {title!r} + {content[:40]!r} -> {cat}, want {want_cat}")
+
 print("\n=== Summer-2027 cycle gate ===")
 for title, content, want in CYCLE:
     got = w._is_summer_2027({"title": title, "content": content})
@@ -211,12 +245,13 @@ for title, want_cat in [
 print("\n=== TOP_PICKS want/skip gate ===")
 for title, cat in KEEP:
     inpick = bool(w.WANT_RE.search(title) and not w.SKIP_RE.search(title))
-    if cat in (RF, DV):
-        check(inpick, f"TOP_PICKS lost an RF / verification role: {title}")
+    if cat in (RTLDSP, FPGA):
+        check(inpick, f"TOP_PICKS lost an RTL x DSP / FPGA role: {title}")
     elif not inpick:
         print(f"  note: not in TOP_PICKS (matched no WANT term): {title}")
 for title in NEVER:
-    inpick = bool(w.WANT_RE.search(title) and not w.SKIP_RE.search(title))
+    inpick = bool(w.WANT_RE.search(title) and not w.SKIP_RE.search(title)
+                  and not w._is_pure_dv(title) and not w._is_rf_only(title))
     check(not inpick, f"TOP_PICKS kept an excluded role: {title}")
 
 print("\n=== quant / HFT firm exclusion ===")

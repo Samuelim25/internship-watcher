@@ -1,13 +1,15 @@
 # Internship Watcher
 
-**CURRENT MODE (2026-11-12): tuned for Sam — FPGA / ASIC digital design, DSP and RF.**
+**CURRENT MODE (2026-11-13): tuned for Sam — RTL implementing DSP first, then FPGA / ASIC design, then DSP. Pure RF and DV are hidden.**
 
 The watcher was originally built for a different user (quant / SWE, NYC-first,
 Fall 2027). On 2026-08-19 it was retuned end-to-end for chip design. If you are
 reading old commit messages or old `TOP_PICKS.md` diffs, that is why they talk
 about quant firms. On 2026-11-12 RF was added as a target, design verification
 was let back in, quant / HFT firms were hidden everywhere, the SimplifyJobs
-tracker was added and the Sunday digest was removed.
+tracker was added and the Sunday digest was removed. On 2026-11-13 design
+verification was removed again, the ranking was rebuilt around RTL x DSP, and
+pure RF / wireless was hidden, all at Sam's request.
 
 One cron:
 
@@ -32,18 +34,30 @@ the right reasons rather than not being fetched at all.
 ## Who this is for (drives all filtering)
 
 - **Graduating May 2028** — eligible for essentially every Summer 2027 intern req
-- **Target: FPGA and ASIC _design_, DSP and RF.** Sam's words on 2026-11-12:
-  "hardware/embedded but focused mostly on FPGA/ASIC and RF and DSP".
-- **Design verification is IN, physical design is OUT** ("let DV through but
-  not PD", 2026-11-12 — this reverses the August setup, which hid both).
-  Verification roles (DV / UVM / testbench) pass the filters but are ranked in
-  their own section below every design category, so they cannot bury the
-  design roles. Physical design (place & route, floorplan, timing closure,
-  layout, DFT) and post-silicon validation are still dropped by `title_exclude`.
-- **Email is ranked into 6 categories, in this exact order:**
-  ① DSP / signal processing (the stated sub-area priority) ② FPGA design
-  ③ ASIC / SoC / RTL design ④ RF / wireless ⑤ design verification
-  ⑥ everything else that matched. See `build_email_html` and `_role_category`.
+- **Target: RTL that implements DSP.** Sam's words on 2026-11-13: "FPGA/ASIC
+  design crossed with DSP and RTL design is more important than just DSP work.
+  Ideally, it would be a position using RTL to implement DSP. No RF/wireless
+  unless it include the DSP/RTL".
+- **RF / wireless is OUT unless DSP or RTL is involved.** `_is_rf_only()`
+  drops an RF-titled role (counted as `rf-without-dsp-rtl`) unless the title
+  has a DSP term, an RTL term, "SoC" or "digital", or the description names
+  DSP (`_DESC_DSP_RE`) or RTL (`_DESC_RTL_RE`). So "Wireless Hardware Engineer
+  Intern" goes, "RF Digital Design Intern" stays.
+- **Design verification is OUT, physical design is OUT.** DV was let in on
+  2026-11-12 and removed again on 2026-11-13 ("remove the dv roles").
+  `_is_pure_dv()` drops DV / UVM / testbench titles in `is_relevant` (counted
+  as `verification` in the run log) and in `write_top_picks`. A title saying
+  "Design **and** Verification" is a design job and is kept. Physical design
+  (place & route, floorplan, timing closure, layout, DFT) and post-silicon
+  validation are dropped by `title_exclude`.
+- **Email is ranked into 5 categories, in this exact order:**
+  ① RTL × DSP (DSP + RTL signal, from title or description) ② FPGA design
+  ③ ASIC / SoC / RTL design ④ DSP with no RTL named (algorithms, firmware)
+  ⑤ everything else that matched. See `build_email_html` and
+  `_role_category(title, content)`. The **description** counts: "Signal
+  Processing Intern" whose posting asks for VHDL on an FPGA is ①. Workday,
+  tracker and pagewatch sources carry no description, so for them it is
+  title-only.
 - **Anywhere in the US.** No city is promoted over another — `priority_locations`
   is empty and `_loc_rank` only pushes roles with a recognisable chip-hub
   location above ones whose location is vague. **US-only** is still enforced by
@@ -73,7 +87,7 @@ the right reasons rather than not being fetched at all.
 | `config.json` | Sources + filters. **Most changes belong here, not in code.** |
 | `seen_jobs.json` | State. Auto-committed each run. Never hand-edit. |
 | `OPEN_ROLES.md` | Auto-generated snapshot of every role currently open, rewritten each full sweep and committed. Never hand-edit. |
-| `TOP_PICKS.md` | Curated shortlist: FPGA / ASIC / DSP / RF design roles, then design verification, ranked. Auto-generated; never hand-edit. |
+| `TOP_PICKS.md` | Curated shortlist: RTL × DSP, FPGA, ASIC / RTL, then DSP roles, ranked. Auto-generated; never hand-edit. |
 | `PROGRAMS.md` | Hand-maintained deadline calendar. No longer emailed (the Sunday digest was removed 2026-11-12); kept as a reference. |
 | `verify_sources.py` | Probes every source and reports the dead ones. Run it in CI — a mistyped token returns 0 jobs silently. |
 | `test_filters.py` | Filter regression tests over real posting titles. Run before any filter change lands. |
@@ -106,14 +120,18 @@ Read the Actions log to see which sources actually resolved.
 ## Filtering (`config.json` → `filters`)
 
 1. `title_keywords` — must look like an internship
-2. `title_require_any` — must be a **chip-design, RF or verification** domain
-   (85 keywords: fpga, asic, rtl, verilog, digital design, soc, dsp, serdes, rf,
-   antenna, microwave, design verification, uvm, ...)
+2. `title_require_any` — must be a **chip-design, DSP or RF** domain (RF is
+   then filtered again by `_is_rf_only`)
+   (fpga, asic, rtl, verilog, digital design, soc, dsp, serdes, rf, antenna,
+   microwave, ...)
 3. `title_exclude` — **physical design and post-silicon validation first** (74
    entries), then PhD/Masters, off-cycle, and non-EE/CE engineering. This list
    is what keeps PnR, layout and DFT reqs out; treat it as load-bearing.
    Entries are plain substrings, not regexes: an old `"\bdft\b"` entry was read
    by JSON as backspace characters and silently matched nothing.
+   Then `_is_pure_dv()` — design verification (code, not config, because a
+   plain substring would also kill "Design and Verification" roles).
+   Then `_is_rf_only()` — RF / wireless with no DSP or RTL in title or description.
    Then `exclude_firms` — quant / HFT firms, dropped from every source
    (whole-word match, counted in the run log as `excluded-firm:<entry>`).
 4. **Cycle check** — see gotcha #1 below
@@ -124,8 +142,7 @@ Read the Actions log to see which sources actually resolved.
 
 Then, at ranking time (not a filter — nothing is dropped here):
 
-7. `_role_category()` sorts a title into DSP → FPGA → ASIC/SoC → RF →
-   verification → other. A title
+7. `_role_category()` sorts a role into RTL × DSP → FPGA → ASIC/SoC → DSP-only → other. A title
    matching `_SOFTWARE_RE` **without** a hard design signal is demoted to "other",
    because "GPU/AI Application System Software Engineer Intern" is a real posting
    that otherwise landed in the ASIC bucket on the word "GPU" alone.
@@ -177,12 +194,11 @@ Then, at ranking time (not a filter — nothing is dropped here):
    then goes silent forever — which defeats the entire point of "tell me when
    applications open". A URL with no recorded hash is baselined silently.
 
-10. **Physical design is noise; verification is wanted but must not lead.**
-    They are the two largest job families adjacent to RTL design and share
-    almost all of its vocabulary. Since 2026-11-12 verification passes the
-    filters but is ranked in its own section (`DV_RE` → `CAT_DV`) below every
-    design category; physical design and post-silicon validation are still
-    dropped by `title_exclude` (config) and `SKIP_RE` (code). `test_filters.py`
+10. **Physical design and verification are noise.** They are the two largest
+    job families adjacent to RTL design and share almost all of its
+    vocabulary. Physical design and post-silicon validation are dropped by
+    `title_exclude` (config) and `SKIP_RE` (code); verification by
+    `_is_pure_dv()` (code, both the sweep and TOP_PICKS). `test_filters.py`
     pins all of this with real titles. If you touch either list, re-run the
     tests: the failure mode is an email whose top section is DV or PnR reqs,
     which reads as "the watcher works" until you actually open it.
@@ -232,11 +248,12 @@ the community trackers:
 python3 test_filters.py
 ```
 
-It pins the things most likely to break this watcher: chip-design, RF and
-verification roles must survive (`Hardware ASIC Design Intern`, `FPGA Intern`,
-`DSP Firmware Engineering Co-op`, `Antenna Intern`, `Design Verification
-Engineer Intern`) and land in the right category; physical design and
-post-silicon validation must not (`RTL Power Optimisation & Physical Design`,
+It pins the things most likely to break this watcher: RTL × DSP roles must
+rank first (`FPGA DSP Design Intern`, and description-decided cases); chip-design
+and DSP roles must survive (`Hardware ASIC Design Intern`, `FPGA Intern`,
+`DSP Firmware Engineering Co-op`) and land in the right
+category; pure RF, design verification, physical design and post-silicon
+validation must not (`Wireless Hardware Engineer Intern`, `Design Verification Engineer Intern`, `RTL Power Optimisation & Physical Design`,
 `Static Timing Analysis Intern`, `ASIC DFT Engineer Intern`); and quant / HFT
 firms must stay hidden without catching look-alikes (`Virtusa`, `Tower
 Semiconductor`).

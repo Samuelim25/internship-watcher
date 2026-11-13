@@ -81,17 +81,7 @@
       "electromagnetic",
       "phased array",
       "transceiver",
-      "emc",
-      "design verification",
-      "functional verification",
-      "formal verification",
-      "hardware verification",
-      "ip verification",
-      "verification engineer",
-      "verification intern",
-      "uvm",
-      "testbench",
-      "dv"
+      "emc"
     ],
     "title_exclude": [
       "validation",

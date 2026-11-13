@@ -672,6 +672,17 @@ def is_relevant(job, filters):
         if bad.lower() in title:
             return _drop(f"excluded:{bad}", title)
 
+    # 3b) design verification is OUT (Sam, 2026-11-13). Pure DV / UVM /
+    #     testbench roles are dropped and counted; "Design and Verification"
+    #     roles are design jobs and stay.
+    if _is_pure_dv(title):
+        return _drop("verification", title)
+
+    # 3c) RF / wireless is OUT unless the role also involves DSP or RTL, in the
+    #     title or the description (Sam, 2026-11-13).
+    if _is_rf_only(title, job.get("content") or ""):
+        return _drop("rf-without-dsp-rtl", title)
+
     # 4) CYCLE CHECK.
     #    Recruiting runs ~a year ahead, so a LIVE intern posting that states no year
     #    is almost always the current (2027) cycle -- most companies never put the
@@ -903,17 +914,17 @@ _HUB_RE = re.compile(
 
 
 # --------------------------- role categorisation ---------------------------- #
-# Sam's email is ranked into 6 categories, in this exact order (DSP / FPGA /
-# ASIC order set 2026-08-19; RF and verification added 2026-11-12):
-#   0) DSP / signal processing  -- the stated sub-area priority
+# Sam's email is ranked into 5 categories, in this exact order (set 2026-11-13:
+# "FPGA/ASIC design crossed with DSP ... RTL design is more important than just
+# DSP work. Ideally, it would be a position using RTL to implement DSP"):
+#   0) RTL x DSP                -- FPGA / ASIC / RTL work implementing DSP
 #   1) FPGA design
 #   2) ASIC / SoC / RTL digital design
-#   3) RF / wireless hardware
-#   4) design verification      -- wanted, but ranked below the design roles
-#   5) everything else that matched the filters
-# Physical-design roles never reach here: they are excluded by `title_exclude`
-# in config.json.
-CAT_DSP, CAT_FPGA, CAT_ASIC, CAT_RF, CAT_DV, CAT_OTHER = range(6)
+#   3) DSP / signal processing with no RTL named
+#   4) everything else that matched the filters
+# Pure RF / wireless roles never reach here (`_is_rf_only`), nor do physical
+# design (`title_exclude`) or pure design verification (`_is_pure_dv`).
+CAT_RTL_DSP, CAT_FPGA, CAT_ASIC, CAT_DSP, CAT_OTHER = range(5)
 
 DSP_RE = re.compile(
     r"\bdsp\b|signal process|digital signal|\bradar\b|\bsdr\b|"
@@ -943,6 +954,43 @@ DV_RE = re.compile(r"verification|\bverify\b|\buvm\b|testbench|\bdv\b", re.I)
 _DESIGN_AND_DV_RE = re.compile(r"design\s*(and|&|/)\s*verification", re.I)
 
 
+# Hard RTL-implementation signal in a TITLE.
+_RTL_RE = re.compile(
+    r"\bfpgas?\b|\basic\b|\brtl\b|verilog|systemverilog|\bvhdl\b|\bvlsi\b|"
+    r"digital design|logic design|chip design|microarchitect|datapath|"
+    r"high.?level synthesis|\bhls\b|xilinx|altera", re.I)
+# What lets an RF / wireless TITLE stay: RTL, an SoC, or the word "digital".
+_RF_KEEP_RE = re.compile(_RTL_RE.pattern + r"|\bsoc\b|system.on.chip|\bdigital\b",
+                         re.I)
+# Stricter vocab for DESCRIPTIONS, which are long and full of boilerplate.
+_DESC_RTL_RE = re.compile(
+    r"\bfpgas?\b|verilog|\bvhdl\b|\brtl\b|high.level synthesis|\bhls\b|\basic\b",
+    re.I)
+_DESC_DSP_RE = re.compile(
+    r"signal processing|\bdsp\b|digital filter|\bfir\b|\bfft\b|beamform|"
+    r"baseband|\bmodem\b|\bradar\b|\bsdr\b|software.defined radio|demodulat|"
+    r"channeliz|\bcordic\b|decimat", re.I)
+
+
+def _is_rf_only(title, content=""):
+    """True for an RF / wireless role with no DSP or RTL in the title or the
+    description. Sam dropped those on 2026-11-13 ("No RF/wireless unless it
+    include the DSP/RTL")."""
+    t, c = title or "", content or ""
+    if not RF_RE.search(t):
+        return False
+    return not (DSP_RE.search(t) or _RF_KEEP_RE.search(t)
+                or _DESC_DSP_RE.search(c) or _DESC_RTL_RE.search(c))
+
+
+def _is_pure_dv(title):
+    """True for a verification role (DV / UVM / testbench) that is not also a
+    design role. Sam dropped DV on 2026-11-13; this gates both the sweep
+    (`is_relevant`) and TOP_PICKS."""
+    t = title or ""
+    return bool(DV_RE.search(t)) and not _DESIGN_AND_DV_RE.search(t)
+
+
 # A title can name silicon and still be a pure software job -- "GPU/AI
 # Application System Software Engineer Intern" is a real example that landed in
 # the ASIC bucket on the strength of the word "GPU" alone. Titles matching
@@ -958,23 +1006,37 @@ _HARD_DESIGN_RE = re.compile(
     r"digital design|logic design|chip design|microarchitect|datapath", re.I)
 
 
-def _role_category(title):
-    """Lower = higher priority: DSP, FPGA, ASIC/SoC, RF, verification, other."""
-    t = title or ""
+def _role_category(title, content=""):
+    """Lower = higher priority: RTL x DSP, FPGA, ASIC/SoC, DSP-only, other.
+
+    The description counts too: a "Signal Processing Intern" whose posting asks
+    for VHDL on an FPGA, or an "FPGA Design Intern" whose posting is about
+    radar filtering, is exactly the RTL-implements-DSP role Sam wants most."""
+    t, c = title or "", content or ""
     if _SOFTWARE_RE.search(t) and not _HARD_DESIGN_RE.search(t):
         return CAT_OTHER
-    if DV_RE.search(t) and not _DESIGN_AND_DV_RE.search(t):
-        return CAT_DV
-    if DSP_RE.search(t):
+    dsp_t = bool(DSP_RE.search(t))
+    rtl_t = bool(_RTL_RE.search(t))
+    dsp = dsp_t or bool(_DESC_DSP_RE.search(c))
+    # "DSP Hardware Engineer" / "Signal Processing Hardware Intern" is RTL work
+    rtl = (rtl_t or bool(_DESC_RTL_RE.search(c))
+           or (dsp_t and re.search(r"\bhardware\b", t, re.I) is not None))
+    if dsp and rtl:
+        return CAT_RTL_DSP
+    if dsp_t:
         return CAT_DSP
     if FPGA_RE.search(t):
         return CAT_FPGA
-    # RF is tested before ASIC so "RF Hardware Design Intern" lands under RF
-    # rather than under ASIC on the strength of "hardware design".
-    if RF_RE.search(t):
-        return CAT_RF
+    # An RF title with nothing digital in it is not chip design, even though
+    # "RF Hardware Design Intern" matches ASIC_RE on "hardware design".
+    if RF_RE.search(t) and not _RF_KEEP_RE.search(t):
+        if rtl:                 # RF role whose posting asks for RTL / FPGA
+            return CAT_FPGA if re.search(r"\bfpgas?\b", c, re.I) else CAT_ASIC
+        return CAT_OTHER
     if ASIC_RE.search(t):
         return CAT_ASIC
+    if rtl:                     # generic title, RTL named in the posting
+        return CAT_FPGA if re.search(r"\bfpgas?\b", c, re.I) else CAT_ASIC
     return CAT_OTHER
 
 
@@ -1011,19 +1073,17 @@ def build_email_html(grouped, baseline=False, filters=None):
             j = dict(j)
             j.setdefault("company", firm)
             title = j.get("title", "")
-            cats[_role_category(title)].append(j)
+            cats[_role_category(title, j.get("content") or "")].append(j)
 
     meta = [
-        (CAT_DSP, "&#128225; DSP / signal processing", "#1553b0",
-         "Your stated priority: DSP datapaths, radar, SDR, baseband."),
+        (CAT_RTL_DSP, "&#127919; RTL &times; DSP: apply first", "#1553b0",
+         "FPGA / ASIC / RTL roles that implement signal processing."),
         (CAT_FPGA, "&#129518; FPGA design", "#2f6f4f",
          "FPGA and reconfigurable-logic design roles."),
         (CAT_ASIC, "&#128187; ASIC / SoC / RTL design", "#5b3fa0",
          "Digital design, microarchitecture, SoC and IP roles."),
-        (CAT_RF, "&#128246; RF / wireless", "#b0561a",
-         "RF, microwave, antenna and wireless hardware roles."),
-        (CAT_DV, "&#128269; Design verification", "#8a6d1b",
-         "Verification roles, ranked below the design roles."),
+        (CAT_DSP, "&#128225; DSP / signal processing", "#b0561a",
+         "Signal-processing roles with no RTL named (often algorithms or firmware)."),
         (CAT_OTHER, "Other matched roles", "#777", None),
     ]
     for cid, header, color, sub in meta:
@@ -1173,9 +1233,10 @@ def _is_us_location(loc):
     return not (NON_US_RE.search(s) and not US_LOC_RE.search(s))
 
 
-# Roles Sam wants: FPGA / ASIC digital design, DSP and RF, plus design
-# verification (allowed since 2026-11-12 and ranked below the design roles).
-# NOT physical design and NOT post-silicon validation -- those are the big
+# Roles Sam wants: FPGA / ASIC / RTL design and DSP (RF only with DSP / RTL,
+# which `_is_rf_only` enforces separately).
+# NOT design verification (dropped 2026-11-13, see `_is_pure_dv`), NOT physical
+# design and NOT post-silicon validation -- those are the big
 # adjacent families SKIP_RE exists for. (config.json's `title_exclude` catches
 # most of them upstream; this is the second line of defence for TOP_PICKS.)
 WANT_RE = re.compile(
@@ -1190,7 +1251,7 @@ WANT_RE = re.compile(
     r"high.?level synthesis|\bhls\b|emulation|"
     r"\brf\b|\brfic\b|\bmmic\b|radio.?frequency|microwave|mm.?wave|"
     r"millimeter.?wave|antenna|wireless|electromagnetic|phased.?array|"
-    r"transceiver|verification|\buvm\b|testbench",
+    r"transceiver",
     re.I,
 )
 SKIP_RE = re.compile(
@@ -1251,13 +1312,13 @@ def _tier(company):
     return 1
 
 
-def _bucket(comp, title, loc):
-    """Sam's priority: DSP first, then FPGA, ASIC/SoC, RF, verification, then
+def _bucket(comp, title, loc, content=""):
+    """Sam's priority: RTL x DSP first, then FPGA, ASIC/SoC, DSP-only, then
     the rest. Location does not affect the bucket -- anywhere in the US is
     fine. Lower number = higher on the list."""
-    cat = _role_category(title)
+    cat = _role_category(title, content)
     if cat < CAT_OTHER:
-        return cat              # DSP · FPGA · ASIC/SoC · RF · verification
+        return cat              # RTL x DSP · FPGA · ASIC/SoC · DSP
     if _tier(comp) in (0, 2):
         return CAT_OTHER        # other role at a known silicon/defense employer
     return CAT_OTHER + 1        # everything else that survived the filters
@@ -1267,17 +1328,20 @@ DEAD_URLS = {"https://careers.ice.com/jobs/12830"}
 
 
 def write_top_picks(current, filters=None):
-    """Curated subset of OPEN_ROLES: FPGA / ASIC / DSP / RF design roles
-    anywhere in the US, plus design verification, with physical design
-    filtered out. Ranked DSP first, then FPGA, ASIC/SoC, RF, verification
-    (Sam's stated criteria). Regenerated every full sweep."""
+    """Curated subset of OPEN_ROLES: FPGA / ASIC / RTL and DSP roles anywhere
+    in the US, with design verification, physical design and pure RF filtered
+    out. Ranked RTL x DSP first, then FPGA, ASIC/SoC, DSP-only
+    (Sam's stated criteria, 2026-11-13). Regenerated every full sweep."""
     picks = []
     for rec in current.values():
         j = rec["job"]
         title = j.get("title", "")
         loc = j.get("location", "") or ""
         comp = j.get("company") or rec["src"]
-        if not WANT_RE.search(title) or SKIP_RE.search(title):
+        content = j.get("content") or ""
+        if not WANT_RE.search(title) or SKIP_RE.search(title) or _is_pure_dv(title):
+            continue
+        if _is_rf_only(title, content):
             continue
         if any(d in (j.get('url','')) for d in DEAD_URLS):
             continue
@@ -1287,7 +1351,7 @@ def write_top_picks(current, filters=None):
         # uses, so a role in Boise or Huntsville is as welcome as one in Austin.
         if not _is_us_location(loc):
             continue
-        picks.append((_bucket(comp, title, loc), _tier(comp), comp.lower(),
+        picks.append((_bucket(comp, title, loc, content), _tier(comp), comp.lower(),
                       title, comp, loc, j.get("url", ""), bool(j.get("clearance"))))
     # sort: bucket, then sweet-spot before elite within a bucket, then name
     picks.sort(key=lambda p: (p[0], p[1], p[2], p[3]))
@@ -1296,21 +1360,20 @@ def write_top_picks(current, filters=None):
     lines = [
         "# Top picks (auto-generated)",
         "",
-        f"_FPGA / ASIC / DSP / RF roles, anywhere in the US. {len(picks)} of "
+        f"_FPGA / ASIC / RTL and DSP roles, anywhere in the US. {len(picks)} of "
         f"{len(current)} open roles. Rebuilt every sweep: {stamp}._",
         "",
-        "Ranked by Sam's criteria: DSP and signal processing first, then FPGA "
-        "design, ASIC / SoC / RTL, RF / wireless, then design verification. "
+        "Ranked by Sam's criteria: RTL implementing DSP first, then FPGA "
+        "design, ASIC / SoC / RTL, then DSP with no RTL named. Pure RF is hidden. "
         "Within each, sweet-spot employers "
         "(mid-size silicon and defense) before the household names. "
         "🇺🇸 marks a role that asks for US citizenship or a clearance.",
         "",
     ]
-    headers = {CAT_DSP: "## 📡 DSP / SIGNAL PROCESSING — apply first",
+    headers = {CAT_RTL_DSP: "## 🎯 RTL × DSP — apply first",
                CAT_FPGA: "## 🧩 FPGA DESIGN",
                CAT_ASIC: "## 💻 ASIC / SoC / RTL DESIGN",
-               CAT_RF: "## 📶 RF / WIRELESS",
-               CAT_DV: "## 🔍 DESIGN VERIFICATION",
+               CAT_DSP: "## 📡 DSP / SIGNAL PROCESSING (no RTL named)",
                CAT_OTHER: "## Other roles at silicon & defense employers",
                CAT_OTHER + 1: "## Everything else that matched"}
     seen_b = None
