@@ -9748,7 +9748,7 @@
     "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8274095"
   },
   "https://rockwellautomation.wd1.myworkdayjobs.com/en-us/external_rockwell_automation/job/milwaukee-wisconsin-united-states/intern--firmware-engineering_r26-7922-1": {
-    "title": "Intern - Firmware Engineering",
+    "title": "Intern, Firmware Engineering",
     "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Milwaukee-Wisconsin-United-States/Intern--Firmware-Engineering_R26-7922-1"
   },
   "https://cisco.wd5.myworkdayjobs.com/en-us/cisco_careers/job/kanata-ontario-canada/software-developer-embedded-systems-ii--co-op----canada_2024136": {
@@ -11289,7 +11289,7 @@
   },
   "https://kla.wd1.myworkdayjobs.com/en-us/search/job/milpitas-ca/electrical-engineering-intern_2641972-1": {
     "title": "Electrical Engineering Intern",
-    "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Electrical-Engineering-Intern_2641972-1"
+    "url": "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Electrical-Engineering-Intern_2641972-1"
   },
   "https://go.vansh.nyc/1pk": {
     "title": "Embedded Software Engineer Intern",
@@ -11468,8 +11468,8 @@
     "url": "https://ncratleos.wd1.myworkdayjobs.com/en-US/ext_non_usalteos/job/DUNDEE-GBR/Hardware-Engineer-Internship_R1155210"
   },
   "https://globalfoundries.wd1.myworkdayjobs.com/en-us/external/job/usa---texas---richardson/ai-processor-hardware-software-integration-engineer-intern--summer-2027-_jr-2604028": {
-    "title": "AI Processor Hardware/Software Integration Engineer Intern (Summer 2027)",
-    "url": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer-Intern--Summer-2027-_JR-2604028"
+    "title": "AI Processor Hardware/Software Integration Engineer Intern - Summer 2027",
+    "url": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer-Intern--Summer-2027-_JR-2604028"
   },
   "https://go.vansh.nyc/1ut": {
     "title": "Firmware Engineer Intern, SCO2",
@@ -11533,7 +11533,7 @@
   },
   "https://kla.wd1.myworkdayjobs.com/en-us/search/job/ann-arbor-mi/electrical-engineering-intern_2642897-2": {
     "title": "Electrical Engineering Intern",
-    "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Ann-Arbor-MI/Electrical-Engineering-Intern_2642897-2"
+    "url": "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Ann-Arbor-MI/Electrical-Engineering-Intern_2642897-2"
   },
   "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003": {
     "title": "Intern, AI System Architecture Research Scientist",
@@ -12170,5 +12170,33 @@
   "https://ag.wd3.myworkdayjobs.com/en-us/airbus/job/donauwrth/internship--d-f-m--embedded-software-engineering-for-weapon-systems_jr10442671-2": {
     "title": "Internship (d/f/m) Embedded Software Engineering for Weapon Systems",
     "url": "https://ag.wd3.myworkdayjobs.com/en-US/airbus/job/Donauwrth/Internship--d-f-m--Embedded-Software-Engineering-for-Weapon-Systems_JR10442671-2"
+  },
+  "https://go.vansh.nyc/1yl": {
+    "title": "Enterprise SSD Architecture Intern",
+    "url": "https://go.vansh.nyc/1yL"
+  },
+  "https://go.vansh.nyc/1z0": {
+    "title": "SSD Firmware Development Intern",
+    "url": "https://go.vansh.nyc/1z0"
+  },
+  "https://go.vansh.nyc/1za": {
+    "title": "FPGA Engineering Intern",
+    "url": "https://go.vansh.nyc/1za"
+  },
+  "https://micron.wd1.myworkdayjobs.com/en-us/external/job/boise-id---main-site/intern---enterprise-ssd-architecture_jr114108": {
+    "title": "Intern - Enterprise SSD Architecture",
+    "url": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---Enterprise-SSD-Architecture_JR114108"
+  },
+  "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203058003": {
+    "title": "Intern, SSD Firmware Development",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203058003"
+  },
+  "https://marvell.wd1.myworkdayjobs.com/en-us/marvellcareers/job/ch---adliswil/silicon-photonic-design-intern_2605294": {
+    "title": "Silicon Photonic Design Intern",
+    "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/CH---Adliswil/Silicon-Photonic-Design-Intern_2605294"
+  },
+  "https://marvell.wd1.myworkdayjobs.com/en-us/marvellcareers/job/ch---adliswil/silicon-photonics-test---characterisation-intern_2605240": {
+    "title": "Silicon Photonics Test & Characterisation Intern",
+    "url": "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers/job/CH---Adliswil/Silicon-Photonics-Test---Characterisation-Intern_2605240"
   }
 }
