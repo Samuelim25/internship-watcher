@@ -10000,7 +10000,7 @@
     "url": "https://careers-gdms.icims.com/jobs/75516/intern-engineer-%28electrical-or-firmware%29/job"
   },
   "https://rockwellautomation.wd1.myworkdayjobs.com/en-us/external-rockwell-automation-early-careers/job/milwaukee-wisconsin-united-states/intern--firmware-engineering_r26-7922": {
-    "title": "Intern - Firmware Engineering",
+    "title": "Intern, Firmware Engineering",
     "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Milwaukee-Wisconsin-United-States/Intern--Firmware-Engineering_R26-7922"
   },
   "https://studentopportunities-lutron.icims.com/jobs/5362/summer-2027---embedded-firmware-engineering-intern---boynton-beach%2c-fl/job": {
@@ -12188,7 +12188,7 @@
     "url": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---Enterprise-SSD-Architecture_JR114108"
   },
   "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203058003": {
-    "title": "Intern, SSD Firmware Development",
+    "title": "Intern - SSD Firmware Development",
     "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203058003"
   },
   "https://marvell.wd1.myworkdayjobs.com/en-us/marvellcareers/job/ch---adliswil/silicon-photonic-design-intern_2605294": {
@@ -12214,5 +12214,13 @@
   "https://moog.wd5.myworkdayjobs.com/en-us/moog_external_career_site/job/buffalo-ny/intern--electrical-engineering_r-26-21409": {
     "title": "Intern, Electrical Engineering",
     "url": "https://moog.wd5.myworkdayjobs.com/en-US/moog_external_career_site/job/Buffalo-NY/Intern--Electrical-Engineering_R-26-21409"
+  },
+  "https://jobs.ashbyhq.com/aurora-operations-inc/8bd8b0b9-143a-400d-97d0-b3f70d9ee868": {
+    "title": "Embedded Software Engineer Intern — Lidar",
+    "url": "https://jobs.ashbyhq.com/aurora-operations-inc/8bd8b0b9-143a-400d-97d0-b3f70d9ee868"
+  },
+  "https://jobs.ashbyhq.com/reliable-robotics/131987a0-ede9-4291-9cd2-1aaadabd2a54": {
+    "title": "FPGA Engineering Intern (Summer 2027)",
+    "url": "https://jobs.ashbyhq.com/reliable-robotics/131987a0-ede9-4291-9cd2-1aaadabd2a54"
   }
 }
