@@ -12302,5 +12302,33 @@
   "https://jobs.smartrecruiters.com/solidigm/744000162339619": {
     "title": "Engineering Research Intern (Architecture, Firmware, Software)",
     "url": "https://jobs.smartrecruiters.com/solidigm/744000162339619"
+  },
+  "https://go.vansh.nyc/1cu": {
+    "title": "SSD Firmware Engineer Intern",
+    "url": "https://go.vansh.nyc/1Cu"
+  },
+  "https://go.vansh.nyc/1cw": {
+    "title": "LLM Inference Acceleration Architecture Intern, Distributed Memory-Centric Accelerators",
+    "url": "https://go.vansh.nyc/1Cw"
+  },
+  "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208600003": {
+    "title": "Intern, Architecture Research Engineer (Agentic AI Workload Characterization)",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208600003"
+  },
+  "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8207759003": {
+    "title": "Intern, Architecture Research Engineer (Resilient Collective Communications)",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8207759003"
+  },
+  "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8206036003": {
+    "title": "Intern, HBM Memory Architecture",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8206036003"
+  },
+  "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208641003": {
+    "title": "Intern, LLM Inference Acceleration Architecture (Distributed Memory-Centric Accelerators)",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208641003"
+  },
+  "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208662003": {
+    "title": "Intern, SSD Firmware Engineer",
+    "url": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208662003"
   }
 }
