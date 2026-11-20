@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 117 of 446 open roles. Rebuilt every sweep: 2026-11-20 11:22 UTC._
+_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 116 of 446 open roles. Rebuilt every sweep: 2026-11-20 19:58 UTC._
 
 Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / SoC / RTL, then DSP with no RTL named. Pure RF is hidden. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -18,7 +18,6 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [General Dynamics Mission Systems — Electrical Engineering Intern, FPGA](https://go.vansh.nyc/1hW) — Middletown, RI
 - [General Dynamics Mission Systems — FPGA Engineer Intern](https://go.vansh.nyc/1i0) — Manassas, VA
 - [General Dynamics Mission Systems, Inc. — FPGA Engineer Intern](https://go.vansh.nyc/1pc) 🇺🇸 — Scottsdale, AZ
-- [Motorola — FPGA Design Engineering Intern](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/FPGA-Design-Engineering-Intern---Summer-2027_R68401) — Schaumburg, IL
 - [Astranis — FPGA Intern](https://go.vansh.nyc/Jw) — San Francisco, CA
 - [Astranis — FPGA Intern - Summer 2027](https://job-boards.greenhouse.io/astranis/jobs/4704805006) — SF
 - [CesiumAstro — Electrical Engineering Intern - FPGA](https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316/apply) — Melbourne, FL
