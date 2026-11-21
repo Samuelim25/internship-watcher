@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 117 of 449 open roles. Rebuilt every sweep: 2026-11-21 01:22 UTC._
+_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 116 of 449 open roles. Rebuilt every sweep: 2026-11-21 09:34 UTC._
 
 Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / SoC / RTL, then DSP with no RTL named. Pure RF is hidden. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -121,6 +121,8 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Dell Technologies — Hardware Engineering Intern - Infrastructure Solutions Group](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297770) — Round Rock, TX, Hopkinton, MA
 - [Dell Technologies — Hardware Engineering Intern, Infrastructure Solutions Group](https://go.vansh.nyc/In) — Round Rock, TX, Hopkinton, MA
 - [GE Vernova — Hardware Engineer Intern - Critical Infrastructure Communications](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Grid-Solutions---Hardware-Engineering-Intern--Critical-Infrastructure-Communications----Spring-Summer-2027_R5051647-1) — Rochester, NY
+- [Hardware: Zoox — Hardware Engineer Intern, Vehicle Development (Summer 2027)](https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62) — Foster City, CA
+- [Hardware: Zoox — Hardware Engineer Intern, Vehicle Systems (Summer 2027)](https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b) — Foster City, CA
 - [Hewlett Packard Enterprise — Hardware Engineer Intern](https://go.vansh.nyc/1nA) — Sunnyvale, CA
 - [Hewlett Packard Enterprise — Hardware Engineering Design Intern](https://go.vansh.nyc/c3) — Roseville, CA
 - [Hewlett Packard Enterprise — Hardware Engineering Intern](https://go.vansh.nyc/1ed) — Westford, MA
@@ -133,9 +135,6 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Nintendo — Software Engineer Intern, CPU Debugger](https://go.vansh.nyc/12k) — Redmond, WA
 - [Nintendo — Software Engineer Intern, CPU Profiler](https://go.vansh.nyc/12l) — Redmond, WA
 - [Schneider Electric — Electronics Hardware Engineer Co-op](https://se.jibeapply.com/jobs/136319?icims=1) — Raleigh, NC, Cedar Rapids, IA
-- [symbotic — Intern - Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101) — USA Wilmington, MA - ITC
 - [Viavi Solutions — Digital Hardware Engineering Intern](https://go.vansh.nyc/1oU) — Lenexa, KS
 - [WesternDigital — Summer 2027 Intern - Hardware Engineering](https://jobs.smartrecruiters.com/WesternDigital/744000160975864) — San Jose, CA, us
 - [Zoox — Hardware Engineer Intern - Vehicle Systems](https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b/apply) — Foster City, CA
-- [zoox — Hardware Engineer Intern, Vehicle Development (Summer 2027)](https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62) — Foster City, CA
-- [zoox — Hardware Engineer Intern, Vehicle Systems (Summer 2027)](https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b) — Foster City, CA
