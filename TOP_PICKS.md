@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 119 of 447 open roles. Rebuilt every sweep: 2026-11-23 22:33 UTC._
+_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 119 of 452 open roles. Rebuilt every sweep: 2026-11-24 06:54 UTC._
 
 Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / SoC / RTL, then DSP with no RTL named. Pure RF is hidden. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
