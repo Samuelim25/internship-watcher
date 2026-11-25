@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 118 of 448 open roles. Rebuilt every sweep: 2026-11-24 18:49 UTC._
+_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 119 of 454 open roles. Rebuilt every sweep: 2026-11-25 03:00 UTC._
 
 Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / SoC / RTL, then DSP with no RTL named. Pure RF is hidden. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -56,6 +56,7 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Samsung Semiconductor — LLM Inference Acceleration Architecture Intern, Distributed Memory-Centric Accelerators](https://go.vansh.nyc/1Cw) — San Jose, CA
 - [samsungsemiconductor — Intern, HBM Memory Architecture](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8206036003) — San Jose, California, United States
 - [samsungsemiconductor — Intern, LLM Inference Acceleration Architecture (Distributed Memory-Centric Accelerators)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208641003) — San Jose, California, United States
+- [samsungsemiconductor — Intern, RF Analog Circuit Design Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8213439003) — San Jose, California, United States
 - [Tenstorrent — Hardware Intern, Architecture, AI HW & SoC](https://go.vansh.nyc/1qf) — Austin, TX, Boston, MA, Fort Collins, CO, Santa Clara, CA
 - [ByteDance — ASIC Design Engineer Intern - Video Silicon IP](https://jobs.bytedance.com/en/position/7670332179383699717/detail) — San Jose, CA
 - [ByteDance — ASIC Design Engineer Intern, Video Silicon IP](https://go.vansh.nyc/14u) — San Jose, CA
@@ -70,7 +71,6 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Honeywell Aerospace — Semiconductor Engineer Intern](https://go.vansh.nyc/1E3) — United States
 - [Keysight Technologies — Compound Semiconductor Device Characterization Intern](https://jobs.keysight.com/jobs/54226?icims=1) — Santa Rosa, CA
 - [Oceaneering — Cybersecurity SOC Intern](https://go.vansh.nyc/GZ) — Houston, TX
-- [Quadric — RTL Intern](https://go.vansh.nyc/1n2) — Burlingame, CA
 - [RosaicLabs — CPU Architecture & Performance Engineer Intern](https://go.vansh.nyc/1Fj) — Santa Clara, CA, Austin, TX
 - [Upscale AI — Advanced SerDes & Analog/Mixed-Signal IC Design Intern](https://jobs.lever.co/upscale-ai/2bad3e47-6c00-4ec2-94b5-feb4009619c9/apply) — United States
 - [Amazon — ASIC Engineer Intern](https://go.vansh.nyc/gF) ⚡elite — Sunnyvale, CA
@@ -90,6 +90,7 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 ## 📡 DSP / SIGNAL PROCESSING (no RTL named)
 
 - [Aerospace Corporation — Signal Processing and RF Engineering Intern](https://go.vansh.nyc/ee) 🇺🇸 — El Segundo, CA
+- [nxp — Internship/Thesis – Signal Processing and AI for autonomous driving ](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Eindhoven/Internship-Thesis---Signal-Processing-and-AI-for-autonomous-driving-_R-10064090) — Eindhoven
 - [nxp — UWB Radar Signal Processing & Algorithms Intern - Summer 2027](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Irvine/UWB-Radar-Signal-Processing---Algorithms-Intern---Summer-2027_R-10065402) — Irvine
 - [Bose — DSP/ML Research Engineer Intern](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/DSP-ML-Research-Engineer-Intern---Summer-2027_R29371) — Framingham, MA
 - [Bose — Software/DSP Research Engineer Co-op](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Software-DSP-Research-Engineer-Co-op_R29369) — Framingham, MA
