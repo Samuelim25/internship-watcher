@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 122 of 461 open roles. Rebuilt every sweep: 2026-11-25 22:22 UTC._
+_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 120 of 454 open roles. Rebuilt every sweep: 2026-11-26 04:54 UTC._
 
 Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / SoC / RTL, then DSP with no RTL named. Pure RF is hidden. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -23,7 +23,6 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [CesiumAstro — Electrical Engineering Intern - FPGA](https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316/apply) — Melbourne, FL
 - [CesiumAstro — Electrical Engineering Intern, FPGA](https://go.vansh.nyc/1ow) — Melbourne, FL
 - [CesiumAstro — Summer 2027 - Electrical Engineering Internship, FPGA](https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316) 🇺🇸 — Melbourne, FL
-- [globalhr — FPGA Electrical Engineer Intern (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/FPGA-Electrical-Engineer-Intern--Summer-2027-_01890532) — US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01
 - [Impulse Space — Digital Design Engineering Intern - FPGA/ASIC](https://impulsespace.pinpointhq.com/en/postings/829256fd-cd06-4f0d-91c9-8bb59eaf6772?ats=pinpointhq) — Redondo Beach, CA
 - [Impulse Space — Digital Design Engineering Intern, FPGA/ASIC](https://go.vansh.nyc/1Ay) — Redondo Beach, CA
 - [Ixana — Embedded Hardware Engineer Intern, FPGA Design](https://go.vansh.nyc/1qS) — West Lafayette, IN
@@ -31,7 +30,6 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Keysight Technologies — FPGA Design Intern](https://go.vansh.nyc/hE) — Calabasas, CA
 - [Reliable Robotics — FPGA Design Engineer Intern](https://jobs.ashbyhq.com/reliable-robotics/131987a0-ede9-4291-9cd2-1aaadabd2a54/application?embed=true) — Mountain View, CA
 - [Reliable Robotics Corporation — FPGA Engineering Intern](https://go.vansh.nyc/1za) — Mountain View, CA
-- [cadence — FPGA Design Engineer Intern](https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/CESSON-SEVIGNE-01/FPGA-Design-Engineer-Intern_R57302) ⚡elite — CESSON SEVIGNE 01
 - [Page: AMD (FPGA/Xilinx heritage) — Page changed - check Page: AMD (FPGA/Xilinx heritage) (may mean applications opened)](https://careers.amd.com/careers-home/jobs?keywords=intern) ⚡elite
 
 ## 💻 ASIC / SoC / RTL DESIGN
@@ -60,7 +58,6 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [samsungsemiconductor — Intern, LLM Inference Acceleration Architecture (Distributed Memory-Centric Accelerators)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208641003) — San Jose, California, United States
 - [samsungsemiconductor — Intern, RF Analog Circuit Design Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8213439003) — San Jose, California, United States
 - [Tenstorrent — Hardware Intern, Architecture, AI HW & SoC](https://go.vansh.nyc/1qf) — Austin, TX, Boston, MA, Fort Collins, CO, Santa Clara, CA
-- [ambarella — ASIC Design Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/en-US/ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357) — US Headquarters
 - [ByteDance — ASIC Design Engineer Intern - Video Silicon IP](https://jobs.bytedance.com/en/position/7670332179383699717/detail) — San Jose, CA
 - [ByteDance — ASIC Design Engineer Intern, Video Silicon IP](https://go.vansh.nyc/14u) — San Jose, CA
 - [Emerson Electric — Hardware Design Engineer Intern](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010801) — Round Rock, TX
@@ -102,6 +99,7 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Shure — Audio DSP Engineer Intern](https://careersus-shure.icims.com/jobs/4971/job?mobile=true&needsRedirect=false) — Niles, IL
 - [Shure — Digital Signal Processing Intern](https://careersus-shure.icims.com/jobs/4957/job?mobile=true&needsRedirect=false) — Niles, IL
 - [solopulseco — Radar Digital Signal Processing (DSP) Intern/Co-Op](https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9) 🇺🇸 — Peachtree Corners, GA
+- [Tesla — Robotics Audio DSP Engineer Intern](https://www.tesla.com/careers/search/job/291227) ⚡elite — Palo Alto, CA
 
 ## Other roles at silicon & defense employers
 

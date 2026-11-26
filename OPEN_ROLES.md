@@ -1,25 +1,18 @@
 # Open roles right now
 
-_Auto-generated each run; do not hand-edit. Last update: 2026-11-25 22:22 UTC. 461 posting(s) currently open and matching filters._
+_Auto-generated each run; do not hand-edit. Last update: 2026-11-26 04:54 UTC. 454 posting(s) currently open and matching filters._
 
-## AUTO-DISCOVER (all boards found in trackers) (77)
+## AUTO-DISCOVER (all boards found in trackers) (69)
 
 - [neuralink — Electrical Engineer Intern, Implant Embedded Systems](https://boards.greenhouse.io/neuralink/jobs/7702527003?gh_jid=7702527003) — Austin, Texas, United States; South San Francisco, California, United States
 - [neuralink — Electrical Engineer Intern, Robotics and Surgery Engineering](https://boards.greenhouse.io/neuralink/jobs/6607398003?gh_jid=6607398003) — South San Francisco, California, United States
 - [neuralink — Embedded Software Engineer Intern, Implant Embedded Systems](https://boards.greenhouse.io/neuralink/jobs/6283663003?gh_jid=6283663003) — Austin, Texas, United States; South San Francisco, California, United States
 - [neuralink — Firmware Engineer Intern, Robotics and Surgery Engineering](https://boards.greenhouse.io/neuralink/jobs/6648992003?gh_jid=6648992003) — South San Francisco, California, United States
 - [neuralink — Manufacturing Intern, Surgery & Robot Hardware](https://boards.greenhouse.io/neuralink/jobs/7666761003?gh_jid=7666761003) — South San Francisco, California, United States
-- [WesternDigital — Internship - Software Development (Embedded)](https://jobs.smartrecruiters.com/WesternDigital/744000161997959) — Petaling Jaya, Selangor, my
 - [skydio — Hardware Test and Reliability Intern - Summer 2027](https://jobs.ashbyhq.com/skydio/36d75e36-eeb2-4399-8887-37c4a5ff5800) — San Mateo, California, United States
 - [skydio — Electrical Engineer Intern](https://jobs.ashbyhq.com/skydio/57336f0f-a8ed-4ede-b6da-d399e5335fe4) — San Mateo, California, United States
+- [WesternDigital — Internship - Software Development (Embedded)](https://jobs.smartrecruiters.com/WesternDigital/744000161997959) — Petaling Jaya, Selangor, my
 - [doordashusa — Electrical Engineer, Intern - Labs (Summer 2027)](https://job-boards.greenhouse.io/doordashusa/jobs/8274095) — Oakland, CA
-- [globalhr — FPGA Electrical Engineer Intern (Summer 2027)](https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/FPGA-Electrical-Engineer-Intern--Summer-2027-_01890532) — US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01
-- [ngc — 2027 Electronics Engineer Intern - Manhattan Beach CA](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Manhattan-Beach/XMLNAME-2027-Electronics-Engineer-Intern---Manhattan-Beach-CA_R10262095) — United States-California-Manhattan Beach
-- [ngc — 2027 Electrical Engineer Intern - Gilbert AZ](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Arizona-Gilbert/XMLNAME-2027-Electrical-Engineer-Intern---Gilbert-AZ_R10262079) — United States-Arizona-Gilbert
-- [ngc — 2027 Electronics Engineer Intern - Azusa CA](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-California-Azusa/XMLNAME-2027-Electronics-Engineer-Intern---Azusa-CA_R10262073-1) — United States-California-Azusa
-- [gorbel — Electrical Engineering Co-Op](https://gorbel.wd501.myworkdayjobs.com/en-US/gorbelcareers/job/USA-New-York-Victor/Electrical-Engineering-Co-Op_REQ-2026-2295-1) — USA, New York, Victor
-- [cadence — Digital Electronics Engineering Intern (3-6 months)](https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/EDINBURGH-01/Digital-Electronics-Engineering-Intern--3-6-months-_R57319) — EDINBURGH 01
-- [cadence — FPGA Design Engineer Intern](https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/CESSON-SEVIGNE-01/FPGA-Design-Engineer-Intern_R57302) — CESSON SEVIGNE 01
 - [samsungsemiconductor — Intern, AI System Architecture Research Scientist](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003) — San Jose, California, United States
 - [samsungsemiconductor — Intern, Architecture Research Engineer (Agentic AI Workload Characterization)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208600003) — San Jose, California, United States
 - [samsungsemiconductor — Intern, Architecture Research Engineer (MoE Placement for Serving at Scale)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208494003) — San Jose, California, United States
@@ -28,17 +21,19 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-11-25 22:22 UTC. 4
 - [samsungsemiconductor — Intern, LLM Inference Acceleration Architecture (MoE & Attention–FFN Disaggregation)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8216717003) — San Jose, California, United States
 - [samsungsemiconductor — Intern, RF Analog Circuit Design Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8213439003) — San Jose, California, United States
 - [samsungsemiconductor — Intern, Serdes Analog Design Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197312003) — San Jose, California, United States
+- [gorbel — Electrical Engineering Co-Op](https://gorbel.wd501.myworkdayjobs.com/en-US/gorbelcareers/job/USA-New-York-Victor/Electrical-Engineering-Co-Op_REQ-2026-2295-1) — USA, New York, Victor
+- [andurilindustries — 2027 Electrical Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) — Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States
 - [symbotic — Intern - Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101) — USA Wilmington, MA - ITC
 - [symbotic — Co-op- Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976) — USA Wilmington, MA - ITC
 - [pacificfusion — Summer 2027 Controls Electrical Engineer Internship](https://job-boards.greenhouse.io/pacificfusion/jobs/4505719009) — San Leandro, CA
+- [vital-lyfe — Electrical Engineering Internship - Summer 2027](https://jobs.ashbyhq.com/vital-lyfe/e18ed2cd-2172-4971-8de0-c52a875b9fd0) — Los Angeles - Greater Area
 - [reliable-robotics — FPGA Engineering Intern (Summer 2027)](https://jobs.ashbyhq.com/reliable-robotics/131987a0-ede9-4291-9cd2-1aaadabd2a54) — Mountain View, CA
 - [muonspace — GNC Hardware Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/muonspace/jobs/5252677007) — Mountain View, CA
 - [muonspace — Mission Architecture Intern (Summer 2027)](https://job-boards.greenhouse.io/muonspace/jobs/5252672007) — Woodbridge, VA
-- [vital-lyfe — Electrical Engineering Internship - Summer 2027](https://jobs.ashbyhq.com/vital-lyfe/e18ed2cd-2172-4971-8de0-c52a875b9fd0) — Los Angeles - Greater Area
 - [REGENT — Radar Signal Processing Intern (Summer)](https://jobs.ashbyhq.com/REGENT/2b98602b-2060-45c7-a916-ae7ca9656fd3) — North Kingstown, Rhode Island, USA
+- [pivotal — Internship, Electrical Engineering (Summer 2027)](https://jobs.lever.co/pivotal/442a0450-f911-4ac1-a112-03374217f7fb) — Palo Alto, CA
 - [boseallaboutme — DSP/ML Research Engineer Intern | Summer 2027](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/DSP-ML-Research-Engineer-Intern---Summer-2027_R29371) — US, MA - Framingham
 - [boseallaboutme — Electrical Engineering Co-op — FPGA and Audio Research Platforms](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Electrical-Engineering-Co-op---FPGA-and-Audio-Research-Platforms_R29366) — US, MA - Framingham
-- [pivotal — Internship, Electrical Engineering (Summer 2027)](https://jobs.lever.co/pivotal/442a0450-f911-4ac1-a112-03374217f7fb) — Palo Alto, CA
 - [CesiumAstro — Summer 2027 - Electrical Engineering Internship, FPGA](https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316) — Melbourne, FL
 - [CesiumAstro — Summer 2027 - Electrical Engineering Internship, Hardware](https://jobs.lever.co/CesiumAstro/8f54cb68-5803-4fbe-93a9-da5873a67435) — Melbourne, FL · Westminster, CO
 - [CesiumAstro — Summer 2027 – Power Electronics Internship](https://jobs.lever.co/CesiumAstro/9d308f2f-7a8a-4f04-b24e-bc6353875cfa) — El Segundo, CA
@@ -58,18 +53,18 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-11-25 22:22 UTC. 4
 - [Antares — Electrical Engineering Intern - Summer 2027](https://jobs.ashbyhq.com/Antares/3061297c-a666-47be-a58a-b62881bf183d) — Los Angeles
 - [bedrock-robotics — 2027 Internship Hardware Engineer, Machine Integration & Test](https://jobs.ashbyhq.com/bedrock-robotics/c9c08251-6a42-4f9c-be4d-2621995cc8f9) — San Francisco, CA
 - [bedrock-robotics — 2027 Internship Hardware Engineer](https://jobs.ashbyhq.com/bedrock-robotics/949feb1b-c60f-43c5-94de-7dd9cd70ba4a) — San Francisco, CA
+- [acronaviation — Electrical Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/0cd327f1-0f91-41d0-8b88-093a084fb082) — St Petersburg, FL
 - [base-power — Hardware Sourcing Intern](https://jobs.ashbyhq.com/base-power/7ba325d9-4256-4567-83a4-8dd9c72a0d10) — Austin, TX
 - [base-power — Hardware Technical Program Management Intern](https://jobs.ashbyhq.com/base-power/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2) — Austin, TX
 - [base-power — Hardware Engineering Intern](https://jobs.ashbyhq.com/base-power/f22cee0e-55d9-42cd-806e-1c1fc7217770) — Austin, TX
 - [base-power — Electrical Engineering Intern](https://jobs.ashbyhq.com/base-power/7284737d-7e04-43e0-af1f-858103f64e97) — Austin, TX
-- [rocketlab — Electrical Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990683003) — Long Beach, CA · Pasadena, CA
 - [saronic — Electrical Engineer Intern (Summer 2027)](https://jobs.ashbyhq.com/saronic/c7779462-3c4c-44d9-8314-1be93a0e478a) — Austin, TX
-- [xcimer — Summer 2027 Internship - Electrical Engineering](https://jobs.lever.co/xcimer/87bceb04-faeb-4365-9fed-d8f5cd3fb8ac) — Denver, CO
 - [syskahennessy — Electrical Engineering Summer Intern](https://job-boards.greenhouse.io/syskahennessy/jobs/8178057) — Tampa, FL
 - [syskahennessy — Electrical Engineer Summer Intern](https://job-boards.greenhouse.io/syskahennessy/jobs/8177987) — Charlotte, NC · Chicago, IL · San Francisco, CA +1 more
-- [acronaviation — Electrical Engineer Intern - St. Pete Site](https://jobs.lever.co/acronaviation/0cd327f1-0f91-41d0-8b88-093a084fb082) — St Petersburg, FL
+- [xcimer — Summer 2027 Internship - Electrical Engineering](https://jobs.lever.co/xcimer/87bceb04-faeb-4365-9fed-d8f5cd3fb8ac) — Denver, CO
+- [rocketlab — Electrical Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990683003) — Long Beach, CA · Pasadena, CA
 - [freeformfuturecorp — Electrical Engineering Intern (Summer 2027)](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7895657003) — Los Angeles, CA (On-site)
-- [andurilindustries — 2027 Electrical Engineer Intern](https://boards.greenhouse.io/andurilindustries/jobs/5148101007?gh_jid=5148101007) — Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States
+- [spacex — Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) — Flexible - Any SpaceX Site
 - [nxp — UWB Radar Signal Processing & Algorithms Intern - Summer 2027](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Irvine/UWB-Radar-Signal-Processing---Algorithms-Intern---Summer-2027_R-10065402) — Irvine
 - [nxp — Internship: Secure Firmware Development (m/f/d)](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Secure-Firmware-Development--m-f-d-_R-10066772) — Gratkorn
 - [nxp — Internship: Digital Design Team Support (m/f/d)](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594) — Gratkorn
@@ -78,9 +73,6 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-11-25 22:22 UTC. 4
 - [nxp — Internship/Thesis – Signal Processing and AI for autonomous driving ](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Eindhoven/Internship-Thesis---Signal-Processing-and-AI-for-autonomous-driving-_R-10064090) — Eindhoven
 - [nxp — Master Thesis Internship – Intelligent Thread across Semiconductor Product Lifecycle](https://nxp.wd116.myworkdayjobs.com/en-US/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1) — Eindhoven
 - [Lesaffre — INTERNSHIP - Data engineering & AI-ready software architecture ](https://jobs.smartrecruiters.com/Lesaffre/744000154054660) — Marcq-en-Barœul, Nord, fr
-- [ambarella — Software Architecture Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/en-US/ambarella/job/US-Headquarters/Software-Architecture-Engineer-Intern_JR100365) — US Headquarters
-- [ambarella — ASIC Design Engineer Intern](https://ambarella.wd108.myworkdayjobs.com/en-US/ambarella/job/US-Headquarters/ASIC-Design-Engineer-Intern_JR100357) — US Headquarters
-- [spacex — Summer 2027 Silicon Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002?gh_jid=8621763002) — Flexible - Any SpaceX Site
 
 ## Amazon (AWS / Robotics / all) (6)
 
@@ -247,7 +239,7 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-11-25 22:22 UTC. 4
 
 - [Page: onsemi — Page changed - check Page: onsemi (may mean applications opened)](https://www.onsemi.com/careers/career-opportunities)
 
-## Tracker: SimplifyJobs Summer2027 (111)
+## Tracker: SimplifyJobs Summer2027 (112)
 
 - [TikTok — Software Engineer Intern - Data Architecture - E-commerce](https://lifeattiktok.com/search/7668582146236631349) — Seattle, WA
 - [SpaceX — Silicon Engineer Intern/Co-op](https://boards.greenhouse.io/spacex/jobs/8621763002) — Palo Alto, CA, Irvine, CA, Redmond, WA
@@ -360,6 +352,7 @@ _Auto-generated each run; do not hand-edit. Last update: 2026-11-25 22:22 UTC. 4
 - [Legrand — Electrical Engineer Intern](https://iadugs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1948) — Canonsburg, PA
 - [SharkNinja — Firmware Engineer Intern - Advanced Development](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4721682006) — Needham, MA
 - [Illumio — Engineering Intern - Architecture Platform](https://jobs.ashbyhq.com/illumio/a211377c-7db7-4c62-97ba-8176c5a61293/application?embed=true) — Sunnyvale, CA
+- [Tesla — Robotics Audio DSP Engineer Intern](https://www.tesla.com/careers/search/job/291227) — Palo Alto, CA
 
 ## Tracker: speedyapply 2027 SWE (US) (59)
 
