@@ -1,6 +1,6 @@
 # Top picks (auto-generated)
 
-_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 121 of 458 open roles. Rebuilt every sweep: 2026-11-26 23:43 UTC._
+_FPGA / ASIC / RTL and DSP roles, anywhere in the US. 120 of 457 open roles. Rebuilt every sweep: 2026-11-27 08:02 UTC._
 
 Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / SoC / RTL, then DSP with no RTL named. Pure RF is hidden. Within each, sweet-spot employers (mid-size silicon and defense) before the household names. 🇺🇸 marks a role that asks for US citizenship or a clearance.
 
@@ -17,12 +17,12 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Astera Labs — Emulation Engineer Intern](https://go.vansh.nyc/Fl) — San Jose, CA
 - [General Dynamics Mission Systems — Electrical Engineering Intern, FPGA](https://go.vansh.nyc/1hW) — Middletown, RI
 - [General Dynamics Mission Systems — FPGA Engineer Intern](https://go.vansh.nyc/1i0) — Manassas, VA
+- [RTX — FPGA Electrical Engineer Intern](https://go.vansh.nyc/1KX) 🇺🇸 — El Segundo, CA
 - [Astranis — FPGA Intern](https://go.vansh.nyc/Jw) — San Francisco, CA
 - [Astranis — FPGA Intern - Summer 2027](https://job-boards.greenhouse.io/astranis/jobs/4704805006) — SF
 - [boseallaboutme — Electrical Engineering Co-op — FPGA and Audio Research Platforms](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Electrical-Engineering-Co-op---FPGA-and-Audio-Research-Platforms_R29366) — US, MA - Framingham
 - [CesiumAstro — Electrical Engineering Intern - FPGA](https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316/apply) — Melbourne, FL
 - [CesiumAstro — Electrical Engineering Intern, FPGA](https://go.vansh.nyc/1ow) — Melbourne, FL
-- [CesiumAstro — Summer 2027 - Electrical Engineering Internship, FPGA](https://jobs.lever.co/CesiumAstro/fc86b32c-9320-4da0-80ae-18f02bc37316) 🇺🇸 — Melbourne, FL
 - [Impulse Space — Digital Design Engineering Intern - FPGA/ASIC](https://impulsespace.pinpointhq.com/en/postings/829256fd-cd06-4f0d-91c9-8bb59eaf6772?ats=pinpointhq) — Redondo Beach, CA
 - [Impulse Space — Digital Design Engineering Intern, FPGA/ASIC](https://go.vansh.nyc/1Ay) — Redondo Beach, CA
 - [Ixana — Embedded Hardware Engineer Intern, FPGA Design](https://go.vansh.nyc/1qS) — West Lafayette, IN
@@ -42,7 +42,6 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Astera Labs — Digital RTL Design Engineer Intern](https://go.vansh.nyc/C8) — San Jose, CA
 - [Cirrus Logic — Digital Design Engineer Intern](https://jobs.eu.lever.co/cirrus/0310fbd1-a2a8-4c0f-a842-86e05ae7d98e/apply) — Austin, TX
 - [Draper — Analog ASIC Design Intern](https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Analog-ASIC-Design-Intern--Summer-2027-_JR003085) — Cambridge, MA
-- [GlobalFoundries — AI Processor Hardware/Software Integration Engineer Intern](https://go.vansh.nyc/1uH) — Richardson, TX
 - [GlobalFoundries — Device Engineer Intern - Silicon Photonics](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Device-Engineering-Intern--Silicon-Photonics--Summer-2027-_JR-2604264) — Malta, NY
 - [GlobalFoundries — Device Engineering Intern - Silicon Photonics](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Device-Engineering-Intern--Silicon-Photonics--Summer-2027-_JR-2604263) — Malta, NY
 - [KLA — Algorithm Engineering Intern, GPU/CUDA](https://go.vansh.nyc/8h) — Milpitas, CA
@@ -125,6 +124,8 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [Dell Technologies — Hardware Engineering Intern - Infrastructure Solutions Group](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/297770) — Round Rock, TX, Hopkinton, MA
 - [Dell Technologies — Hardware Engineering Intern, Infrastructure Solutions Group](https://go.vansh.nyc/In) — Round Rock, TX, Hopkinton, MA
 - [GE Vernova — Hardware Engineer Intern - Critical Infrastructure Communications](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Grid-Solutions---Hardware-Engineering-Intern--Critical-Infrastructure-Communications----Spring-Summer-2027_R5051647-1) — Rochester, NY
+- [Hardware: Zoox — Hardware Engineer Intern, Vehicle Development (Summer 2027)](https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62) — Foster City, CA
+- [Hardware: Zoox — Hardware Engineer Intern, Vehicle Systems (Summer 2027)](https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b) — Foster City, CA
 - [Hewlett Packard Enterprise — Hardware Engineer Intern](https://go.vansh.nyc/1nA) — Sunnyvale, CA
 - [Hewlett Packard Enterprise — Hardware Engineering Design Intern](https://go.vansh.nyc/c3) — Roseville, CA
 - [Hewlett Packard Enterprise — Hardware Engineering Intern](https://go.vansh.nyc/1ed) — Westford, MA
@@ -141,5 +142,3 @@ Ranked by Sam's criteria: RTL implementing DSP first, then FPGA design, ASIC / S
 - [symbotic — Intern - Hardware Engineer](https://symbotic.wd504.myworkdayjobs.com/en-US/symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101) — USA Wilmington, MA - ITC
 - [Viavi Solutions — Digital Hardware Engineering Intern](https://go.vansh.nyc/1oU) — Lenexa, KS
 - [Zoox — Hardware Engineer Intern - Vehicle Systems](https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b/apply) — Foster City, CA
-- [zoox — Hardware Engineer Intern, Vehicle Development (Summer 2027)](https://jobs.lever.co/zoox/0accbf9e-9b09-4733-b495-fb6dce13ba62) — Foster City, CA
-- [zoox — Hardware Engineer Intern, Vehicle Systems (Summer 2027)](https://jobs.lever.co/zoox/0c32245b-f51d-40d2-8e57-a0be1b744c5b) — Foster City, CA
